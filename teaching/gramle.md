@@ -3,6 +3,7 @@ layout: page
 title: Gramle Breakdown
 sidebar_link: false
 toc: true
+toc_min_header: 1
 toc_max_header: 1
 ---
 
