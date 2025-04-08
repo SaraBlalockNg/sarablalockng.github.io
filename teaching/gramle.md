@@ -4,7 +4,10 @@ title: Gramle Breakdown
 sidebar_link: false
 ---
 
-* Placeholder for Table of Content (Must not be removed) <newline> {:toc}
+# Table of Contents
+
+* Placeholder for Table of Content (Must not be removed)
+{:toc}
   
 # April 8, 2025
 
