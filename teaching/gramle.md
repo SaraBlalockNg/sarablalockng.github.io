@@ -3,6 +3,7 @@ layout: page
 title: Gramle Breakdown
 sidebar_link: false
 ---
+* TOC {:toc}
 
 ## April 8, 2025
 
