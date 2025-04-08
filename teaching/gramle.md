@@ -1,4 +1,8 @@
-# Gramle Breakdown 
+---
+layout: page
+title: Gramle Breakdown
+sidebar_link: false
+---
 
 ## April 8, 2025
 
