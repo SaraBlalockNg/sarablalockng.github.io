@@ -45,13 +45,13 @@ My guesses and rationale for the manners of articulation for each segment are as
 * R5: Stop
   * Very low amplitude region (closure) followed by a sharp line (release burst) and aperiodic noise (aspiration)
  
-## Step 4: Voicing
+## Step 3: Voicing
 
 To check for voicing on each segment, I am looking for a voice bar in the bottom of the spectrogram at a reasonable frequency for this speaker. The recordings for gramle come from the MALD database (Tucker et al. 2019), which are made by an adult Canadian male. It looks like theres consistent voicing throughout the entirety of the word up until the final release. Before 50 ms, it's hard to tell whether there's actually voicing or if it's just aperiodic noise in all frequencies including and overlapping with voicing frequencies. For now, I'll say that everything is voiced except maybe the first segment.
 
 ![Voicing](gramle-pics/040825-voicing.png "Voicing")
 
-## Step 3: Formants
+## Step 4: Formants
 
 We should consider the formant ranges that ought to be associated to different vowel qualities, within the context of adult Canadian male speech. Formants will also be helpful in figuring out the place of articulation of the consonants.
 
@@ -67,7 +67,7 @@ The formants of the unstressed vowel show a little bit of transition on either e
 
 ![Formants of vowel 2](gramle-pics/040825-formants3.png "Formants of Vowel 2")
 
-## Step 4: First guesses
+## Step 5: First guess
 
 My first guesses are: 
 ```diff
@@ -77,7 +77,7 @@ My first guesses are:
 - [ə]
 - [g]
 ```
-## Step 5-?: Revision
+## Step 6-?: Revision
 
 Okay so I only got the first segment [k] right. That tells me I was right about the formant movement in the first vowel being due to transition. I'm still loking for a low vowel, but not [a]. It is pretty long, so might be a flatter diphthong like [ɑʊ] or [oʊ]. I still feel like the segment in between the vowels is a nasal; the amplitude is too low for a vowel and it's too formant-y for most consonants. I guess it could be an approximant, but then I think the amplitude is still too low. For the unstressed vowel, I think I'll revise given that the final segment isn't [g], and treat F2 like it's highter (for a fronter sound). For the last stop, on second look there's a lot of aspiration for a voiced stop. Maybe that voicing bar is just bleed-over from the vowel. I'm going [t], because I don't see dips down for a bilabial transition like I'd expect for [p].
 
@@ -116,6 +116,6 @@ My fourth guess is
 
 Woohoo!
 
-## Step 6: Postmorterm
+## Step 7: Postmorterm
 
 Why didn't I see the schwar in the fourth segment? Well, for rhoticity I would want to look at F3. But F3 isn't really doing anything interesting in this segment. I think it's too short to see the wiggly pattern I associate with rhotics on F3.
