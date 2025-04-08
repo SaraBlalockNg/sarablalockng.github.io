@@ -2,9 +2,9 @@
 layout: page
 title: Gramle Breakdown
 sidebar_link: false
+toc: true
+toc_max_header: 1
 ---
-
-# Table of Contents
 
 * Placeholder for Table of Content (Must not be removed)
 {:toc}
