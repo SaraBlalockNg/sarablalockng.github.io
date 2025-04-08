@@ -63,10 +63,10 @@ The formants of the unstressed vowel show a little bit of transition on either e
 My first guesses are: 
 ```diff
 + [k]
-[a]
-[n]
-[ə]
-[g]
+- [a]
+- [n]
+- [ə]
+- [g]
 ```
 ### Step 5-?: Revision
 
@@ -76,10 +76,10 @@ My second guess is:
 
 ```diff
 + [k]
-[oʊ]
-[m]
-[ɪ]
-[t]
+- [oʊ]
+- [m]
+- [ɪ]
+- [t]
 ```
 
 Wow, didn't do any better. I guess I'm giving up on this nasal idea, because there's still no sign of velarization. I'll move to an approximant [l] and try similar qualities for the vowels. I'll also soften my assumptions for the final segment, though I'm very sure it's a stop.
@@ -88,9 +88,9 @@ The third guess is:
 ```diff
 + [k]
 + [ɑʊ]
-[l]
-[ɛ]
-[p]
+- [l]
+- [ɛ]
+- [p]
 ```
 
 Getting closer, but I still don't have many guesses left. I need to change strategies. Looking back on my original assumptions, I thought the third segment was nasal because it was light and had formants. There's one other segment that does that in English: [h]. For the final segment, it really does look like voicing in the closure, I don't know why I was so quick to discount that. I'll go back and guess [d] since I still don't see bilabial transitions in the formants. The only English word that has those for segments in that order is "cowherd." I like that because it agrees with my older beleif that the unstressed vowel is centralized.
