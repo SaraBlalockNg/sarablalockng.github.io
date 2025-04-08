@@ -3,8 +3,9 @@ layout: page
 title: Gramle Breakdown
 sidebar_link: false
 ---
-* TOC {:toc}
 
+* Placeholder for Table of Content (Must not be removed) <newline> {:toc}
+  
 ## April 8, 2025
 
 ### Step 1: Segmentation
