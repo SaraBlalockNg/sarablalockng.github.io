@@ -7,6 +7,8 @@ order: 2
 
 **Phonetics Students:** Click [here](teaching/vtl/index.html) for the Vocal Tract Measurement lab. For writing phonetic inventories feel free to use the pulmonic [consonant chart generator](teaching/consonant_chart.html) and the [vowel trapezoid generator](vowel_chart.html).
 
+  *NEW*: To see the daily gramle explained, click [here](teaching/gramle)
+
 **LING 269 Students:**  Click [here](teaching/stroop.html) for access to the Taboo Stroop test.
 
 <!--Teaching is my first love, and I came to linguistics through the English as a Second Language (ESL) Teaching program at the University of Utah.-->I find real passion in teaching, and work to improve my teaching and mentoring abilities as junior faculty at Western Washington University.  During my graduate studies I was fortunate to learn the skills of pedagogy through mentorship from senior instructors and practice as both a teaching assistant and instructor of record. I actually discovered the field of linguistics while completing the English as a Second Language Teaching program at the University of Utah.  As an undergraduate, I was a student teacher of Intermediate ESL and Content ESL Math and Science at Cottonwood High School in Salt Lake City, Utah.  I also was a teaching instructor for language and assimilation tutors at Catholic Community Services of Utah.
