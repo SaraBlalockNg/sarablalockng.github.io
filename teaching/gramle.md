@@ -4,8 +4,11 @@ title: Gramle Breakdown
 sidebar_link: false
 toc: true
 toc_min_header: 1
-toc_max_header: 1
+toc_max_header: 2
 ---
+
+# Date Navigation
+{:.no_toc}
 
 * Placeholder for Table of Content (Must not be removed)
 {:toc}
@@ -60,6 +63,7 @@ My first guesses are:
 ! [u]
 - [m]
 - [ɚ]
+-! Warning !-
 ```
 ## Step 6-?: Revision
 
