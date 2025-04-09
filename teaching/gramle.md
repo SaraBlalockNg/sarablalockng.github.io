@@ -63,7 +63,6 @@ My first guesses are:
 ! [u]
 - [m]
 - [ɚ]
--! Warning !-
 ```
 ## Step 6-?: Revision
 
