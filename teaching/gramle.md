@@ -11,7 +11,7 @@ toc_max_header: 2
 {:.no_toc}
 
 * Placeholder for Table of Content (Must not be removed)
-{:toc}
+{:toc levels="1"}
 
 # April 9, 2025
 
