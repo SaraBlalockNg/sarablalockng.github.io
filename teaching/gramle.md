@@ -27,27 +27,27 @@ Segmentation is really tricky for this one. We've got a very very sonorant word,
 
 Easy. I think everything is voiced here. We can clearly see the voicing bar in the first segment, and there's no sign of it going away.
 
-![Segmentation](gramle-pics/040925-voicing.png "Segmentation")
+![Segmentation](gramle-pics/040925-voicing.png "Voicing")
 
 ## Step 3: Manner of Articulation
 
 For the first segment, the short voicing bar and release shape in the waveform really make this look like a voiced stop in English. Now, for the rest of the word. With highly sonorant sounds, manner of articulation can only be a couple of things. We're looking for vowels, approximants, and nasals primarily. I think the 3rd and 5th segments are probably vowels based on their placement, amplitude, and lack of zeroing. The 5th segment I think is long enough that it could be a closed rime as well, maybe like [ɚ]. The zeros in the 2nd and 4th segment make me think that these could be nasals. It's also possible that they are approximants like [l] or [ɹ] given how vowel-like they are; I think phonotactics will be a good help for figuring that out.
 
-![Segmentation](gramle-pics/040925-manner.png "Segmentation")
+![Manner](gramle-pics/040925-manner.png "Manner of Articulation")
 
 ## Step 4: Formants
 
 The formants are tricky in this one two. Either F1 is very low, near the voicing bar, or extremely high. I think this last option is implausible based the how high the formant that starts at 1000 Hz ends up in the 5th segment. Since it goes between 800 and 2000 Hz, I think that's gotta be F2. 
 
-![Segmentation](gramle-pics/040925-formants1.png "Segmentation")
+![Formants II](gramle-pics/040925-formants1.png "Formants I")
 
 For the second segment, I don't see any strong formant patterns. F1, F2, and F3 are all very low and fairly stable. There is a little dip in F3 and a little rise in F2, but they're subtle. That makes me think that this is an alveolar sound, like [n], [l], or [ɹ]. For the fourth segment, F1, and F2 are low but F3 is quite high. There's also a dip in F2, and it's hard to see what's happening in F1. Since F2 and F3 are nowhere near each other we can rule out a velar place of articulation. I wonder in the pitch in F3 is being caused by [l] here, which can have zeros but also I've noticed can have weird qualities in the higher formants.
 
-![Segmentation](gramle-pics/040925-formants2.png "Segmentation")
+![Segmentation](gramle-pics/040925-formants2.png "Formants II")
 
 For the segments I'm calling vowels, our first vowel has a low F1 and F2 and is pretty short. I think we're looking at a monophthong, in the top right of the vowel space. For the second vowel, F1 is a little higher, and F2 makes a transition for the lower third of its frequency range up towards F3. F3 also seems like it's taking a subtle drop. This could mean it's a diphthong that gets fronter, like [aɪ] and [ɔɪ], but those I would expect to have higher F1s that get lower.
 
-![Segmentation](gramle-pics/040925-formants3.png "Segmentation")
+![Segmentation](gramle-pics/040925-formants3.png "Formants III")
 
 ## Step 5: First Guess
 
@@ -67,9 +67,9 @@ The placement issue on my first guess makes me think my segmentation may have be
 
 My second guess is:
 ```diff
-[g]
+- [g]
 ! [ɹ]
-[ə]
+- [ə]
 ! [l]
 ! [u]
 ```
@@ -92,7 +92,7 @@ Woohoo!
 
 I really let myself get led astray by a bad segmentation, really caused by putting too much faith in a little bit of prevoicing. And then got excited by the chance that I might be able to guess a word straightaway. In hindsight, the formant transition for the \<ing\> portion of the word are really clear: Low F1, increasing F2, and a close F2 and F3 by the end. With the new segmentation in mind (and that pesky hindsight), it's a lot easier to see what's going on.
 
-![Segmentation](gramle-pics/040925-resegmentation.png "Segmentation")
+![Segmentation](gramle-pics/040925-resegmentation.png "Resegmentation")
 
 
 # April 8, 2025
@@ -188,7 +188,7 @@ The third guess is:
 - [p]
 ```
 
-Getting closer, but I still don't have many guesses left. I need to change strategies. Looking back on my original assumptions, I thought the third segment was nasal because it was light and had formants. There's one other segment that does that in English: [h]. For the final segment, it really does look like voicing in the closure, I don't know why I was so quick to discount that. I'll go back and guess [d] since I still don't see bilabial transitions in the formants. The only English word that has those for segments in that order is "cowherd." I like that because it agrees with my older beleif that the unstressed vowel is centralized.
+Getting closer, but I still don't have many guesses left. I need to change strategies. Looking back on my original assumptions, I thought the third segment was nasal because it was light and had formants. There's one other segment that does that in English: [h]. For the final segment, it really does look like voicing in the closure, I don't know why I was so quick to discount that. I'll go back and guess [d] since I still don't see bilabial transitions in the formants. The only English word that has those segments in that order is "cowherd." I like that because it agrees with my older belief that the unstressed vowel is centralized.
 
 My fourth guess is 
 
