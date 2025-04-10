@@ -11,6 +11,138 @@ toc: true
 * Placeholder for Table of Content (Must not be removed)
 {:toc levels="1"}
 
+# April 10, 2025
+
+## Original Spectrogram
+
+![Original](gramle-pics/041025.png "Segmentation")
+
+## Step 1: Segmentation
+
+Unlike yesterday, I am quite confident in the segmentation here. We have a strong pattern of changes in formant transition and another strong pattern of changes in amplitude of the waveform. From 0 to 80 milliseconds (red), there is low amplitude and no visible formants. Then from 80 to ~225 ms (orange), we have our highest amplitude in the waveform for this word, with clear formants. From 225-250 ms (yellow), the amplitude does a steep drop off. The formants are still visibe, but faint, and there's some zeros visible between the formants. From 250-350 ms (green), we no longer see formants, but a aperiodic pattern with concentrated frequencies. Finall from 350-475 ms, we have a medium amplitude sound with very visible formants.
+
+![Segmentation](gramle-pics/041025-segmentation.png "Segmentation")
+
+## Step 2: Voicing
+
+There is prevoicing of the first segment, which persiss until ~ 300ms, drops, and picks back up by the 350 ms point. I suspect that because the voicing doesn't persist through the entirely of the centeral turbulent segment, that that segment is not actually voiced but that the voicing bar is bleed-over from the previous segment. This could even be true for the short segment before this one as well.
+
+![Voicing](gramle-pics/041025-voicing.png "Voicing")
+
+
+## Step 3: Manner of Articulation
+
+The combination of prevoicing, a visible release burst in the waveform, and a short VOT make me very certain that the first segment is a voiced stop, one of [b], [d], or [g]. The visible formants, amplitude and length of the second segment look like a stressed vowel, possibly a diphthong. The third segment is tricker. We want something that has visible formants, low amplitude, and short. I'm thinking either a nasal, an [h], or an [l]. This is phonotactically a weird place for [h], so let's zoom in on nasals and l. The fourth segment is clearly some kind of fricative. It has a high concentration of energy in the higher frequencies, towards 5000 Hz, with a white gap in the lower frequencies. If I combine this information with the voicing hypothesis above, I think we're looking at [s]. For the final segment, the visible formants and low amplitude make this an unstressed vowel. There is glottal pulsing consistent with word-final creaky voicing, but I don't think that's a good hint about the specific vowel we're dealing with. 
+
+![Manner](gramle-pics/041025-manner.png "Manner of Articulation")
+
+## Step 4: Formants
+
+The place of artculation of the first segment is going to be determined by the formants of the vowel after it.  For [b] I would expect formant lowering toward the release, which I can definitely see in F3 and F4, and I can convince myself of for F1. For the alveolar the transitions are more dependent on the quality of the following vowel, so I'll ignore that unless I need it. For [g], I would want to see velar pinch between F2 and F3, but there's a huge gap between F2 and F3 here.
+
+For the stressed vowel, it looks like F1 is on the high end of the range and fairly consistent, so I think we're looking for a mid-low or low vowel. F2 shows a transition for 1200-2000 Hz. Part of that is the velarization I think, but could also mean a frontward-trending diphthong. The diphthongs with a low or midlow nucleus are [aɪ], [aʊ], [ɔɪ], and [oʊ]. Of those, [aɪ] and [ɔɪ] move frontward.
+
+Let's look at the transitions toward the third segment. After a vowel, I would expect an [l] to be velarized. We do see velar pinch here, so that's good evidence that this is likely [l] or [ŋ]. The rise of F2 is inconsistent with a presentation of a bilabial like [m], so I'm eliminating that candidate. Diverving F1 and F2 is possible for alveolars like [n], but again is depending on preceding vowel quality so I don't want to consider that right away.
+
+For the fifth segment, there's a lot of movement in the formants, especially F3. The could mean that this sound is rhotic, like schwar [ɚ]. F1 is relatively high and F2 decreases through its range. I don't have any strong hypothesis about this vowel quality. I might save that for phonotactics when I have more information
+
+![Formants I](gramle-pics/041025-formants1.png "Formants I")
+
+## Step 5: First Guess
+
+My first guess is 
+
+```diff
++[b]
+-[ɔɪ]
+-[l]
+![s]
+-[ɚ]
+```
+## Step 6-?: Revision
+
+Wow, that is so confusing. I was really confident in my segmentation, but it looks like [s] has got to be the third segment. That means that little blip in amplitude that I thought was a velarized [ɫ] is actually just change in amplitude, and the final segment has got to be split in two. If there isn't velar pinch in the second segment, that means that shape is really just being caused by increasing F2, so I'd better keep going with diphthongs. For the final sonorant region, I'm guessing that the division happens when the glottal pulsing starts to widen. If I look at the first half, we've got mid-high F1 and mid-high F2, and it's really short and low amplitude. It could be something like an approximant, [j] or [w]? I'd want formants that look like [i] or [u], and neither pattern really fits my expectations. The second half has very high F1, and mid F2. It's also short, but maybe that's more about position and not quality.
+
+My second guess is 
+
+```diff
++[b]
++[aɪ]
++[s]
+[w]
+[eɪ]
+```
+
+On the right track! I am seeing in hindsight how my <way> syllable at the end of that guess was more based on knowledge of English and ignored the lack of evidence for those phones. A lesson in how to not be over-confident.  I'll step back here. I need two sonorants, the second of which someone is likely to creak at the end of a word. 
+
+Sonorants:
+* nasals - [m] [n] [ŋ]
+* vowels
+* liquids - [ɹ] [ɾ] ~~[l]~~
+* other approximants - ~~[w]~~ [j]
+
+The easiest permutations to go through are either [vowel] [consonant] or [consonant] [vowel]. I'll start with those and see if I can't think of a word
+
+### Consonant-Vowel Permutations
+
+[baɪsm-]
+[baɪsn-]
+(ŋ phonotactically impossible)
+[baɪsɹ-]
+(ɾ phonotactically impossible)
+[baɪsj-]
+
+### Vowel-Consonant Permutations
+[baɪs-m]
+[baɪs-n] - <bison>?
+[baɪs-ŋ]
+[baɪs-ɹ]
+(ɾ phonotactically impossible)
+(j phonotactically impossible)
+
+My third guess is 
+
+```diff
++[b]
++[aɪ]
++[s]
+-[ə]
+-[n]
+```
+Rats. Okay so it's a vowel-vowel permutation.
+
+### Vowel-Vowel Permutations
+[baɪsi-]
+[baɪsɪ-]
+[baɪsɛ-]
+[baɪsæ-]
+[baɪsa-]
+[baɪsoʊ-]
+[baɪsʊ-]
+[baɪsu-]
+[baɪsaʊ-]
+
+I really can't think of anything, so I need to backtrack. Originally, I though this sound had a relatively high F1, and a high but decreasing F2. Since it's short I think it's a monophthong, so maybe that's [ɛ]. The only English word I can think of with that form is <bicep>, but where's the [p]? It could be unreleased, but I also don't see a closure. I guess I could be convinced that that little blip in the waveform is a closure., and that the line at 510 ms is a baby release.
+
+![Second Stop](gramle-pics/041025-second-release.png "Second Stop")
+
+My fourth guess is 
+
+```diff
++[b]
++[aɪ]
++[s]
++[ɛ]
++[p]
+```
+Woohoo!
+
+## Step 7: Postmortem
+
+Again, led astray on the segmentation. I think what I learned from this day's exercise is that it's better to rely on the spectrogram and not play the lexical ``game'' part of Gramle until the very bitter end. I also learned that I need to keep in mind that visual patterns are harder to see at the end of words, where we tend to have things like low amplitude, creak, devoicing, and deletion change the visible patterns. My revisionist segmentation is below.
+
+![Resegmentation](gramle-pics/041025-resegmentation.png "Resegmentation")
+
 # April 9, 2025
 
 ## Original Spectrogram
