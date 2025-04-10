@@ -73,7 +73,7 @@ My second guess is
 -[eɪ]
 ```
 
-On the right track! I am seeing in hindsight how my <way> syllable at the end of that guess was more based on knowledge of English and ignored the lack of evidence for those phones. A lesson in how to not be over-confident.  I'll step back here. I need two sonorants, the second of which someone is likely to creak at the end of a word. 
+On the right track! I am seeing in hindsight how my \<way\> syllable at the end of that guess was more based on knowledge of English and ignored the lack of evidence for those phones. A lesson in how to not be over-confident.  I'll step back here. I need two sonorants, the second of which someone is likely to creak at the end of a word. 
 
 Sonorants:
 * nasals - [m] [n] [ŋ]
@@ -85,20 +85,20 @@ The easiest permutations to go through are either [vowel] [consonant] or [conson
 
 ### Consonant-Vowel Permutations
 
-[baɪsm-]
-[baɪsn-]
-(ŋ phonotactically impossible)
-[baɪsɹ-]
-(ɾ phonotactically impossible)
-[baɪsj-]
+* [baɪsm-]
+* [baɪsn-]
+* (ŋ phonotactically impossible)
+* [baɪsɹ-]
+* (ɾ phonotactically impossible)
+* [baɪsj-]
 
 ### Vowel-Consonant Permutations
-[baɪs-m]
-[baɪs-n] - <bison>?
-[baɪs-ŋ]
-[baɪs-ɹ]
-(ɾ phonotactically impossible)
-(j phonotactically impossible)
+* [baɪs-m]
+* [baɪs-n] - \<bison\>?
+* [baɪs-ŋ]
+* [baɪs-ɹ]
+* (ɾ phonotactically impossible)
+* (j phonotactically impossible)
 
 My third guess is 
 
@@ -112,17 +112,17 @@ My third guess is
 Rats. Okay so it's a vowel-vowel permutation.
 
 ### Vowel-Vowel Permutations
-[baɪsi-]
-[baɪsɪ-]
-[baɪsɛ-]
-[baɪsæ-]
-[baɪsa-]
-[baɪsoʊ-]
-[baɪsʊ-]
-[baɪsu-]
-[baɪsaʊ-]
+* [baɪsi-]
+* [baɪsɪ-]
+* [baɪsɛ-]
+* [baɪsæ-]
+* [baɪsa-]
+* [baɪsoʊ-]
+* [baɪsʊ-]
+* [baɪsu-]
+* [baɪsaʊ-]
 
-I really can't think of anything, so I need to backtrack. Originally, I though this sound had a relatively high F1, and a high but decreasing F2. Since it's short I think it's a monophthong, so maybe that's [ɛ]. The only English word I can think of with that form is <bicep>, but where's the [p]? It could be unreleased, but I also don't see a closure. I guess I could be convinced that that little blip in the waveform is a closure., and that the line at 510 ms is a baby release.
+I really can't think of anything, so I need to backtrack. Originally, I though this sound had a relatively high F1, and a high but decreasing F2. Since it's short I think it's a monophthong, so maybe that's [ɛ]. The only English word I can think of with that form is \<bicep\>, but where's the [p]? It could be unreleased, but I also don't see a closure. I guess I could be convinced that that little blip in the waveform is a closure., and that the line at 510 ms is a baby release.
 
 ![Second Stop](gramle-pics/041025-second-release.png "Second Stop")
 
