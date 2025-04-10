@@ -69,8 +69,8 @@ My second guess is
 +[b]
 +[aɪ]
 +[s]
-[w]
-[eɪ]
+-[w]
+-[eɪ]
 ```
 
 On the right track! I am seeing in hindsight how my <way> syllable at the end of that guess was more based on knowledge of English and ignored the lack of evidence for those phones. A lesson in how to not be over-confident.  I'll step back here. I need two sonorants, the second of which someone is likely to creak at the end of a word. 
