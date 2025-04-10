@@ -6,6 +6,10 @@ toc: true
 toc_max_header: 2
 ---
 
+<video controls="" autoplay="" name="media">
+    <source src="https://sarablalockng.github.io/teaching/gramle-time.mp3" type="audio/mp3">
+</video>
+
 # Date Navigation
 {:.no_toc}
 
@@ -15,30 +19,30 @@ toc_max_header: 2
 # April 10, 2025
 
 ## Original Spectrogram
-
+{:.no_toc}
 ![Original](gramle-pics/041025.png "Segmentation")
 
 ## Step 1: Segmentation
-
+{:.no_toc}
 Unlike yesterday, I am quite confident in the segmentation here. We have a strong pattern of changes in formant transition and another strong pattern of changes in amplitude of the waveform. From 0 to 80 milliseconds (red), there is low amplitude and no visible formants. Then from 80 to ~225 ms (orange), we have our highest amplitude in the waveform for this word, with clear formants. From 225-250 ms (yellow), the amplitude does a steep drop off. The formants are still visibe, but faint, and there's some zeros visible between the formants. From 250-350 ms (green), we no longer see formants, but a aperiodic pattern with concentrated frequencies. Finall from 350-475 ms, we have a medium amplitude sound with very visible formants.
 
 ![Segmentation](gramle-pics/041025-segmentation.png "Segmentation")
 
 ## Step 2: Voicing
-
+{:.no_toc}
 There is prevoicing of the first segment, which persiss until ~ 300ms, drops, and picks back up by the 350 ms point. I suspect that because the voicing doesn't persist through the entirely of the centeral turbulent segment, that that segment is not actually voiced but that the voicing bar is bleed-over from the previous segment. This could even be true for the short segment before this one as well.
 
 ![Voicing](gramle-pics/041025-voicing.png "Voicing")
 
 
 ## Step 3: Manner of Articulation
-
+{:.no_toc}
 The combination of prevoicing, a visible release burst in the waveform, and a short VOT make me very certain that the first segment is a voiced stop, one of [b], [d], or [g]. The visible formants, amplitude and length of the second segment look like a stressed vowel, possibly a diphthong. The third segment is tricker. We want something that has visible formants, low amplitude, and short. I'm thinking either a nasal, an [h], or an [l]. This is phonotactically a weird place for [h], so let's zoom in on nasals and l. The fourth segment is clearly some kind of fricative. It has a high concentration of energy in the higher frequencies, towards 5000 Hz, with a white gap in the lower frequencies. If I combine this information with the voicing hypothesis above, I think we're looking at [s]. For the final segment, the visible formants and low amplitude make this an unstressed vowel. There is glottal pulsing consistent with word-final creaky voicing, but I don't think that's a good hint about the specific vowel we're dealing with. 
 
 ![Manner](gramle-pics/041025-manner.png "Manner of Articulation")
 
 ## Step 4: Formants
-
+{:.no_toc}
 The place of artculation of the first segment is going to be determined by the formants of the vowel after it.  For [b] I would expect formant lowering toward the release, which I can definitely see in F3 and F4, and I can convince myself of for F1. For the alveolar the transitions are more dependent on the quality of the following vowel, so I'll ignore that unless I need it. For [g], I would want to see velar pinch between F2 and F3, but there's a huge gap between F2 and F3 here.
 
 For the stressed vowel, it looks like F1 is on the high end of the range and fairly consistent, so I think we're looking for a mid-low or low vowel. F2 shows a transition for 1200-2000 Hz. Part of that is the velarization I think, but could also mean a frontward-trending diphthong. The diphthongs with a low or midlow nucleus are [aɪ], [aʊ], [ɔɪ], and [oʊ]. Of those, [aɪ] and [ɔɪ] move frontward.
@@ -50,7 +54,7 @@ For the fifth segment, there's a lot of movement in the formants, especially F3.
 ![Formants I](gramle-pics/041025-formants1.png "Formants I")
 
 ## Step 5: First Guess
-
+{:.no_toc}
 My first guess is 
 
 ```diff
@@ -61,7 +65,7 @@ My first guess is
 -[ɚ]
 ```
 ## Step 6-?: Revision
-
+{:.no_toc}
 Wow, that is so confusing. I was really confident in my segmentation, but it looks like [s] has got to be the third segment. That means that little blip in amplitude that I thought was a velarized [ɫ] is actually just change in amplitude, and the final segment has got to be split in two. If there isn't velar pinch in the second segment, that means that shape is really just being caused by increasing F2, so I'd better keep going with diphthongs. For the final sonorant region, I'm guessing that the division happens when the glottal pulsing starts to widen. If I look at the first half, we've got mid-high F1 and mid-high F2, and it's really short and low amplitude. It could be something like an approximant, [j] or [w]? I'd want formants that look like [i] or [u], and neither pattern really fits my expectations. The second half has very high F1, and mid F2. It's also short, but maybe that's more about position and not quality.
 
 My second guess is 
