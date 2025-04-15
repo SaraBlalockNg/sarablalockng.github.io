@@ -16,6 +16,84 @@ toc_max_header: 2
 * Placeholder for Table of Content (Must not be removed)
 {:toc levels="1"}
 
+# April 15, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/041525.png "Segmentation")
+
+## Step 1: Segmentation
+{:.no_toc}
+
+To me, this looks like we've got a strong closure and release burst, followed by a long period with visible moving formants. Then, the formants remain visible but the amplitude get much weaker. After that, the amplitude increases again but doesn't achieve the same darkness as before, and wide vertical striations appear which indicate some creaky phonation.  Given this, I think there are two possible segmentations. In the first, the long sonorant region contains both a stressed vowel and an approximant like [l], [w], or [ɹ].
+![Segmentation](gramle-pics/041525-segmentation.png "Segmentation")
+
+In the second, there is a sneaky closure at the end of the word, that is causing the creakiness to be prominent
+
+![Segmentation II](gramle-pics/041525-segmentation-II.png "Segmentation II")
+
+
+## Step 2: Voicing
+{:.no_toc}
+
+There is a voicing bar through all the sounds except the first. However, the time between the closure and the onset of voicing (VOT) is very short. If the stop were voiceless, it should be aspirated word-initially which would have a very long VOT. That makes me suspicious that this is a short-lag VOT sound, meaning all the segments (except in the case of a final stop) would be voiced.
+
+## Step 3: Manner of Articulation
+{:.no_toc}
+
+The first segment is obviously a stop, with a clear closure and release burst. I believe if there is an approximant in the first long sonorant region it is at the beginning, where the amplitude is a little less. Then, there is a stressed vowel: it is high amplitude with clear formants. The next segment is either a nasal or an approximant. It has a low amplitude, especially around the formants, but has strong formant pattern still with little turbulence. There are what look like nasal zeros high up, and a dip in the formants overall. Finally the last region with clear formants and low amplitude is an unstressed vowel, possibly followed by something else.
+
+![Manner](gramle-pics/041525-manner.png "Manner of Articulation")
+
+## Step 4: Formants
+{:.no_toc}
+In the transition from the first segment, it looks like F2 and F3 get really close together before moving apart. This is good evidence of a velar sound like [g]. Then they move to a position where F1 and F2 are close together: with F2 being especially low. I'm guessing then we're dealing with a back vowel, or potentially a diphthong that starts back and moves its way front. If there's an approximant before phonotactically both [l] and [ɹ] make sense between a [g] and a back vowel. The dip in the formants for the low amplitude region after that makes me think about lengthening the vocal tract, like for [m], or the dip in F1 we would expect for [l]. Finally, the formants of the last sonorant region increase through the mid-high F2 range, and slightly decrease in a mid F1.
+![Formants I](gramle-pics/041525-formants1.png "Formants I")
+
+## Step 5: First Guess
+{:.no_toc}
+
+I want to guess a word for my first guess, so I'll go with <grimey>, even though the vowels don't quite match my expectations:
+
+```diff
+-[g]
+-[ɹ]
+-[aɪ]
+-[m]
+-[i]
+```
+Rats.
+## Step 6-?: Revision
+{:.no_toc}
+For the first segment, that leaves me with [b] or [d] if I want to stay voiced. The fanning between F1 and F2 could indicate an alveolar, but that doesn't work well with my hypothesis of an approximant after. The other possibility is that this is a [k], that is not very aspirated because there's an approximant after. This time I'll try [l] for the approximant, and use the formants to guess my vowels. I'll try another nasal for the middle segment as well.
+
+My second guess is 
+```diff
+-[k]
+-[l]
+![a]
+![n]
+-[ɚ]
+```
+That positioning says to me that the second hypothesized segmentation is the right one. But what is going on in that first segment? I'll go back to my guess that the first segments transitions indicate the aleveolar [d]. Then I'm looking at
+
+[ d a n [unstressed vowel] [something else]].
+
+I'm playing around with pronouncing, and none of the stops seem to work in that "something else" position. However, I can get the words \<donner\> (one who dons) and \<donning\>. Since schwar counts as one segment I'll try the latter.
+
+My third guess is 
+```diff
++[d]
++[a]
++[n]
++[ɪ]
++[ŋ]
+```
+## Step 7: Postmortem
+{:.no_toc}
+
+In hindsight, I was right to consider multiple segmentations, and the engma at the end was hard to see but there. I think I drew the formant tracking of the nasal in the middle curvier than it actually was, which threw me off as well.
+
 # April 14, 2025
 
 I need to get caught up from a weekend away so today is a rapid fire analysis.
