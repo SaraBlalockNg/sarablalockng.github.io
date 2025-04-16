@@ -16,6 +16,41 @@ toc_max_header: 2
 * Placeholder for Table of Content (Must not be removed)
 {:toc levels="1"}
 
+# April 16, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/041625.png "Segmentation")
+
+## Step 1: Segmentation
+{:.no_toc}
+![Segmentation](gramle-pics/041625-segmentation.png "Segmentation")
+
+## Step 2: Voicing
+{:.no_toc}
+![Voicing](gramle-pics/041625-voicing.png "Voicing")
+
+## Step 3: Manner of Articulation
+{:.no_toc}
+![Manner](gramle-pics/041625-manner.png "Manner of Articulation")
+
+## Step 4: Formants
+{:.no_toc}
+
+![Formants I](gramle-pics/041625-formants1.png "Formants I")
+
+
+![Formans II](gramle-pics/041625-formants2.png "Formants II")
+
+
+![Formants III](gramle-pics/041625-formants3.png "Formants III")
+
+## Step 5: First Guess
+{:.no_toc}
+## Step 6-?: Revision
+{:.no_toc}
+## Step 7: Postmortem
+{:.no_toc}
 # April 15, 2025
 
 ## Original Spectrogram
