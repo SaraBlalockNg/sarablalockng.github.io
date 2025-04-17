@@ -16,6 +16,70 @@ toc_max_header: 2
 * Placeholder for Table of Content (Must not be removed)
 {:toc levels="1"}
 
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/041725.png "Segmentation")
+
+## Step 1: Segmentation
+{:.no_toc}
+
+It looks like we're back to easy segmentations. We've got a region with some very shadowy formants from 0 to 50 ms, followed by obvious formants (orange) that drop off in amplitude and resonance by ~110ms (yellow). Then, there's a closure and release burst into a very short aspiration (green), and transition at 225ms into a strong formant segment.
+![Segmentation](gramle-pics/041725-segmentation.png "Segmentation")
+
+## Step 2: Voicing
+{:.no_toc}
+
+The voicing bar looks like it starts around 40ms, meaning that all segments except the first should be voiced. It even persists through the closure at 200 ms, a good sign that the stop there is voiced.
+![Voicing](gramle-pics/041725-voicing.png "Voicing")
+
+## Step 3: Manner of Articulation
+{:.no_toc}
+I believe we're looking at an approximant, vowel, nasal, stop, vowel sequence. For the first segment, there is a smear of the frequencies, but also some faint formants visible. Put together that is strong evidence for a [h]. The second and fifth segments have very strong formants and high amplitude. The first has highest amplitude so it probably has primary stress. However, the fifth segment is still fairly high amplitude and long. I think that means that we either have a non-central unstressed vowel, or a secondary stress (like a compound word). The third segment's clear voicing, lessening in amplitude, and loss of peakiness in the formants make me think that this is nasal. And as implied earlier, the stop closure and short VOT of the fourth segment mean we are clearly looking at a voiced stop, either [b,d,g].
+
+![Manner](gramle-pics/041725-manner.png "Manner of Articulation")
+
+## Step 4: Formants
+{:.no_toc}
+
+This spectrogram has some really consisdent formants. They basically look completely horizontal until you get to the end of the word. I think that means we're not dealing with any diphthongs, nor any places of articulation that tend to curl the formants like bilabials and velars. That really helps narrow down the consonants. For the first vowel, we've got what looks like a mid-low F1 and a very high F2, putting us in the high-front space. Achieving a true [i] before a nasal is odd for English, not to mention it's pretty short for [i], so I'll go with [ɪ]. For the nasal, the lack of formant transitions makes me confident that this is an [n]. For the same reason, I think our voiced stop is a [d]. For the final vowel, we have pretty similar F1 for a higher vowel, and a high falling F2. I'm going to assume that drop is because of the mouth opening at the end of the word, and say that it's [i].
+![Formants I](gramle-pics/041725-formants1.png "Formants I")
+
+## Step 5: First Guess
+{:.no_toc}
+
+My first guess is 
+
+```diff
++[h]
++[ɪ]
++[n]
++[d]
+-[i]
+```
+Close!
+
+## Step 6-?: Revision
+{:.no_toc}
+
+The only words I can think of that satisfy what I've got so far are \<hinder\> and \<Hindu\>. Neither of those vowel qualities match my expectations for the formants. I don't see F3 wiggling around like I would expect for a rhotacized vowel. F2 seems very high for [u], but maybe that's /u/-fronting? \<Hindu\> also has a secondary stress, which is what I was thinking about.
+
+My second guess is 
+
+```diff
++[h]
++[ɪ]
++[n]
++[d]
+-[u]
+```
+
+Wooohooo!
+
+## Step 7: Postmortem
+{:.no_toc}
+
+There weren't a ton of surprises other that the F2 of the final vowel. I think my takeaways is as always: weird things happen at the end of a word.
+
 # April 16, 2025
 
 ## Original Spectrogram
