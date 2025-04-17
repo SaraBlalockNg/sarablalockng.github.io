@@ -16,6 +16,8 @@ toc_max_header: 2
 * Placeholder for Table of Content (Must not be removed)
 {:toc levels="1"}
 
+# April 17, 2025
+
 ## Original Spectrogram
 {:.no_toc}
 ![Original](gramle-pics/041725.png "Segmentation")
