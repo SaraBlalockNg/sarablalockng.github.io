@@ -72,7 +72,7 @@ My second guess is
 +[ɪ]
 +[n]
 +[d]
--[u]
++[u]
 ```
 
 Wooohooo!
