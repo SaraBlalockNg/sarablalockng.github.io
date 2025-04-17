@@ -84,6 +84,8 @@ There weren't a ton of surprises other that the F2 of the final vowel. I think m
 
 # April 16, 2025
 
+Today's spectrogram is a bit of an oopsie in that I didn't actually type in my answer in time before the page refreshed, so I don't know what the right word is :( Nevertheless here is my analysis.
+
 ## Original Spectrogram
 {:.no_toc}
 ![Original](gramle-pics/041625.png "Segmentation")
