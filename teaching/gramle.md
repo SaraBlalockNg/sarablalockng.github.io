@@ -16,11 +16,70 @@ toc_max_header: 2
 * Placeholder for Table of Content (Must not be removed)
 {:toc levels="1"}
 
+# April 18, 205
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/041825.png "Original")
+
+Today's spectrogram is special because it was 1) really hard!, and 2) I got to do it with a Phonetics student! It took us all five tries, with a little cheating.
+
+Instead of walking through the process, I'm just going to show the guesses that took us to the final answer, and then provide the postmortem.
+
+First guess:
+```diff
+-l
+-a
+-oɪ
+-ɚ
+-d
+```
+
+Second guess:
+```diff
+-n
+-oʊ
+-ɹ
+!ɪ
+-ʃ
+```
+Third guess:
+```diff
+-h
+-u
+-m
+!ɪ
++d
+```
+Fourth guess:
+```diff
+-w
++ɪ
+-ŋ
+-ə
++d
+```
+Fifth guess:
+```diff
++d
++ɪ
++v
++aɪ
++d
+```
+
+## Postmortem
+{:.no_toc}
+The segmentation is the most difficult thing about today's gramle. We originally that that the burst at the beginning may have been due to recording cutoff, so we weren't considering it as a segment until the very end. The first vowel is also incredibly short. In addition, the formants persisting through the [v], and the looooong diphthong make the segmentation and placement extra confusing. 
+![Original](gramle-pics/041825-segmentation.png "Segmentation")
+
+The final [d] is weird for a [d] but looks fairly typical for a [d] in word-final position. By guess 4, we agreed that the path we were going down wasn't working and we had to change our segmentation. At that point, we started thinking more seriously about vowel quality. The formants don't have strong transitions from the 1st or 5th segment, making the stops look alveolar. The first vowel has a lower F1 and higher F2, making it a good spot for [ɪ]. The long vowel has to be a diphthong; it's too long for anything else. It has an increasing F2, making [aɪ] and [oɪ] the most likely options. F1 has an arcing pattern downward, which could indicate either of those nuclei. We had a little help guessing [v] for the low amplitude segment, and then phonotactics helped us settle on [aɪ].
+
 # April 17, 2025
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/041725.png "Segmentation")
+![Original](gramle-pics/041725.png "Original")
 
 ## Step 1: Segmentation
 {:.no_toc}
@@ -88,7 +147,7 @@ Today's spectrogram is a bit of an oopsie in that I didn't actually type in my a
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/041625.png "Segmentation")
+![Original](gramle-pics/041625.png "Original")
 
 ## Step 1: Segmentation
 {:.no_toc}
@@ -123,7 +182,7 @@ Today's spectrogram is a bit of an oopsie in that I didn't actually type in my a
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/041525.png "Segmentation")
+![Original](gramle-pics/041525.png "Original")
 
 ## Step 1: Segmentation
 {:.no_toc}
@@ -203,7 +262,7 @@ I need to get caught up from a weekend away so today is a rapid fire analysis.
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/041425.png "Segmentation")
+![Original](gramle-pics/041425.png "Original")
 
 ## Step 1: Segmentation
 {:.no_toc}
@@ -263,7 +322,7 @@ I think the big takeways about why this one was successful are:
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/041025.png "Segmentation")
+![Original](gramle-pics/041025.png "Original")
 
 ## Step 1: Segmentation
 {:.no_toc}
@@ -397,7 +456,7 @@ Again, led astray on the segmentation. I think what I learned from this day's ex
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/040925.png "Segmentation")
+![Original](gramle-pics/040925.png "Original")
 
 ## Step 1: Segmentation
 {:.no_toc}
