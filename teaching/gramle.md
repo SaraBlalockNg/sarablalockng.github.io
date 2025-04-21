@@ -38,7 +38,7 @@ There is a voicing bar that starts during the second phone and persists through 
 
 ## Step 3: Manner of Articulation
 {:.no_toc}
-Manner of articulation for the 1st, 2nd, and 4th segments is quite clear on this gramle. The first phone has high frequency frication noise, with a center of gravity around 3500 Hz. Combined with its position in the beginning of the word and lack of voice bar that make it unambiguously a [ʃ[. For the second and fourth, these have dark formants and high amplitude so they must be the vowels. The 4th segment is longer and higher amplitude, so I bet that one is the stressed vowel. The third segment has formants and a relatively high amplitude, but not as high as the surrounding vowels. Either it is a nasal or an approximant, but given the amplitude I'm slightly learning toward approximant. The final segment looks like a word-final stop to me.
+Manner of articulation for the 1st, 2nd, and 4th segments is quite clear on this gramle. The first phone has high frequency frication noise, with a center of gravity around 3500 Hz. Combined with its position in the beginning of the word and lack of voice bar that make it unambiguously a [ʃ[. For the second and fourth, these have dark formants and high amplitude so they must be the vowels. The 4th segment is longer and higher amplitude, so I bet that one is the stressed vowel. The third segment has formants and a relatively high amplitude, but not as high as the surrounding vowels. Either it is a nasal or an approximant, but given the amplitude I'm slightly learning toward approximant. The final segment looks like a word-final stop to me, Maybe voiced given how the voicing bar extends.
 
 ![Manner](gramle-pics/042125-manner.png "Manner of Articulation")
 
@@ -46,19 +46,61 @@ Manner of articulation for the 1st, 2nd, and 4th segments is quite clear on this
 {:.no_toc}
 
 
-For the first vowel, F2 is high (until a formant transition) and F1 looks fairly low. That puts us in the high front of the vowel space, maybe [ɪ] since it's in unstressed position. The third segment has a dip in F3 and F2 that's pretty severe and influencing the vowels on either side. That makes me think we're dealing with [l] or [
+For the first vowel, F2 is high (until a formant transition) and F1 looks fairly low. That puts us in the high front of the vowel space, maybe [ɪ] since it's in unstressed position. The third segment has a dip in F3 and F2 that's pretty severe and influencing the vowels on either side. That makes me think we're dealing with [l] or [ɹ]. For what I'm calling the stressed vowel, F2 is even higher, and F1 is in the same place. Towards the final segment, F2 and F3 are dipping down, which could indicate a bilabial like [p] or [b].
 
 ![Formants I](gramle-pics/042125-formants1.png "Formants I")
 
 
-
 ## Step 5: First Guess
 {:.no_toc}
+
+My first guess is 
+
+```diff
+-ʃ
++ɪ
+-ɹ
++i
+-b
+```
 ## Step 6-?: Revision
 {:.no_toc}
+I am really surprised about the first segment based on the frequency. I am now wondering if it is an affricate with a sneaky hard-to-see release burst at the beginning of the spectrogram. For the middle segment, I still have [l] that I was thinking about earlier. For the final segment I am not seeing velar pinch, but I like the idea of this segment remaining voiced since that would induce vowel lengthening of the [i] which we're seeing. What if it's not a stop, but a fricative? Sometimes there's little puffs of air that get created while moving the tongue in place for a fricative. That would help me make a complete English word...
+
+My second guess is 
+```diff
+-tʃ
++ɪ
+-l
++i
+-z
+```
+
+Classic. I got too excited to make a word and made mistakes. I'm going to go back to basics and regroup. The beginning is either an affricate or a fricative, and it has a medium-high center of gravity and no voicing bar. It could be a low [s]. The third segment is a nasal or approximant based on amplitude and formants. Maybe the downturn in higher formants is from labialization, so [m] or [w]. For the final segment I'll go back to my idea of a non-velar voiced stop, so [d].
+
+My third guess is 
+```diff
+-s
++ɪ
++m
++i
++d
+```
+
+What is going on on that first segment? I can't even think of a word that works here... Oh. I think what I saw as stress on the final vowel was just influence of the subsequent voiced stop on the vowel's length. With the first vowel stressed I can get \<jimmied\>, which is consistent with my belief in a sneaky closure and fricated release burst for the first segment.
+
+My fourth guess is 
+```diff
+-dʒ
++ɪ
++m
++i
++d
+```
+Woo hoo!
 ## Step 7: Postmortem
 {:.no_toc}
-
+Okay I need to put a post-it on my computer that says ``don't get excited and guess words that don't match the acoustic information.'' The only part of my analysis that changed between guesses was to include a release burst at the very beginning. Overall I think if I were less arrogant I could've gotten it in three, but then aggain if I had been arrogant a second time I might have also gotten it in three. 😏
 
 
 
