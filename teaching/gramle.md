@@ -16,7 +16,53 @@ toc_max_header: 2
 * Placeholder for Table of Content (Must not be removed)
 {:toc levels="1"}
 
-# April 18, 205
+# April 21, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/042125.png "Original")
+
+## Step 1: Segmentation
+{:.no_toc}
+![Segmentation](gramle-pics/042125-segmentation.png "Segmentation")
+
+A nice and easy segmentation today. The big cues one how to divide this one up are:
+1) Are there visible formants?
+2) Is there a noticible change in amplitude?
+
+## Step 2: Voicing
+{:.no_toc}
+![Voicing](gramle-pics/042125-voicing.png "Voicing")
+
+There is a voicing bar that starts during the second phone and persists through the closure of the last phone. Combined with the formants, this is good evidence that middle three phones are voiced. For the final segment, I'll say for now that it is voiced but stay curious about whether there is bleed through from the previous vowel.
+
+## Step 3: Manner of Articulation
+{:.no_toc}
+Manner of articulation for the 1st, 2nd, and 4th segments is quite clear on this gramle. The first phone has high frequency frication noise, with a center of gravity around 3500 Hz. Combined with its position in the beginning of the word and lack of voice bar that make it unambiguously a [ʃ[. For the second and fourth, these have dark formants and high amplitude so they must be the vowels. The 4th segment is longer and higher amplitude, so I bet that one is the stressed vowel. The third segment has formants and a relatively high amplitude, but not as high as the surrounding vowels. Either it is a nasal or an approximant, but given the amplitude I'm slightly learning toward approximant. The final segment looks like a word-final stop to me.
+
+![Manner](gramle-pics/042125-manner.png "Manner of Articulation")
+
+## Step 4: Formants
+{:.no_toc}
+
+
+For the first vowel, F2 is high (until a formant transition) and F1 looks fairly low. That puts us in the high front of the vowel space, maybe [ɪ] since it's in unstressed position. The third segment has a dip in F3 and F2 that's pretty severe and influencing the vowels on either side. That makes me think we're dealing with [l] or [
+
+![Formants I](gramle-pics/042125-formants1.png "Formants I")
+
+
+
+## Step 5: First Guess
+{:.no_toc}
+## Step 6-?: Revision
+{:.no_toc}
+## Step 7: Postmortem
+{:.no_toc}
+
+
+
+
+# April 18, 2025
 
 ## Original Spectrogram
 {:.no_toc}
