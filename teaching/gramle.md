@@ -16,6 +16,84 @@ toc_max_header: 2
 * Placeholder for Table of Content (Must not be removed)
 {:toc levels="1"}
 
+# April 22, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/042225.png "Original")
+
+## Step 1: Segmentation
+{:.no_toc}
+
+The segmentation today is pretty tricky. You'll notice that I have annotated four regions, not five. I have several hypotheses about where the fifth segment goes:
+- It's after the green phone, represented by the formants fading out and whitespace in the spectrograwm after.
+- It's between the red and the orange phone, and represented by what looks like a release burst in the waveform at the point.
+- It's between the yellow and the green phones, represented by what looks like a release burst in the waveform at the point.
+- The orange phone is actually a vowel and approximant together, with the transition at 150 ms.
+
+I think now that the most likely scenariod is probably the first, but I will stay curious.
+![Segmentation](gramle-pics/042225-segmentation.png "Segmentation")
+
+## Step 2: Voicing
+{:.no_toc}
+The voicing bar starts halfway through the first segment and persists until about 390 ms. I am confident that the middle segments between 90ms and 390s are all voiced, and that the first segment is unvoiced. If there's a segment after the green phone, it is either voiceless or has undergone a process of final devoiciing at the end of the word.
+![Voicing](gramle-pics/042225-voicing.png "Voicing")
+
+## Step 3: Manner of Articulation
+{:.no_toc}
+
+The region in red is very quiet with an irregular periodic pattern, an even spread of resonance across the visible frequencies, and very light lower formants. Together, this says to me that we're dealing with a non-sibilant fricative. The orange region is the loudest amplitude with clear formants, so that looks like our stressed vowel. The yellow region has clear formants but a drop off in amplitude, making me think we're looking either at a nasal or an approximant. The green region is short and has clear formants but with a slightly dampened amplitude. I am going to call that an unstressed vowel. I don't have a clue what could come after that. The white space makes me think a big closure like an oral stop.
+
+## Step 4: Formants
+{:.no_toc}
+
+For the first fricative, I expect that we should see a more severe F2 curl up towards the fricative the farther back in the mouth the constriction is made. Since I don't see any movement in F2, I'm going to start with this at the front of the mouth, so [f]. For the first vowel, F2 is really low, around 1000 Hz, so we're definitely looking at a back vowel. F2 and F1 are also close together, so low F2 and high F1 would be something like [a] or a diphthong like [aʊ] or [oʊ]. For the yellow segment, all of the formants are dipping down low. That makes me think we are selecting between [m, l, ɹ, w] since all of those cause formants to droop. For the green vowel, we've got a rising F2 and mid F1. Also F2 and F3 are getting quite close by the end. I don't have good ideas of what vowel works there, besides knowing that it should be a central (aka not peripheral) one. The meeting of F2 and F3 could mean that that maybe-stop at the end is velar, so one of [k, g, ŋ].
+
+![Formants](gramle-pics/042225-formants.png "Formants")
+
+## Step 5: First Guess
+{:.no_toc}
+
+I'm going to ignore what I learned from yesterday and guess a full word again. My first guess is 
+```diff
+-f
+-oʊ
+!m
+-ɪ
+-ŋ
+```
+## Step 6-?: Revision
+{:.no_toc}
+
+Okay some good intel here. The placement issue with [m] tells me that I need to look at a different segmentation hypothesis. I think the next likely option is that there's a complex onset at the beginning of the word, and that release burst is something like an approximant or [t] being almost flapped. Phonotactically it may be something like \<thr\> in English, I think that's the only front fricative that works that way. I can't think of a word with the form [θɹ_m_] though. :( Another option would be that the region is red is the release burst for a voiceless consonant, like a \<pl\> onset. I'm going to try that and maybe I'll regret it.
+
+My second guess is 
+```diff
+-p
++l
+-ʌ
++m
++ɚ
+```
+
+Closer. I was right about the final central vowel, and about the quality of the nasal. My intuition about a flappy [l] seems to have paid off. Now just back to basics and phonotactics to fill in the rest. For the first segment, the turbulence is too long for a voiced stop.  I want a voiceless stop or non-sibilant fricative that can form an onset with [l]. My remaining option for that criteria is [k]. My original guesses for the stressed vowel were [a] or a diphthong like [aʊ] or [oʊ]. None of those work in the frame [kl_mɚ]. The words I can think of that fit are \<clammer\> and \<climber\>. Since the nucleus of the diphthong in \<climber\> is farther back, I'll go with that one.
+
+My third guess is 
+```diff
++k
++l
++aɪ
++m
++ɚ
+```
+Woohoo!
+
+## Step 7: Postmortem
+{:.no_toc}
+
+The place of articulation of the first segment is impossible to see from the spectrogram, since the flappy [l] gets in the way of formant transitions associated with velar pinch.
+In hindsight, the movement between F2 and F3 that I saw at the end of the word was not velar pinch, but a dip in F3 associated to rhoticity.
+
 # April 21, 2025
 
 ## Original Spectrogram
