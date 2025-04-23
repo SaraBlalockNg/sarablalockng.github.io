@@ -68,7 +68,7 @@ My second guess is
 +p
 +ɪ
 +k
--tʃ
++tʃ
 +ɚ
 ```
 ## Step 7: Postmortem
