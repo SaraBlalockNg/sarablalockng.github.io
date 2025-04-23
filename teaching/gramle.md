@@ -16,6 +16,66 @@ toc_max_header: 2
 * Placeholder for Table of Content (Must not be removed)
 {:toc levels="1"}
 
+# April 23, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/042325.png "Original")
+
+## Step 1: Segmentation
+{:.no_toc}
+
+Easy segmentation today. We've got clear regions of strong formants, next to obvious turbulent frication noise, next to closures and releases.
+![Segmentation](gramle-pics/042325-segmentation.png "Segmentation")
+
+## Step 2: Voicing
+{:.no_toc}
+The voicing is a little trickier. It looks like voicing persists through the first two segments and the last segment. However, I'm a little skeptical about whether that voicing actually exists on the first segment.
+![Voicing](gramle-pics/042325-voicing.png "Voicing")
+
+## Step 3: Manner of Articulation
+{:.no_toc}
+For the red segment, all we see in the spectrogram is a harsh vertical line and turbulence, with shadowy formants. In the waveform,w we see a sharp spike followed by a long, loosely-periodic cycle. While the initial spike could be due to the start of recording, I actually think it is a release burst and that this is an aspirated stop, so one of [p, t, k]. The second and fifth segments have strong formants and high amplitude, so they must be our vowels. The first is shorter but higher amplitude than the first; my guess is that that means it's a stressed, lax vowel. The third segment in yellow has a long closure followed by a short release. This is either an unaspirated voiceless stop or a voiced stop. I think phonotactics will be needed to figure out what the right voicing should be. The fourth segment has a smear across the frequencies, with a strong center around 3000 Hz. Combined with the lack of voicing I'm confident we're looking at an [ʃ]
+
+![Manner](gramle-pics/042325-manner.png "Manner of Articulation")
+
+## Step 4: Formants
+{:.no_toc}
+I don't see any strong formant transitions going into the first segment. However for that first vowel F1 is low and F2 is high. For a lax vowel in that position we're looking at [ɪ]. On the back half of the vowel F2 and F3 really obviously curl toward one another: we've got velar pinch! So for the third segment we're looking at one of [k, g]. For the final vowel, F1 is mid and F2 looks medium-high, around 1700 Hz. I'm guessing it's some kind of central vowel, though [ɪ] is still not out of the realm of possibilty.
+![Formants](gramle-pics/042325-formants.png "Formants")
+
+## Step 5: First Guess
+{:.no_toc}
+
+My arrogance knows no end; I must again guess a word for my first guess.
+
+My first guess is:
+```diff
++p
++ɪ
++k
+-ʃ
++ɚ
+```
+Rats.
+
+## Step 6-?: Revision
+{:.no_toc}
+I am amazed that I got the fricative wrong, I was so sure that it was [ʃ].... Oh no. I know what I did. It really does look like a [ʃ]. But what I think is going on here is that there is an unreleased [k̚] that transitions into an unreleased [t̚], and so we don't see a second closure for the [t].
+
+My second guess is
+```diff
++p
++ɪ
++k
+-tʃ
++ɚ
+```
+## Step 7: Postmortem
+{:.no_toc}
+
+I'm not mad about that. In hindsight, I did play around with the idea of an affricate when I was sounding out \<picture\>, but what I should have though about is that multiple stops in sequence will not look like a stacked sequence of stops as they are spoken at a word boundary or intervocalically, etc.
+
 # April 22, 2025
 
 ## Original Spectrogram
