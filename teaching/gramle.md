@@ -50,7 +50,7 @@ I'm guessing schwa no matter what for the first vowel because it's so short. The
 ![Formants](gramle-pics/042425-formants.png "Formants")
 
 ## Step 5: First Guess
-
+{:.no_toc}
 My first guess is 
 ```diff
 +ə
@@ -79,7 +79,7 @@ Closer, but now I know that there's final devoicing. My final guess:
 +p
 +ɹ
 +aɪ
--z
++z
 ```
 
 Woo hooo!
