@@ -16,6 +16,49 @@ toc_max_header: 2
 * Placeholder for Table of Content (Must not be removed)
 {:toc levels="1"}
 
+# April 25, 2025
+
+## Original Spectrogram
+{:.no_toc}
+I am again low on time so I'm only going to give the correct analysis. This took me four rapid fire tries.
+
+![Original](gramle-pics/042525.png "Original")
+
+## Step 1: Segmentation
+{:.no_toc}
+The first bit of the noise we see is just noise, followed by a fricative. Then, there's a slightly lower amplitude region that increasese and decreases, so there are at least two sonorant segments there (there are three). Finally, there is a closure and clear release, with a fairly even spread but center around 4000 Hz. You'll see in my original segmentation I thought it may be a stop followed by a fricative for that reason.
+![Segmentation](gramle-pics/042525-segmentation.png "Segmentation")
+
+## Step 2: Voicing
+{:.no_toc}
+
+Only the center three segments have a voicing bar, the outer two do not.
+![Voicing](gramle-pics/042525-voicing.png "Voicing")
+
+## Step 3: Manner of Articulation
+{:.no_toc}
+
+The even spread of the frequencies of the first formant tell us it's a fricative, but there's little else to go off of. Then we have a sequence of approximant, vowel, approximant. We can see that by looking at the amplitudes and the placemenet of zeros in between formants. The final segment is a stop, with a clear release burst and long aspiration, especially for the end of a word.
+![Manner](gramle-pics/042525-manner.png "Manner of Articulation")
+
+## Step 4: Formants
+{:.no_toc}
+
+We have really really low formants indicating an [u]-like first approximant, which is [w]. (I originally guessed an [u] for this). Since F2 stays low, the only vowel here is a back vowel. For the final approximant, we see the characteristic drop in F3 for an [ɹ]. It is easy to confuse this for velar pinch, which is what I did in my initial guesses.
+
+![Formants](gramle-pics/042525-formants.png "Formants")
+
+## Step 5: Guesses
+{:.no_toc}
+Answer:
+```diff
++θ
++w
++a
++ɹ
++t
+```
+
 # April 24, 2025
 
 Today is going to be another rapid fire day because I ran out of cat food and there's a little baby at home who needs her Salmon and Rice paté.
