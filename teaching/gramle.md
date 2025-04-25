@@ -16,6 +16,74 @@ toc_max_header: 2
 * Placeholder for Table of Content (Must not be removed)
 {:toc levels="1"}
 
+# April 24, 2025
+
+Today is going to be another rapid fire day because I ran out of cat food and there's a little baby at home who needs her Salmon and Rice paté.
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/042425.png "Original")
+
+## Step 1: Segmentation
+{:.no_toc}
+
+There's weirdness at the beginning of this recording, but it looks ignorable to me. I'm only giving 4 segments because I believe theres a sequence of a vowel and an approximants in the yellow region.
+![Segmentation](gramle-pics/042425-segmentation.png "Segmentation")
+
+## Step 2: Voicing
+{:.no_toc}
+
+The voicing bar starts with the first segment and disappears during the closure of the second segment. It reappears for the next 2-phone formant sequence, and disappears again by the 5th segment. However, I'm going to stay curious about whether that may be final-devoicing of a phonemically voiced segment.
+![Voicing](gramle-pics/042425-voicing.png "Voicing")
+
+## Step 3: Manner of Articulation
+{:.no_toc}
+Our first phone is red has strong formants and is followed by a stop (foreshadowing), so it's a vowel. It is very short, so right away that's a clue that we've got an unstressed central vowel. The second phone in orange has a stop closure, that released into a long period of aspiration. That together with the voicing tells me that we've got either [p,t,k] at the start of a stressed stllable. For the yellow region, we can see local changes in amplitude, but the segment is loud overall. There's also a change in the amplitude of the higher order formants around the midpoint. The final segment has a high center frequency, but also looks like there may be a small closure region just before. That means it's either an affricate or a sibilant, if its an affricate it has to be [tʃ], and if its a fricative either [s,z] based on the high center ~5000 Hz.
+
+![Manner](gramle-pics/042425-manner.png "Manner of Articulation")
+
+## Step 4: Formants
+{:.no_toc}
+
+I'm guessing schwa no matter what for the first vowel because it's so short. There aren't strong formant transitions around the second segment, so I'll start by calling it alveolar and may regret that later. For the big middle section, F1 starts high and ends lower, and F2 starts low and ends high. F3 is wiggling around a lot, so there must be an [ɹ] in there.
+
+![Formants](gramle-pics/042425-formants.png "Formants")
+
+## Step 5: First Guess
+
+My first guess is 
+```diff
++ə
+-t
+-a
+!ɹ
+-tʃ
+```
+Not great but not the worst.
+{:.no_toc}
+## Step 6-?: Revision
+{:.no_toc}
+I'll just keep trying voicless stops for the second segment. I can be almost convinced that F2 is moving up, so I'll say that's velar pinch for now. [ɹ] has to be the third phone. I think the low F2 and high F1 made a lot of sense for [a] though, so I'll go with the diphthong where [a] is a nucleus and F2 increases. For the fricative, I'll go with what is looks like when you don't hallucinate a closure. My second guess:
+
+```diff
++ə
+-k
++ɹ
++aɪ
+-s
+```
+
+Closer, but now I know that there's final devoicing. My final guess:
+```diff
++ə
++p
++ɹ
++aɪ
+-z
+```
+
+Woo hooo!
+
 # April 23, 2025
 
 ## Original Spectrogram
