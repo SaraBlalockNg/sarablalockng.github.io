@@ -15,6 +15,83 @@ toc_max_header: 2
 
 * Placeholder for Table of Content (Must not be removed)
 {:toc levels="1"}
+# April 28, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/042825.png "Original")
+
+Today I'm going to play differently and go segment by segment.
+## Segmentation
+{:.no_toc}
+![Segmentation](gramle-pics/042825-segmentation.png "Segmentation")
+
+## Voicing
+{:.no_toc}
+![Voicing](gramle-pics/042825-voicing.png "Voicing")
+
+## Formants
+{:.no_toc}
+![Formants](gramle-pics/042825-formants.png "Formants")
+
+## First Guess
+* **Segment 1**: This segment has a smear of frequencies, with a concentration at the very high end around 5000 Hz, and no voicing bar. It's gotta be [s].
+* **Segment 2**: This segment is middling amplitude with clear formants, and is very short. It's so short I won't consider any other vowel besides [ə].
+* **Segment 3**: Lower amplitude, visible formants but big zeros, and formants dipping down. Definitely an approximant or nasal, could be a bilabial or [l].
+* **Segment 4**: High amplitude and long, so probably the stressed vowel. Very high F2 and looks like lower F2, so looking in the high front vowel space.
+* **Segment 5**: Very loud and sonorant, I'd say an approximant based on word position. F3 looks like it's curling down a little, which is good evidence of [ɹ].
+
+  My first guess is
+  ```diff
+  +s
+  +ə
+  -m
+  -i
+  +ɹ
+  ```
+  Not too bad.
+
+{:.no_toc}
+## Revision
+{:.no_toc}
+
+I am tempted to just walk through a word list since it's so close.  I'll do the combinatorics.
+
+* Option A: [səw_ɹ]: can't think of anything
+* Option B: [səl_ɹ]: ditto
+* Option C: [səj_ɹ]: ditto
+* Option D: [səɹ_ɹ]: ditto.
+
+Huh? Could it be [h], with the light formants but little bit of turbulence? No, I still can't think of a word.
+
+I cheated and used my [word class generator](https://sarablalockng.github.io/research/elicitations/make_wc.html) with the frame "S AH CX VX R" and got the following list:
+
+```
+SABIR_1
+SAFIRE
+SAFIER
+SAFFIR
+SAMIR
+CEASAR
+SEVERE
+SAVIR_1
+```
+
+None of those seem right to me. But it looks like of these options, the realest word is 'severe' so I'll try that. In hindsight it was stupid phonotactically based on English conventions to put the [i] before the rhotic.
+
+  My second guess is
+  ```diff
+  +s
+  +ə
+  -v
+  -ɪ
+  +ɹ
+  ```
+Woohoo!
+## Postmortem
+{:.no_toc}
+
+In hindsight it was stupid phonotactically based on English conventions to put the [i] before the rhotic. The v is tricky. I guess I should have been more suspicious of a fricative given how low amplitude it is, but I got stuck on how clear the formants were.
 
 # April 25, 2025
 
