@@ -35,6 +35,7 @@ Today I'm going to play differently and go segment by segment.
 ![Formants](gramle-pics/042825-formants.png "Formants")
 
 ## First Guess
+{:.no_toc}
 * **Segment 1**: This segment has a smear of frequencies, with a concentration at the very high end around 5000 Hz, and no voicing bar. It's gotta be [s].
 * **Segment 2**: This segment is middling amplitude with clear formants, and is very short. It's so short I won't consider any other vowel besides [ə].
 * **Segment 3**: Lower amplitude, visible formants but big zeros, and formants dipping down. Definitely an approximant or nasal, could be a bilabial or [l].
@@ -51,7 +52,6 @@ Today I'm going to play differently and go segment by segment.
   ```
   Not too bad.
 
-{:.no_toc}
 ## Revision
 {:.no_toc}
 
@@ -83,8 +83,8 @@ None of those seem right to me. But it looks like of these options, the realest 
   ```diff
   +s
   +ə
-  -v
-  -ɪ
+  +v
+  +ɪ
   +ɹ
   ```
 Woohoo!
