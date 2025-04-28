@@ -77,7 +77,7 @@ SEVERE
 SAVIR_1
 ```
 
-None of those seem right to me. But it looks like of these options, the realest word is 'severe' so I'll try that. In hindsight it was stupid phonotactically based on English conventions to put the [i] before the rhotic.
+None of those seem right to me. But it looks like of these options, the realest word is 'severe' so I'll try that.
 
   My second guess is
   ```diff
