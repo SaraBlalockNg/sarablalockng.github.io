@@ -3,7 +3,6 @@ layout: page
 title: Gramle Breakdown
 sidebar_link: false
 toc: true
-toc_max_header: 2
 ---
 
 <video controls="" autoplay="" name="media">
