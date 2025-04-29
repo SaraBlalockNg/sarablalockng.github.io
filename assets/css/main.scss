@@ -4,3 +4,28 @@
 ---
 
 @import "hydeout";
+
+#toc-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  background: #f8f8f8;
+}
+
+#toc-toggle {
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+#toc {
+  display: none;
+  list-style: none;
+  padding-left: 1em;
+}
