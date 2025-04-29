@@ -3,6 +3,7 @@ layout: page
 title: Gramle Breakdown
 sidebar_link: false
 toc: 
+    true
     min_level: 1
     max_level: 2
 ---
