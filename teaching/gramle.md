@@ -2,9 +2,7 @@
 layout: page
 title: Gramle Breakdown
 sidebar_link: false
-toc: 
-    min_level: 1
-    max_level: 2
+toc: true
 ---
 
 <video controls="" autoplay="" name="media">
