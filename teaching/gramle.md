@@ -54,6 +54,7 @@ I really liked the format of yesterday's blog so I'm going to keep with that for
   !t
   !s
   ```
+  
 ## Revision
 {:.no_toc}
 
