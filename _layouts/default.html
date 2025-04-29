@@ -12,5 +12,24 @@
     </main>
 
     {% include custom-foot.html %}
+
+    {% if page.toc %}
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        var toc = $("ul:has(li a[href*='#'])").first(); // first generated TOC
+        toc.attr("id", "toc");
+        toc.before('<button id="toc-toggle">Table of Contents ▼</button>');
+        toc.wrap('<div id="toc-container"></div>');
+    
+        $("#toc-toggle").click(function () {
+          $("#toc").slideToggle();
+          const text = $(this).text().includes("▼") ? "▲" : "▼";
+          $(this).text("Table of Contents " + text);
+        });
+      });
+    </script>
+    {% endif %}
+    
   </body>
 </html>
