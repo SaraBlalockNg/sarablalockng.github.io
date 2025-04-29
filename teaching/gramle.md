@@ -15,6 +15,66 @@ toc_max_header: 2
 
 * Placeholder for Table of Content (Must not be removed)
 {:toc levels="1"}
+
+# April 29, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/042925.png "Original")
+
+I really liked the format of yesterday's blog so I'm going to keep with that for a while. Also, I have to be a little more protective of my time so you'll find that some of the rainbow coloring is going away from annotation. Apologies! Things are just really busy here, but hopefully rainbow spectrograms will be back in time for pride :)
+## Graphics
+{:.no_toc}
+
+### Segmentation
+{:.no_toc}
+![Segmentation](gramle-pics/042925-segmentation.png "Segmentation")
+
+### Voicing
+{:.no_toc}
+![Voicing](gramle-pics/042925-voicing.png "Voicing")
+
+### Formants
+{:.no_toc}
+![Formants](gramle-pics/042925-formants.png "Formants")
+
+## First Guess
+{:.no_toc}
+* **Segment 1**: The first phone is very low amplitude with a frequency smear, though there's gaps in the lower frequencies. There are no visible formants or voicing bar, and no visible release burst to indicate that this is aspiration noise. That rules out the oral and nasal stops (no release and too low amplitude, no formants), sibiliants (too low amplitude), approximants and vowels (no formants). The candidates are all voiceless low-frequency fricatives. For [h] I would want to see even a shadowy formant which I don't, so then it's between [f] and [θ]. Those are right next to each other in their place of articulation, so I don't expect formant transitions to help me. Generally I think [θ]s are a little quieter, so I'll start with that one.
+* **Segment 2**: This is the only voiced segment and the only one with visible formants, so it's got to be our vowel. F1 and F2 are very close, with a high F1 and low F2. That puts us in the low back vowel space. There is movement towards the end of the vowel, but that may be a formant transition. My candidates are [a, aʊ, oʊ], maybe [aɪ, oɪ] but there's not enough movement up in F2 in my opinion.
+* **Segment 3**: To me this looks like an [h] based on its low amplitude and shadowy formants, but that is not possible at the beginning of complex codas in English. Maybe because of the complex coda it is a devoiced nasal, something like an [nts] cluster.
+* **Segment 4**: We can see a clear closure and then a very short release burst around 350 ms. This looks like either an unaspirated voiceless stop or a voiced stop. There aren't good clues about place of articulation. we see F1 increasing towards the closure and no strong moement that I can see between F2 and F3. In the absence of further information, I'll call this alveolar.
+* **Segment 5**: This has the pattern of a fricative, with energy concentrated around 5000 Hz, so obviously [s] or [z]. While final devoicing does happen word-finally, the segment before looks like it is also voiceless so I would expect /s/ phonemically.
+
+  My first guess is
+  ```diff
+  -θ
+  +a
+  -n
+  !t
+  !s
+  ```
+## Revision
+{:.no_toc}
+
+I am really confused about this. I was confident in my segmentation, but I guess I was wrong. Could there be something after the s? I wonder if there's two stops, and [t] is the second. That would explain why that frication at the end is so long; it could include aspiration from a [t] as well.
+
+  My second guess is
+  ```diff
+  +f
+  +a
+  +k
+  !t
+  !s
+  ```
+Woo hoo!
+
+## Postmortem
+{:.no_toc}
+Here is my revised segmentation.
+![resegmentation](gramle-pics/042925-spare.png "resegmentation")
+In hindsight, you can see the little pulse in the waveform where the release of the final [t] is. I assumed it was the speaker exhaling reserved air, but you know what they say about assumers...
+
 # April 28, 2025
 
 ## Original Spectrogram
