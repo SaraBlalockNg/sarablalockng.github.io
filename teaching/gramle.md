@@ -220,8 +220,6 @@ The voicing bar starts with the first segment and disappears during the closure 
 {:.no_toc}
 Our first phone is red has strong formants and is followed by a stop (foreshadowing), so it's a vowel. It is very short, so right away that's a clue that we've got an unstressed central vowel. The second phone in orange has a stop closure, that released into a long period of aspiration. That together with the voicing tells me that we've got either [p,t,k] at the start of a stressed stllable. For the yellow region, we can see local changes in amplitude, but the segment is loud overall. There's also a change in the amplitude of the higher order formants around the midpoint. The final segment has a high center frequency, but also looks like there may be a small closure region just before. That means it's either an affricate or a sibilant, if its an affricate it has to be [tʃ], and if its a fricative either [s,z] based on the high center ~5000 Hz.
 
-![Manner](gramle-pics/042425-manner.png "Manner of Articulation")
-
 ## Step 4: Formants
 {:.no_toc}
 
@@ -571,8 +569,6 @@ The voicing bar looks like it starts around 40ms, meaning that all segments exce
 {:.no_toc}
 I believe we're looking at an approximant, vowel, nasal, stop, vowel sequence. For the first segment, there is a smear of the frequencies, but also some faint formants visible. Put together that is strong evidence for a [h]. The second and fifth segments have very strong formants and high amplitude. The first has highest amplitude so it probably has primary stress. However, the fifth segment is still fairly high amplitude and long. I think that means that we either have a non-central unstressed vowel, or a secondary stress (like a compound word). The third segment's clear voicing, lessening in amplitude, and loss of peakiness in the formants make me think that this is nasal. And as implied earlier, the stop closure and short VOT of the fourth segment mean we are clearly looking at a voiced stop, either [b,d,g].
 
-![Manner](gramle-pics/041725-manner.png "Manner of Articulation")
-
 ## Step 4: Formants
 {:.no_toc}
 
@@ -615,43 +611,6 @@ Wooohooo!
 
 There weren't a ton of surprises other that the F2 of the final vowel. I think my takeaways is as always: weird things happen at the end of a word.
 
-# April 16, 2025
-
-Today's spectrogram is a bit of an oopsie in that I didn't actually type in my answer in time before the page refreshed, so I don't know what the right word is :( Nevertheless here is my analysis.
-
-## Original Spectrogram
-{:.no_toc}
-![Original](gramle-pics/041625.png "Original")
-
-## Step 1: Segmentation
-{:.no_toc}
-![Segmentation](gramle-pics/041625-segmentation.png "Segmentation")
-
-## Step 2: Voicing
-{:.no_toc}
-![Voicing](gramle-pics/041625-voicing.png "Voicing")
-
-## Step 3: Manner of Articulation
-{:.no_toc}
-![Manner](gramle-pics/041625-manner.png "Manner of Articulation")
-
-## Step 4: Formants
-{:.no_toc}
-
-![Formants I](gramle-pics/041625-formants1.png "Formants I")
-
-
-![Formans II](gramle-pics/041625-formants2.png "Formants II")
-
-
-![Formants III](gramle-pics/041625-formants3.png "Formants III")
-
-## Step 5: First Guess
-{:.no_toc}
-## Step 6-?: Revision
-{:.no_toc}
-## Step 7: Postmortem
-{:.no_toc}
 # April 15, 2025
 
 ## Original Spectrogram
@@ -678,8 +637,6 @@ There is a voicing bar through all the sounds except the first. However, the tim
 {:.no_toc}
 
 The first segment is obviously a stop, with a clear closure and release burst. I believe if there is an approximant in the first long sonorant region it is at the beginning, where the amplitude is a little less. Then, there is a stressed vowel: it is high amplitude with clear formants. The next segment is either a nasal or an approximant. It has a low amplitude, especially around the formants, but has strong formant pattern still with little turbulence. There are what look like nasal zeros high up, and a dip in the formants overall. Finally the last region with clear formants and low amplitude is an unstressed vowel, possibly followed by something else.
-
-![Manner](gramle-pics/041525-manner.png "Manner of Articulation")
 
 ## Step 4: Formants
 {:.no_toc}
