@@ -15,30 +15,90 @@ toc: true
 * Placeholder for Table of Content (Must not be removed)
 {:toc levels="1"}
 
-# April 29, 2025
+# April 30, 2025
 
 ## Original Spectrogram
 
+![Original](gramle-pics/043025.png "Original")
+
+I'm thinking for sake of making the blog prettier I'm going to archive old gramles by month. Stay tuned for some beauitfication on this page.
+## Graphics
+{.no_toc}
+
+### Segmentation
+{.no_toc}
+![Segmentation](gramle-pics/043025-segmentation.png "Segmentation")
+
+### Voicing
+{.no_toc}
+![Voicing](gramle-pics/043025-voicing.png "Voicing")
+
+### Formants
+{.no_toc}
+![Formants](gramle-pics/043025-formants.png "Formants")
+
+## First Guess
+{.no_toc}
+* **Segment 1**: To me this looks like a stop. At the very beginning of the waveform there's a little blip up in amplitude that looks like its probably a release burst. The period of aspiration after is long, so looking at voiceless. Between [p,t,k], I think maybe there's a slight rise in F2 that could be velar pinch or could be nothing, meaning we can narrow down to [t,k].
+* **Segment 2**: With strong formants (very low F1, and an F2 that appears to transition) and high amplitude, this must be the stressed vowel. I'm most confident that this is a low vowel, and the movement may suggest a transition from a low vowel. The direction doesn't really match [aɪ], but it is pretty long. The alternatives are the monophthongs [a] and [æ].
+* **Segment 3**: This and the following segment are confusing to me. They look like sibilants, but you don't see two sibilants next to each other in English. This first one looks like an [s] because it is voiceless and the center of gravity is very high, around 5000 Hz.
+* **Segment 4**: Like it said, this looks like a sibilant [ʃ] to me since the center of gravity is around 3500 Hz, but that is phonotactically weird. The alternative is that there is some kind of affricate (also phonotactically weird), or that one of these is a release burst.
+* **Segment 5**: This looks like a really unstressed nucleus. If this weren't CMU pronunciations, I'd say it's a syllabic consonant, like [m̩] [ɹ̩] or [l̩]. Outside of that possiblilty, the F2 is fairly high and F1 is sort of middling. I'm going to base this first guess on what I think is most plausible in English morphology since I'm not very confident.
+
+  My first guess is
+  ```diff
+  !t
+  -aɪ
+  +s
+  -ʃ
+  -i
+  ```
+
+Rats
+## Revision
+{.no_toc}
+
+Okay, based on the position of [s] I think that fourth segment has got to be a stop, so the [t] must go there. I'll need to pick another hypothesis for the vowel, and this time I'm going with [ae] since F2 is on the higher side even excluding what in hindsight is velar pinch.
+  My second guess is
+  ```diff
+  +k
+  +æ
+  +s
+  +t
+  +ɚ
+  ```
+Woo hoo!
+
+## Postmortem
+{.no_toc}
+
+I am proud that I didn't have to backtrack too much on this one. It helped that there weren't many English words that fit with my hypotheses.
+
+
+# April 29, 2025
+
+## Original Spectrogram
+{.no_toc}
 ![Original](gramle-pics/042925.png "Original")
 
 I really liked the format of yesterday's blog so I'm going to keep with that for a while. Also, I have to be a little more protective of my time so you'll find that some of the rainbow coloring is going away from annotation. Apologies! Things are just really busy here, but hopefully rainbow spectrograms will be back in time for pride :)
 ## Graphics
-
+{.no_toc}
 
 ### Segmentation
-
+{.no_toc}
 ![Segmentation](gramle-pics/042925-segmentation.png "Segmentation")
 
 ### Voicing
-
+{.no_toc}
 ![Voicing](gramle-pics/042925-voicing.png "Voicing")
 
 ### Formants
-
+{.no_toc}
 ![Formants](gramle-pics/042925-formants.png "Formants")
 
 ## First Guess
-
+{.no_toc}
 * **Segment 1**: The first phone is very low amplitude with a frequency smear, though there's gaps in the lower frequencies. There are no visible formants or voicing bar, and no visible release burst to indicate that this is aspiration noise. That rules out the oral and nasal stops (no release and too low amplitude, no formants), sibiliants (too low amplitude), approximants and vowels (no formants). The candidates are all voiceless low-frequency fricatives. For [h] I would want to see even a shadowy formant which I don't, so then it's between [f] and [θ]. Those are right next to each other in their place of articulation, so I don't expect formant transitions to help me. Generally I think [θ]s are a little quieter, so I'll start with that one.
 * **Segment 2**: This is the only voiced segment and the only one with visible formants, so it's got to be our vowel. F1 and F2 are very close, with a high F1 and low F2. That puts us in the low back vowel space. There is movement towards the end of the vowel, but that may be a formant transition. My candidates are [a, aʊ, oʊ], maybe [aɪ, oɪ] but there's not enough movement up in F2 in my opinion.
 * **Segment 3**: To me this looks like an [h] based on its low amplitude and shadowy formants, but that is not possible at the beginning of complex codas in English. Maybe because of the complex coda it is a devoiced nasal, something like an [nts] cluster.
@@ -55,7 +115,7 @@ I really liked the format of yesterday's blog so I'm going to keep with that for
   ```
 
 ## Revision
-
+{.no_toc}
 
 I am really confused about this. I was confident in my segmentation, but I guess I was wrong. Could there be something after the s? I wonder if there's two stops, and [t] is the second. That would explain why that frication at the end is so long; it could include aspiration from a [t] as well.
 
@@ -70,7 +130,7 @@ I am really confused about this. I was confident in my segmentation, but I guess
 Woo hoo!
 
 ## Postmortem
-
+{.no_toc}
 Here is my revised segmentation.
 ![resegmentation](gramle-pics/042925-spare.png "resegmentation")
 In hindsight, you can see the little pulse in the waveform where the release of the final [t] is. I assumed it was the speaker exhaling reserved air, but you know what they say about assumers...
