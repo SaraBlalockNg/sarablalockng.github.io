@@ -15,6 +15,57 @@ toc: true
 * Placeholder for Table of Content (Must not be removed)
 {:toc levels="1"}
 
+# May 1, 2025
+
+Today we did the whole gramle in my Phonetics class. I unfortunately forgot to take a screenshot but the word was \<furbish\>. We got the first fricative and the final coda very quickly. The first coda and second onset were really troubling for the class. We believed that the stressed vowel was something with a mid-F1 and mid-low-F2, and started with wedge based on that. In the end, it was a central vowel but we failed to see the rhoticity. What threw everyone off was the manner of articulation of the third segment. There were shadowy formants that had us going down the nasal, approximant, fricative line. We did notice at the very end what looked like a release burst in the waveform, that enabled us to guess \<foppish\>. But in the end we had a 50/50 toss up between fervish (I still don't know what that means) and furbish.
+
+Our guesses were:
+
+1:
+```diff
++f
+-ʌ
+-n
+-ə
+-s
+```
+
+2:
+```diff
++f
+-u
+-l
++ɪ
++ʃ
+```
+
+3:
+```diff
++f
+-æ
+-m
++ɪ
++ʃ
+```
+
+4:
+```diff
++f
+-a
+-p
++ɪ
++ʃ
+```
+
+5:
+```diff
++f
++ɝ
+-v
++ɪ
++ʃ
+```
+
 # April 30, 2025
 
 ## Original Spectrogram
