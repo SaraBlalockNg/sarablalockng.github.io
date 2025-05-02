@@ -26,7 +26,6 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-toc
 
 exclude:
   - Gemfile
