@@ -42,6 +42,7 @@ You do not need to have a project in mind to get started doing research! Come ta
 - [2023] Sara Ng, Abigail Schwendiman Sleight
 <br>[Properties of Constructed Language Phonological Inventories](https://digital.lib.washington.edu/researchworks/items/8564e9aa-c15a-4bb0-9402-3095ba7dbb4d)
 <br>University of Washington Working Papers in Linguistics
+<br>[Link to online interface](sarablalockng.github.io/research/clips/conlang_inventories.html)
 
 - [2022] Yeonjin Cho, Sara Ng, Trang Tran, Mari Ostendorf
 <br>[Leveraging Prosody for Punctuation Prediction of Spontaneous Speech](https://www.isca-speech.org/archive/interspeech_2022/cho22b_interspeech.html) 
