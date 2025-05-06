@@ -50,14 +50,15 @@ Rats
 {:.no_toc}
 
 Okay, based on the position of [s] I think that fourth segment has got to be a stop, so the [t] must go there. I'll need to pick another hypothesis for the vowel, and this time I'm going with [ae] since F2 is on the higher side even excluding what in hindsight is velar pinch.
-  My second guess is
-  ```diff
-  +k
-  +æ
-  +s
-  +t
-  +ɚ
-  ```
+My second guess is
+
+```diff
++k
++æ
++s
++t
++ɚ
+```
 Woo hoo!
 
 ## Postmortem
