@@ -537,7 +537,7 @@
 
       createLabel('Find languages that','left');
       const contain = createDropdown(['do contain', 'do not contain'],'contain');
-      const any = createDropdown(['any', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],'any');
+      const anything = createDropdown(['any', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],'any');
       const numberOf = createDropdown(['number of', 'or less', 'or more'],'numberOf');
       
       const row1 = document.createElement('div');
@@ -609,7 +609,7 @@
   function findLanguagesForSegment(){
     // general criteria
     let contain = document.getElementById('contain').value;
-    let any = document.getElementById('any').value;
+    let anything = document.getElementById('anything').value;
     let numberOf = document.getElementById('numberOf').value;
 
     // vowel criteria
@@ -636,7 +636,7 @@
     clearApp();
 
     contain = (contain === 'do contain') ? 0 : 1;
-    anything = (any === 'any') ? 0 : parseInt(any);
+    anything = (anything === 'any') ? 0 : parseInt(anything);
     numberOf = (numberOf === 'number of') ? 0 : (numberOf === 'or less' ? 1 : 2);
 
     
