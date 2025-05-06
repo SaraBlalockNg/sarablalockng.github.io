@@ -94,9 +94,9 @@ You do not need to have a project in mind to get started doing research! Come ta
 
 [English Minimal Pair Generator (beta)](research/elicitations/index.html)
 
-"Tap a rhythm or play a melody" (mTurk) \[[Example 1](research/metrical/piano_sample), [Example 2](research/metrical/taps_sample)\]
+"Tap a rhythm or play a melody" (mTurk) \[[Example 1](research/metrical/piano_sample), [Example 2](research/metrical/taps_sample)\] (these are not currently active)
 
-[Opinions on Toisanese Sentences Survey](research/socio/experiment.php)
+[Opinions on Toisanese Sentences Survey](research/socio/experiment.php) (not currently active)
 
 ## Student Work
 
