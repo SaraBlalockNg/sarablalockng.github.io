@@ -1,3 +1,10 @@
+---
+layout: page
+title: Mock Language on TikTok References
+sidebar_link: false
+toc: false
+---
+
 # References
 
 (2015). Arnold Schwarzenegger No Prob GIF [Photograph]. Retrieved from [https://giphy.com/gifs/arnold-schwarzenegger-terminator-2-judgment-day-MtWJ2pJx7CbJe]([https://giphy.com/gifs/arnold-schwarzenegger-terminator-2-judgment-day-MtWJ2pJx7CbJe])
