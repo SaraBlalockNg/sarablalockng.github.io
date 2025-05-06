@@ -555,23 +555,19 @@
       const vround = ['-any rounding-', 'unrounded', 'rounded'];
       const vvowel = ['-any vowel-', 'Monophthong', 'Diphthong'];
 
-      createDropdown(vlength,'vlength');
-      createDropdown(vmod,'vmod');
-      createDropdown(vvoi,'vvoi');
-      createDropdown(vheight,'vheight');
-      createDropdown(vback,'vback');
-      createDropdown(vround,'vround');
-      createDropdown(vvowel,'vvowel');
-      
+      const vowelButtons1 = [[vlength,'vlength'], [vmod,'vmod'], [vvoi,'vvoi'], [vheight,'vheight']];
       const row2 = document.createElement('div');
-      for (const variable of [vlength,vmod,vvoi,vheight]){
-        row2.appendChild(variable);
+      for (const [values,name] of vowelButtons1){
+        let dropdown = createDropdown(values,name);
+        row2.appendChild(dropdown);
       }
       app.appendChild(row2)
-
+      
+      const vowelButtons2 = [[vback,'vback'], [vround,'vround'], [vvowel,'vvowel']];
       const row3 = document.createElement('div');
-      for (const variable of [vback,vround,vvowel]){
-        row3.appendChild(variable);
+      for (const [values,name] of [vback,vround,vvowel]){
+        let dropdown = createDropdown(values,name);
+        row3.appendChild(dropdown);
       }
       app.appendChild(row3)
 
@@ -586,23 +582,18 @@
       const cmanner = ['-any manner-', 'click', 'affricated click', 'velar-fricated click', 'ejective stop', 'ejective fricative', 'ejective affricate', 'implosive', 'plosive', 'tap/flap', '(affricated) trill', 'nasal', 'affricate', 'fricative', 'r-sound', 'approximant'];
       const crelease = ['-any release-', 'no release modifier', 'any release modifier', 'with breathy/fricative release', 'laterally released', 'nasally released'];
 
-      createDropdown(clength,'clength');
-      createDropdown(cvoi,'cvoi');
-      createDropdown(casp,'casp');
-      createDropdown(cart,'cart');
-      createDropdown(cplace,'cplace');
-      createDropdown(cmod,'cmod');
-      createDropdown(cmanner,'cmanner');
-      createDropdown(crelease,'crelease');
-
+      const consonantButtons1 = [[clength,'clength'], [cvoi,'cvoi'], [casp,'casp'], [cart,'cart']];
       const row4 = document.createElement('div');
-      for (const variable of [clength,cvoi,casp,cart]){
+      for (const [values,name] of consonantButtons1){
+        let dropdown = createDropdown(values,name);
         row4.appendChild(variable);
       }
       app.appendChild(row4)
 
+      const consonantButtons2 = [[cplace,'cplace'], [cmod,'cmod'], [cmanner,'cmanner'], [crelease,'crelease']];
       const row5 = document.createElement('div');
-      for (const variable of [cplace,cmod,cmanner,crelease]){
+      for (const [values,name] of consonantButtons2){
+        let dropdown = createDropdown(values,name);
         row5.appendChild(variable);
       }
       app.appendChild(row5)
