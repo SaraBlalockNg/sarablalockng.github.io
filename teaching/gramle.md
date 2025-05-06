@@ -19,6 +19,71 @@ toc: true
 {:.no_toc}
 [April 2025](./gramle-archive/april25.md)
 
+# May 6, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/050625.png "Original")
+
+## Graphics
+{:.no_toc}
+
+### Segmentation
+{:.no_toc}
+![Segmentation](gramle-pics/050625-segmentation.png "Segmentation")
+
+### Voicing
+{:.no_toc}
+![Voicing](gramle-pics/050625-voicing.png "Voicing")
+
+### Manner of Articulation
+{:.no_toc}
+![Manner](gramle-pics/050625-manner.png "Manner of Articulation")
+
+### Formants
+{:.no_toc}
+
+![Formants](gramle-pics/050625-formants.png "Formants")
+
+## First Guess
+{:.no_toc}
+
+Today I got to do the gramle with my incredible Phonetics class.  This is our rationale:
+
+ **Segment 1**: This segment is loud, with clear formants, so probably a stressed vowel. F1 is lowish, and F2 is very low. We said that it looks a little low to be a diphthong with a lot of movement, but we're looking for a higher back vowel.
+* **Segment 2**: This has the classic appearance of a stop on the spectrogram: a closure where the only thing happening is voicing, followed by a strong vertical line for the release, and then a short period of aspiration. We didn't see velar pinch or any other strong formant transitions. We were skeptical of the voicing but combined with the short positive VOT unwilling to rule it out. This made our candidates [p, b, t, d]. We said that there was only subtle donwturn of the formants following the segment, so we were less likely to pick a bilabial.
+* **Segment 3**: We saw clear formants with lower amplitude than segment 1, suggesting that this is an unstressed vowel. We considered [ə] and [ɪ], and since F2 is fairly high especially nearer to the end of the segment decided to start with the latter.
+* **Segment 4**: We saw light formants with lots of zeros and low amplitude overall. We discussed that the formants mean this is either a nasal, approximant, or a fricative. Because of the low amplitude we ruled out approximants. We also ruled out all of the voiceless fricatives because we saw a clear voicing bar, and ruled out sibilants because of the lack of high energy noise. We also ruled out [ŋ] since we don't see velar pinch. This left us with [m, n, v, ð], and we decided to use phonotactics to pick from these.
+* **Segment 5**: We observed a smear across the frequencies, but no clear center of energy. We also saw what may be a release burst in the waveform, but no clear vertical line in the spectrogram. We concluded based on this that it is either a low frequency sibilant [ʃ, ʒ], or a really quietly released stop. We didn't make claims about voicing even though there is no voicing bar, since final devoicing is so common.
+
+Our first guess was:
+```diff
+-u
+!d
+-ɪ
++n
+-ʃ
+```
+
+## Revision
+{:.no_toc}
+
+After viewing what we got partially right, we were confident that the last segment should be [d]. We talked about not wanting to change the place in the vowel space we're looking for our first segment, but thought that maybe [oʊ] would work since the formants don't move very far and it can be on the shorter side for diphthongs. When we combined that with what was left in our hypothesized candidates for segments 2 and 3, we ended up on the word \<opened\>.
+
+Our second guess was 
+```
++oʊ
++p
++ə
++n
++d
+```
+
+Woo hoo!
+## Postmortem
+{:.no_toc}
+We listened to the audio, and the final [d] was in fact devoiced. Not too shabby for only being in Week 6 of 10!
+
 # May 5, 2025
 
 ## Original Spectrogram
