@@ -10,7 +10,7 @@ toc: true
 ## Original Spectrogram
 {:.no_toc}
 
-![Original](gramle-pics/043025.png "Original")
+![Original](../gramle-pics/043025.png "Original")
 
 I'm thinking for sake of making the blog prettier I'm going to archive old gramles by month. Stay tuned for some beauitfication on this page.
 ## Graphics
@@ -18,15 +18,15 @@ I'm thinking for sake of making the blog prettier I'm going to archive old graml
 
 ### Segmentation
 {:.no_toc}
-![Segmentation](gramle-pics/043025-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/043025-segmentation.png "Segmentation")
 
 ### Voicing
 {:.no_toc}
-![Voicing](gramle-pics/043025-voicing.png "Voicing")
+![Voicing](../gramle-pics/043025-voicing.png "Voicing")
 
 ### Formants
 {:.no_toc}
-![Formants](gramle-pics/043025-formants.png "Formants")
+![Formants](../gramle-pics/043025-formants.png "Formants")
 
 ## First Guess
 {:.no_toc}
@@ -70,7 +70,7 @@ I am proud that I didn't have to backtrack too much on this one. It helped that 
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/042925.png "Original")
+![Original](../gramle-pics/042925.png "Original")
 
 I really liked the format of yesterday's blog so I'm going to keep with that for a while. Also, I have to be a little more protective of my time so you'll find that some of the rainbow coloring is going away from annotation. Apologies! Things are just really busy here, but hopefully rainbow spectrograms will be back in time for pride :)
 ## Graphics
@@ -78,15 +78,15 @@ I really liked the format of yesterday's blog so I'm going to keep with that for
 
 ### Segmentation
 {:.no_toc}
-![Segmentation](gramle-pics/042925-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/042925-segmentation.png "Segmentation")
 
 ### Voicing
 {:.no_toc}
-![Voicing](gramle-pics/042925-voicing.png "Voicing")
+![Voicing](../gramle-pics/042925-voicing.png "Voicing")
 
 ### Formants
 {:.no_toc}
-![Formants](gramle-pics/042925-formants.png "Formants")
+![Formants](../gramle-pics/042925-formants.png "Formants")
 
 ## First Guess
 {:.no_toc}
@@ -123,27 +123,27 @@ Woo hoo!
 ## Postmortem
 {:.no_toc}
 Here is my revised segmentation.
-![resegmentation](gramle-pics/042925-spare.png "resegmentation")
+![resegmentation](../gramle-pics/042925-spare.png "resegmentation")
 In hindsight, you can see the little pulse in the waveform where the release of the final [t] is. I assumed it was the speaker exhaling reserved air, but you know what they say about assumers...
 
 # April 28, 2025
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/042825.png "Original")
+![Original](../gramle-pics/042825.png "Original")
 
 Today I'm going to play differently and go segment by segment.
 ## Segmentation
 {:.no_toc}
-![Segmentation](gramle-pics/042825-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/042825-segmentation.png "Segmentation")
 
 ## Voicing
 {:.no_toc}
-![Voicing](gramle-pics/042825-voicing.png "Voicing")
+![Voicing](../gramle-pics/042825-voicing.png "Voicing")
 
 ## Formants
 {:.no_toc}
-![Formants](gramle-pics/042825-formants.png "Formants")
+![Formants](../gramle-pics/042825-formants.png "Formants")
 
 ## First Guess
 {:.no_toc}
@@ -210,31 +210,31 @@ In hindsight it was stupid phonotactically based on English conventions to put t
 {:.no_toc}
 I am again low on time so I'm only going to give the correct analysis. This took me four rapid fire tries.
 
-![Original](gramle-pics/042525.png "Original")
+![Original](../gramle-pics/042525.png "Original")
 
 ## Step 1: Segmentation
 {:.no_toc}
 The first bit of the noise we see is just noise, followed by a fricative. Then, there's a slightly lower amplitude region that increasese and decreases, so there are at least two sonorant segments there (there are three). Finally, there is a closure and clear release, with a fairly even spread but center around 4000 Hz. You'll see in my original segmentation I thought it may be a stop followed by a fricative for that reason.
-![Segmentation](gramle-pics/042525-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/042525-segmentation.png "Segmentation")
 
 ## Step 2: Voicing
 {:.no_toc}
 
 Only the center three segments have a voicing bar, the outer two do not.
-![Voicing](gramle-pics/042525-voicing.png "Voicing")
+![Voicing](../gramle-pics/042525-voicing.png "Voicing")
 
 ## Step 3: Manner of Articulation
 {:.no_toc}
 
 The even spread of the frequencies of the first formant tell us it's a fricative, but there's little else to go off of. Then we have a sequence of approximant, vowel, approximant. We can see that by looking at the amplitudes and the placemenet of zeros in between formants. The final segment is a stop, with a clear release burst and long aspiration, especially for the end of a word.
-![Manner](gramle-pics/042525-manner.png "Manner of Articulation")
+![Manner](../gramle-pics/042525-manner.png "Manner of Articulation")
 
 ## Step 4: Formants
 {:.no_toc}
 
 We have really really low formants indicating an [u]-like first approximant, which is [w]. (I originally guessed an [u] for this). Since F2 stays low, the only vowel here is a back vowel. For the final approximant, we see the characteristic drop in F3 for an [ɹ]. It is easy to confuse this for velar pinch, which is what I did in my initial guesses.
 
-![Formants](gramle-pics/042525-formants.png "Formants")
+![Formants](../gramle-pics/042525-formants.png "Formants")
 
 ## Step 5: Guesses
 {:.no_toc}
@@ -253,19 +253,19 @@ Today is going to be another rapid fire day because I ran out of cat food and th
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/042425.png "Original")
+![Original](../gramle-pics/042425.png "Original")
 
 ## Step 1: Segmentation
 {:.no_toc}
 
 There's weirdness at the beginning of this recording, but it looks ignorable to me. I'm only giving 4 segments because I believe theres a sequence of a vowel and an approximants in the yellow region.
-![Segmentation](gramle-pics/042425-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/042425-segmentation.png "Segmentation")
 
 ## Step 2: Voicing
 {:.no_toc}
 
 The voicing bar starts with the first segment and disappears during the closure of the second segment. It reappears for the next 2-phone formant sequence, and disappears again by the 5th segment. However, I'm going to stay curious about whether that may be final-devoicing of a phonemically voiced segment.
-![Voicing](gramle-pics/042425-voicing.png "Voicing")
+![Voicing](../gramle-pics/042425-voicing.png "Voicing")
 
 ## Step 3: Manner of Articulation
 {:.no_toc}
@@ -276,7 +276,7 @@ Our first phone is red has strong formants and is followed by a stop (foreshadow
 
 I'm guessing schwa no matter what for the first vowel because it's so short. There aren't strong formant transitions around the second segment, so I'll start by calling it alveolar and may regret that later. For the big middle section, F1 starts high and ends lower, and F2 starts low and ends high. F3 is wiggling around a lot, so there must be an [ɹ] in there.
 
-![Formants](gramle-pics/042425-formants.png "Formants")
+![Formants](../gramle-pics/042425-formants.png "Formants")
 
 ## Step 5: First Guess
 {:.no_toc}
@@ -317,29 +317,29 @@ Woo hooo!
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/042325.png "Original")
+![Original](../gramle-pics/042325.png "Original")
 
 ## Step 1: Segmentation
 {:.no_toc}
 
 Easy segmentation today. We've got clear regions of strong formants, next to obvious turbulent frication noise, next to closures and releases.
-![Segmentation](gramle-pics/042325-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/042325-segmentation.png "Segmentation")
 
 ## Step 2: Voicing
 {:.no_toc}
 The voicing is a little trickier. It looks like voicing persists through the first two segments and the last segment. However, I'm a little skeptical about whether that voicing actually exists on the first segment.
-![Voicing](gramle-pics/042325-voicing.png "Voicing")
+![Voicing](../gramle-pics/042325-voicing.png "Voicing")
 
 ## Step 3: Manner of Articulation
 {:.no_toc}
 For the red segment, all we see in the spectrogram is a harsh vertical line and turbulence, with shadowy formants. In the waveform,w we see a sharp spike followed by a long, loosely-periodic cycle. While the initial spike could be due to the start of recording, I actually think it is a release burst and that this is an aspirated stop, so one of [p, t, k]. The second and fifth segments have strong formants and high amplitude, so they must be our vowels. The first is shorter but higher amplitude than the first; my guess is that that means it's a stressed, lax vowel. The third segment in yellow has a long closure followed by a short release. This is either an unaspirated voiceless stop or a voiced stop. I think phonotactics will be needed to figure out what the right voicing should be. The fourth segment has a smear across the frequencies, with a strong center around 3000 Hz. Combined with the lack of voicing I'm confident we're looking at an [ʃ]
 
-![Manner](gramle-pics/042325-manner.png "Manner of Articulation")
+![Manner](../gramle-pics/042325-manner.png "Manner of Articulation")
 
 ## Step 4: Formants
 {:.no_toc}
 I don't see any strong formant transitions going into the first segment. However for that first vowel F1 is low and F2 is high. For a lax vowel in that position we're looking at [ɪ]. On the back half of the vowel F2 and F3 really obviously curl toward one another: we've got velar pinch! So for the third segment we're looking at one of [k, g]. For the final vowel, F1 is mid and F2 looks medium-high, around 1700 Hz. I'm guessing it's some kind of central vowel, though [ɪ] is still not out of the realm of possibilty.
-![Formants](gramle-pics/042325-formants.png "Formants")
+![Formants](../gramle-pics/042325-formants.png "Formants")
 
 ## Step 5: First Guess
 {:.no_toc}
@@ -377,7 +377,7 @@ I'm not mad about that. In hindsight, I did play around with the idea of an affr
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/042225.png "Original")
+![Original](../gramle-pics/042225.png "Original")
 
 ## Step 1: Segmentation
 {:.no_toc}
@@ -389,12 +389,12 @@ The segmentation today is pretty tricky. You'll notice that I have annotated fou
 - The orange phone is actually a vowel and approximant together, with the transition at 150 ms.
 
 I think now that the most likely scenariod is probably the first, but I will stay curious.
-![Segmentation](gramle-pics/042225-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/042225-segmentation.png "Segmentation")
 
 ## Step 2: Voicing
 {:.no_toc}
 The voicing bar starts halfway through the first segment and persists until about 390 ms. I am confident that the middle segments between 90ms and 390s are all voiced, and that the first segment is unvoiced. If there's a segment after the green phone, it is either voiceless or has undergone a process of final devoiciing at the end of the word.
-![Voicing](gramle-pics/042225-voicing.png "Voicing")
+![Voicing](../gramle-pics/042225-voicing.png "Voicing")
 
 ## Step 3: Manner of Articulation
 {:.no_toc}
@@ -406,7 +406,7 @@ The region in red is very quiet with an irregular periodic pattern, an even spre
 
 For the first fricative, I expect that we should see a more severe F2 curl up towards the fricative the farther back in the mouth the constriction is made. Since I don't see any movement in F2, I'm going to start with this at the front of the mouth, so [f]. For the first vowel, F2 is really low, around 1000 Hz, so we're definitely looking at a back vowel. F2 and F1 are also close together, so low F2 and high F1 would be something like [a] or a diphthong like [aʊ] or [oʊ]. For the yellow segment, all of the formants are dipping down low. That makes me think we are selecting between [m, l, ɹ, w] since all of those cause formants to droop. For the green vowel, we've got a rising F2 and mid F1. Also F2 and F3 are getting quite close by the end. I don't have good ideas of what vowel works there, besides knowing that it should be a central (aka not peripheral) one. The meeting of F2 and F3 could mean that that maybe-stop at the end is velar, so one of [k, g, ŋ].
 
-![Formants](gramle-pics/042225-formants.png "Formants")
+![Formants](../gramle-pics/042225-formants.png "Formants")
 
 ## Step 5: First Guess
 {:.no_toc}
@@ -455,11 +455,11 @@ In hindsight, the movement between F2 and F3 that I saw at the end of the word w
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/042125.png "Original")
+![Original](../gramle-pics/042125.png "Original")
 
 ## Step 1: Segmentation
 {:.no_toc}
-![Segmentation](gramle-pics/042125-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/042125-segmentation.png "Segmentation")
 
 A nice and easy segmentation today. The big cues one how to divide this one up are:
 1) Are there visible formants?
@@ -467,7 +467,7 @@ A nice and easy segmentation today. The big cues one how to divide this one up a
 
 ## Step 2: Voicing
 {:.no_toc}
-![Voicing](gramle-pics/042125-voicing.png "Voicing")
+![Voicing](../gramle-pics/042125-voicing.png "Voicing")
 
 There is a voicing bar that starts during the second phone and persists through the closure of the last phone. Combined with the formants, this is good evidence that middle three phones are voiced. For the final segment, I'll say for now that it is voiced but stay curious about whether there is bleed through from the previous vowel.
 
@@ -475,7 +475,7 @@ There is a voicing bar that starts during the second phone and persists through 
 {:.no_toc}
 Manner of articulation for the 1st, 2nd, and 4th segments is quite clear on this gramle. The first phone has high frequency frication noise, with a center of gravity around 3500 Hz. Combined with its position in the beginning of the word and lack of voice bar that make it unambiguously a [ʃ[. For the second and fourth, these have dark formants and high amplitude so they must be the vowels. The 4th segment is longer and higher amplitude, so I bet that one is the stressed vowel. The third segment has formants and a relatively high amplitude, but not as high as the surrounding vowels. Either it is a nasal or an approximant, but given the amplitude I'm slightly learning toward approximant. The final segment looks like a word-final stop to me, Maybe voiced given how the voicing bar extends.
 
-![Manner](gramle-pics/042125-manner.png "Manner of Articulation")
+![Manner](../gramle-pics/042125-manner.png "Manner of Articulation")
 
 ## Step 4: Formants
 {:.no_toc}
@@ -483,7 +483,7 @@ Manner of articulation for the 1st, 2nd, and 4th segments is quite clear on this
 
 For the first vowel, F2 is high (until a formant transition) and F1 looks fairly low. That puts us in the high front of the vowel space, maybe [ɪ] since it's in unstressed position. The third segment has a dip in F3 and F2 that's pretty severe and influencing the vowels on either side. That makes me think we're dealing with [l] or [ɹ]. For what I'm calling the stressed vowel, F2 is even higher, and F1 is in the same place. Towards the final segment, F2 and F3 are dipping down, which could indicate a bilabial like [p] or [b].
 
-![Formants I](gramle-pics/042125-formants1.png "Formants I")
+![Formants I](../gramle-pics/042125-formants1.png "Formants I")
 
 
 ## Step 5: First Guess
@@ -543,7 +543,7 @@ Okay I need to put a post-it on my computer that says ``don't get excited and gu
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/041825.png "Original")
+![Original](../gramle-pics/041825.png "Original")
 
 Today's spectrogram is special because it was 1) really hard!, and 2) I got to do it with a Phonetics student! It took us all five tries, with a little cheating.
 
@@ -594,7 +594,7 @@ Fifth guess:
 ## Postmortem
 {:.no_toc}
 The segmentation is the most difficult thing about today's gramle. We originally that that the burst at the beginning may have been due to recording cutoff, so we weren't considering it as a segment until the very end. The first vowel is also incredibly short. In addition, the formants persisting through the [v], and the looooong diphthong make the segmentation and placement extra confusing. 
-![Original](gramle-pics/041825-segmentation.png "Segmentation")
+![Original](../gramle-pics/041825-segmentation.png "Segmentation")
 
 The final [d] is weird for a [d] but looks fairly typical for a [d] in word-final position. By guess 4, we agreed that the path we were going down wasn't working and we had to change our segmentation. At that point, we started thinking more seriously about vowel quality. The formants don't have strong transitions from the 1st or 5th segment, making the stops look alveolar. The first vowel has a lower F1 and higher F2, making it a good spot for [ɪ]. The long vowel has to be a diphthong; it's too long for anything else. It has an increasing F2, making [aɪ] and [oɪ] the most likely options. F1 has an arcing pattern downward, which could indicate either of those nuclei. We had a little help guessing [v] for the low amplitude segment, and then phonotactics helped us settle on [aɪ].
 
@@ -602,19 +602,19 @@ The final [d] is weird for a [d] but looks fairly typical for a [d] in word-fina
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/041725.png "Original")
+![Original](../gramle-pics/041725.png "Original")
 
 ## Step 1: Segmentation
 {:.no_toc}
 
 It looks like we're back to easy segmentations. We've got a region with some very shadowy formants from 0 to 50 ms, followed by obvious formants (orange) that drop off in amplitude and resonance by ~110ms (yellow). Then, there's a closure and release burst into a very short aspiration (green), and transition at 225ms into a strong formant segment.
-![Segmentation](gramle-pics/041725-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/041725-segmentation.png "Segmentation")
 
 ## Step 2: Voicing
 {:.no_toc}
 
 The voicing bar looks like it starts around 40ms, meaning that all segments except the first should be voiced. It even persists through the closure at 200 ms, a good sign that the stop there is voiced.
-![Voicing](gramle-pics/041725-voicing.png "Voicing")
+![Voicing](../gramle-pics/041725-voicing.png "Voicing")
 
 ## Step 3: Manner of Articulation
 {:.no_toc}
@@ -624,7 +624,7 @@ I believe we're looking at an approximant, vowel, nasal, stop, vowel sequence. F
 {:.no_toc}
 
 This spectrogram has some really consisdent formants. They basically look completely horizontal until you get to the end of the word. I think that means we're not dealing with any diphthongs, nor any places of articulation that tend to curl the formants like bilabials and velars. That really helps narrow down the consonants. For the first vowel, we've got what looks like a mid-low F1 and a very high F2, putting us in the high-front space. Achieving a true [i] before a nasal is odd for English, not to mention it's pretty short for [i], so I'll go with [ɪ]. For the nasal, the lack of formant transitions makes me confident that this is an [n]. For the same reason, I think our voiced stop is a [d]. For the final vowel, we have pretty similar F1 for a higher vowel, and a high falling F2. I'm going to assume that drop is because of the mouth opening at the end of the word, and say that it's [i].
-![Formants I](gramle-pics/041725-formants1.png "Formants I")
+![Formants I](../gramle-pics/041725-formants1.png "Formants I")
 
 ## Step 5: First Guess
 {:.no_toc}
@@ -666,17 +666,17 @@ There weren't a ton of surprises other that the F2 of the final vowel. I think m
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/041525.png "Original")
+![Original](../gramle-pics/041525.png "Original")
 
 ## Step 1: Segmentation
 {:.no_toc}
 
 To me, this looks like we've got a strong closure and release burst, followed by a long period with visible moving formants. Then, the formants remain visible but the amplitude get much weaker. After that, the amplitude increases again but doesn't achieve the same darkness as before, and wide vertical striations appear which indicate some creaky phonation.  Given this, I think there are two possible segmentations. In the first, the long sonorant region contains both a stressed vowel and an approximant like [l], [w], or [ɹ].
-![Segmentation](gramle-pics/041525-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/041525-segmentation.png "Segmentation")
 
 In the second, there is a sneaky closure at the end of the word, that is causing the creakiness to be prominent
 
-![Segmentation II](gramle-pics/041525-segmentation-II.png "Segmentation II")
+![Segmentation II](../gramle-pics/041525-segmentation-II.png "Segmentation II")
 
 
 ## Step 2: Voicing
@@ -692,7 +692,7 @@ The first segment is obviously a stop, with a clear closure and release burst. I
 ## Step 4: Formants
 {:.no_toc}
 In the transition from the first segment, it looks like F2 and F3 get really close together before moving apart. This is good evidence of a velar sound like [g]. Then they move to a position where F1 and F2 are close together: with F2 being especially low. I'm guessing then we're dealing with a back vowel, or potentially a diphthong that starts back and moves its way front. If there's an approximant before phonotactically both [l] and [ɹ] make sense between a [g] and a back vowel. The dip in the formants for the low amplitude region after that makes me think about lengthening the vocal tract, like for [m], or the dip in F1 we would expect for [l]. Finally, the formants of the last sonorant region increase through the mid-high F2 range, and slightly decrease in a mid F1.
-![Formants I](gramle-pics/041525-formants1.png "Formants I")
+![Formants I](../gramle-pics/041525-formants1.png "Formants I")
 
 ## Step 5: First Guess
 {:.no_toc}
@@ -744,13 +744,13 @@ I need to get caught up from a weekend away so today is a rapid fire analysis.
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/041425.png "Original")
+![Original](../gramle-pics/041425.png "Original")
 
 ## Step 1: Segmentation
 {:.no_toc}
 Now look, I know there's only four segments here, but hear me out. I think the last region (in green) is very sonorant with very smooth transitions. It's very long too. But there are no cues anywhere within that region that make it look separable. I think that either this is a vowel + a very sonorant coda, or it's a diphthong and an invisible coda (not unheard of with gramle spectrograms because of how the forced alignment grabs words. The first segment is clearly differentiable thanks to its closure and aperiodic release burst sequence. The orange region has strong formants and a lack of nasal zeros. The yellow region is markedly different primarily thanks to lower amplitude in the spectrogram and the waveform, and the lowering of the formants
 
-![Segmentation](gramle-pics/041425-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/041425-segmentation.png "Segmentation")
 
 ## Step 2: Voicing
 {:.no_toc}
@@ -760,12 +760,12 @@ There is a voicing bar through all the sounds except the first. However, the tim
 {:.no_toc}
 The first segment is obviously a stop, with a clear closure and release burst. The second segment looks like a stressed vowel: it is high amplitude with clear formants. The third segment is either a nasal or an approximant. It has a low amplitude, especially around the formants, but has strong formants pattern still with little turbulence. The fourth segment is either a vowel and then an approximant or a dighthong and a secret stop.
 
-![Manner](gramle-pics/041425-manner.png "Manner of Articulation")
+![Manner](../gramle-pics/041425-manner.png "Manner of Articulation")
 
 ## Step 4: Formants
 {:.no_toc}
 The first segment does not seem to have induced any formant transitions; they're really stable at the beginning of the first vowel. Since there's neither velar pinch nor bilabial downturning, I think I will exclude [b, g] hypotheses and go with [d]. The first vowel has very high F2, so it's clearly in the front of the vowel space. It's also very long, which could either be because of its stressed position or because it's a diphthong. The formant trajectories are very horizontal, which makes me think [i, ɛ, ɪ] though the diphthong [eɪ] doesn't move that much. For the third segment, F2 is doing a fairly severe dip, with F3 and F4 following along for the ride. The phones [m, w] will dip the formants because of rounding, but so do the approximants [l, ɹ] (though for ɹ I would really just want to look at F3). For the last segment, F1 looks fairly low, and F2 starts low and ends high. That could mean we are either looking at a low back vowel like [ɑ] or a diphthong that moves forward like [aɪ] or [ɔɪ].
-![Formants I](gramle-pics/041425-formants1.png "Formants I")
+![Formants I](../gramle-pics/041425-formants1.png "Formants I")
 
 ## Step 5: First Guess
 {:.no_toc}
@@ -804,26 +804,26 @@ I think the big takeways about why this one was successful are:
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/041025.png "Original")
+![Original](../gramle-pics/041025.png "Original")
 
 ## Step 1: Segmentation
 {:.no_toc}
 Unlike yesterday, I am quite confident in the segmentation here. We have a strong pattern of changes in formant transition and another strong pattern of changes in amplitude of the waveform. From 0 to 80 milliseconds (red), there is low amplitude and no visible formants. Then from 80 to ~225 ms (orange), we have our highest amplitude in the waveform for this word, with clear formants. From 225-250 ms (yellow), the amplitude does a steep drop off. The formants are still visibe, but faint, and there's some zeros visible between the formants. From 250-350 ms (green), we no longer see formants, but a aperiodic pattern with concentrated frequencies. Finall from 350-475 ms, we have a medium amplitude sound with very visible formants.
 
-![Segmentation](gramle-pics/041025-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/041025-segmentation.png "Segmentation")
 
 ## Step 2: Voicing
 {:.no_toc}
 There is prevoicing of the first segment, which persiss until ~ 300ms, drops, and picks back up by the 350 ms point. I suspect that because the voicing doesn't persist through the entirely of the centeral turbulent segment, that that segment is not actually voiced but that the voicing bar is bleed-over from the previous segment. This could even be true for the short segment before this one as well.
 
-![Voicing](gramle-pics/041025-voicing.png "Voicing")
+![Voicing](../gramle-pics/041025-voicing.png "Voicing")
 
 
 ## Step 3: Manner of Articulation
 {:.no_toc}
 The combination of prevoicing, a visible release burst in the waveform, and a short VOT make me very certain that the first segment is a voiced stop, one of [b], [d], or [g]. The visible formants, amplitude and length of the second segment look like a stressed vowel, possibly a diphthong. The third segment is tricker. We want something that has visible formants, low amplitude, and short. I'm thinking either a nasal, an [h], or an [l]. This is phonotactically a weird place for [h], so let's zoom in on nasals and l. The fourth segment is clearly some kind of fricative. It has a high concentration of energy in the higher frequencies, towards 5000 Hz, with a white gap in the lower frequencies. If I combine this information with the voicing hypothesis above, I think we're looking at [s]. For the final segment, the visible formants and low amplitude make this an unstressed vowel. There is glottal pulsing consistent with word-final creaky voicing, but I don't think that's a good hint about the specific vowel we're dealing with. 
 
-![Manner](gramle-pics/041025-manner.png "Manner of Articulation")
+![Manner](../gramle-pics/041025-manner.png "Manner of Articulation")
 
 ## Step 4: Formants
 {:.no_toc}
@@ -835,7 +835,7 @@ Let's look at the transitions toward the third segment. After a vowel, I would e
 
 For the fifth segment, there's a lot of movement in the formants, especially F3. The could mean that this sound is rhotic, like schwar [ɚ]. F1 is relatively high and F2 decreases through its range. I don't have any strong hypothesis about this vowel quality. I might save that for phonotactics when I have more information
 
-![Formants I](gramle-pics/041025-formants1.png "Formants I")
+![Formants I](../gramle-pics/041025-formants1.png "Formants I")
 
 ## Step 5: First Guess
 {:.no_toc}
@@ -915,7 +915,7 @@ Rats. Okay so it's a vowel-vowel permutation.
 
 I really can't think of anything, so I need to backtrack. Originally, I though this sound had a relatively high F1, and a high but decreasing F2. Since it's short I think it's a monophthong, so maybe that's [ɛ]. The only English word I can think of with that form is \<bicep\>, but where's the [p]? It could be unreleased, but I also don't see a closure. I guess I could be convinced that that little blip in the waveform is a closure., and that the line at 510 ms is a baby release.
 
-![Second Stop](gramle-pics/041025-second-release.png "Second Stop")
+![Second Stop](../gramle-pics/041025-second-release.png "Second Stop")
 
 My fourth guess is 
 
@@ -932,46 +932,46 @@ Woohoo!
 {:.no_toc}
 Again, led astray on the segmentation. I think what I learned from this day's exercise is that it's better to rely on the spectrogram and not play the lexical ``game'' part of Gramle until the very bitter end. I also learned that I need to keep in mind that visual patterns are harder to see at the end of words, where we tend to have things like low amplitude, creak, devoicing, and deletion change the visible patterns. My revisionist segmentation is below.
 
-![Resegmentation](gramle-pics/041025-resegmentation.png "Resegmentation")
+![Resegmentation](../gramle-pics/041025-resegmentation.png "Resegmentation")
 
 # April 9, 2025
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/040925.png "Original")
+![Original](../gramle-pics/040925.png "Original")
 
 ## Step 1: Segmentation
 {:.no_toc}
 Segmentation is really tricky for this one. We've got a very very sonorant word, where formants are clear and transition smoothly throughout almost the entirety of the word. There does seem to be a short region right at the beginning where you can see a burst-like pattern in the waveform, and a lot of whitespace in the spectrogram. The next division I'm giving in orange is based off of the zeroing between what looks like F3 and F4, which we don't see in the region in yellow. There's more zeroing between F2 and F3 in the green region, and a lower amplitude in the waveform there as well. In the blue region, we see the amplitude increase, and the zeros go away. The final phone being very long is consistent with end of word behavior, but I will stay curious about this segmentation. One thing I will keep in mind is whether the aperiodic sound after the blue region is background noise (which is my current hypothesis) or some kind of turbulent consonant, like an [h] or a fricative.
 
-![Segmentation](gramle-pics/040925-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/040925-segmentation.png "Segmentation")
 
 
 ## Step 2: Voicing
 {:.no_toc}
 Easy. I think everything is voiced here. We can clearly see the voicing bar in the first segment, and there's no sign of it going away.
 
-![Voicing](gramle-pics/040925-voicing.png "Voicing")
+![Voicing](../gramle-pics/040925-voicing.png "Voicing")
 
 ## Step 3: Manner of Articulation
 {:.no_toc}
 For the first segment, the short voicing bar and release shape in the waveform really make this look like a voiced stop in English. Now, for the rest of the word. With highly sonorant sounds, manner of articulation can only be a couple of things. We're looking for vowels, approximants, and nasals primarily. I think the 3rd and 5th segments are probably vowels based on their placement, amplitude, and lack of zeroing. The 5th segment I think is long enough that it could be a closed rime as well, maybe like [ɚ]. The zeros in the 2nd and 4th segment make me think that these could be nasals. It's also possible that they are approximants like [l] or [ɹ] given how vowel-like they are; I think phonotactics will be a good help for figuring that out.
 
-![Manner](gramle-pics/040925-manner.png "Manner of Articulation")
+![Manner](../gramle-pics/040925-manner.png "Manner of Articulation")
 
 ## Step 4: Formants
 {:.no_toc}
 The formants are tricky in this one two. Either F1 is very low, near the voicing bar, or extremely high. I think this last option is implausible based the how high the formant that starts at 1000 Hz ends up in the 5th segment. Since it goes between 800 and 2000 Hz, I think that's gotta be F2. 
 
-![Formants I](gramle-pics/040925-formants1.png "Formants I")
+![Formants I](../gramle-pics/040925-formants1.png "Formants I")
 
 For the second segment, I don't see any strong formant patterns. F1, F2, and F3 are all very low and fairly stable. There is a little dip in F3 and a little rise in F2, but they're subtle. That makes me think that this is an alveolar sound, like [n], [l], or [ɹ]. For the fourth segment, F1, and F2 are low but F3 is quite high. There's also a dip in F2, and it's hard to see what's happening in F1. Since F2 and F3 are nowhere near each other we can rule out a velar place of articulation. I wonder in the pitch in F3 is being caused by [l] here, which can have zeros but also I've noticed can have weird qualities in the higher formants.
 
-![Formans II](gramle-pics/040925-formants2.png "Formants II")
+![Formans II](../gramle-pics/040925-formants2.png "Formants II")
 
 For the segments I'm calling vowels, our first vowel has a low F1 and F2 and is pretty short. I think we're looking at a monophthong, in the top right of the vowel space. For the second vowel, F1 is a little higher, and F2 makes a transition for the lower third of its frequency range up towards F3. F3 also seems like it's taking a subtle drop. This could mean it's a diphthong that gets fronter, like [aɪ] and [ɔɪ], but those I would expect to have higher F1s that get lower.
 
-![Formants III](gramle-pics/040925-formants3.png "Formants III")
+![Formants III](../gramle-pics/040925-formants3.png "Formants III")
 
 ## Step 5: First Guess
 {:.no_toc}
@@ -1016,7 +1016,7 @@ Woohoo!
 {:.no_toc}
 I really let myself get led astray by a bad segmentation, really caused by putting too much faith in a little bit of prevoicing. And then got excited by the chance that I might be able to guess a word straightaway. In hindsight, the formant transition for the \<ing\> portion of the word are really clear: Low F1, increasing F2, and a close F2 and F3 by the end. With the new segmentation in mind (and that pesky hindsight), it's a lot easier to see what's going on.
 
-![Resegmentation](gramle-pics/040925-resegmentation.png "Resegmentation")
+![Resegmentation](../gramle-pics/040925-resegmentation.png "Resegmentation")
 
 
 # April 8, 2025
@@ -1031,7 +1031,7 @@ The intensity of the waveform picks back up in the fourth region (green) and we 
 The last region (blue) has a two-pattern temporal sequence. First, there's what looks to be a complete closure. Then we see a release of that closure into aperiodic sound.
 While this has two specific patterns in the spectrogram, it is still consisten with a single phone. We'll see this next.
 
-![Segmentation](gramle-pics/040825-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/040825-segmentation.png "Segmentation")
 
 ## Step 2: Manner of Articulation
 {:.no_toc}
@@ -1059,7 +1059,7 @@ My guesses and rationale for the manners of articulation for each segment are as
 {:.no_toc}
 To check for voicing on each segment, I am looking for a voice bar in the bottom of the spectrogram at a reasonable frequency for this speaker. The recordings for gramle come from the MALD database (Tucker et al. 2019), which are made by an adult Canadian male. It looks like theres consistent voicing throughout the entirety of the word up until the final release. Before 50 ms, it's hard to tell whether there's actually voicing or if it's just aperiodic noise in all frequencies including and overlapping with voicing frequencies. For now, I'll say that everything is voiced except maybe the first segment.
 
-![Voicing](gramle-pics/040825-voicing.png "Voicing")
+![Voicing](../gramle-pics/040825-voicing.png "Voicing")
 
 ## Step 4: Formants
 {:.no_toc}
@@ -1067,15 +1067,15 @@ We should consider the formant ranges that ought to be associated to different v
 
 For the first vowel, it looks like F1 is around 600-800 Hz, which is quite high. So I suspect this is a low vowwel. F2 goes from about 1800 Hz to 1200 Hz, really spanning the range for this speaker. This may mean it's a diphthong that goes from a front nucleus to a back offglide. The other option is that this quality is influenced by the sounds around it. If we look at F3, I can see something that looks like velar pinch between F2 and F3, though it's subtle. This could mean that the sound that comes before this vowel is velar, like a [k].
 
-![Formants of vowel 1](gramle-pics/040825-formants1.png "Formants of Vowel 1")
+![Formants of vowel 1](../gramle-pics/040825-formants1.png "Formants of Vowel 1")
 
 The formants of the nasal are pretty boring. They transition smoothly between the vowels. If we were dealing with a bilabial nasal [m], I would expect all the the formants to dip down towards the nasal. For the velar nasal [ŋ], I'd wanna see velar pinch. And I don't see either of these.
 
-![Formans of nasal](gramle-pics/040825-formants2.png "Formants of Nasal")
+![Formans of nasal](../gramle-pics/040825-formants2.png "Formants of Nasal")
 
 The formants of the unstressed vowel show a little bit of transition on either end, but are pretty horizontal. It looks like F1 is keeping around 500 Hz, and F2 is around 1500 Hz. I think for this speaker those are both middle of the pack ranges. The is a little scoop of F2 right at the end, which again may point to the sound after this vowel being velar.
 
-![Formants of vowel 2](gramle-pics/040825-formants3.png "Formants of Vowel 2")
+![Formants of vowel 2](../gramle-pics/040825-formants3.png "Formants of Vowel 2")
 
 ## Step 5: First guess
 {:.no_toc}
