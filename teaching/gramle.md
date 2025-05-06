@@ -74,7 +74,7 @@ My second guess is
 -aɪ
 -tʃ
 +ɪ
--dʒ
+!dʒ
 ```
 
 I'm sort of at a loss for that last segment, but maybe it's a wildly aspirated [t] for \<budget\>
