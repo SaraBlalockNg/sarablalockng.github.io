@@ -667,7 +667,7 @@
         langCell.textContent = thisLang;
         row.appendChild(langCell);
         const invCell = document.createElement('td');
-        invCell.textContent = thisInv.join(' ');
+        invCell.textContent = Array.from(thisInv).join(' ');
         row.appendChild(invCell);
         table.appendChild(row);
       }
