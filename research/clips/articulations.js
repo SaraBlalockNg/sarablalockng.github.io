@@ -434,4 +434,4 @@ features['no release modifier'] = new Set(['!','!?','!h','!xh','"6','"d','"d*','
 features['with breathy/fricative release'] = new Set(['"thh','"tshh','khh','klF','phh','tDhh','thh','tshh',]);
 features['laterally released'] = new Set(['gL']);
 features['nasally released'] = new Set(['bm','d.n','dDn','d_n','dn','gn',]);
-features['any release modifier'] = features['with breathy/fricative release']+features['laterally released']+features['nasally released'];
+features['any release modifier'] = flatUnion(features['with breathy/fricative release'],features['laterally released'],features['nasally released']);
