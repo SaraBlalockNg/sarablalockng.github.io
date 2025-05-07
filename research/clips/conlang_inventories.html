@@ -678,7 +678,7 @@
     for (let [lang, inventory] of Object.entries(inventories)) {
       let count = 0;
       for (const segment of inventory){
-        if (criteria.every(key => features[key]?.includes(segment))) {
+        if (criteria.every(key => features[key]?.has(segment))) {
             segmentInventory.add(segment);
             count += 1;
         }
