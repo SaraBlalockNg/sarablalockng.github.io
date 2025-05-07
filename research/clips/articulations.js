@@ -1,4 +1,4 @@
-const flatUnion = (...sets) => [...new Set(sets.flatMap(set => [...set]))];
+const flatUnion = (...sets) => new Set([...new Set(sets.flatMap(set => [...set]))]);
 
 const vowel = new Set(['"@','"@)','"@)S','"@.','"@:','"@S','"@~','"e','"e*','"e9','"e:','"eS','"e_','"e~','"e~*','"he','"ho','"o','"o(','"o(+~','"o(:','"o(~','"o*',
                     '"o+','"o/','"o/9','"o/:','"o9','"o9:','"o9~','"o:','"oS','"o~','"o~*','3','3)','0.125','3~','4','4)S','4)_','49','4S','4_','@','@)','@)~','@:',
