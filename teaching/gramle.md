@@ -19,6 +19,95 @@ toc: true
 {:.no_toc}
 [April 2025](./gramle-archive/april25.md)
 
+# May 7, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/050725.png "Original")
+
+## Graphics
+{:.no_toc}
+
+### Segmentation
+{:.no_toc}
+![Segmentation](gramle-pics/050725-segmentation.png "Segmentation")
+
+### Voicing
+{:.no_toc}
+![Voicing](gramle-pics/050725-voicing.png "Voicing")
+
+### Manner of Articulation
+{:.no_toc}
+![Manner](gramle-pics/050725-manner.png "Manner of Articulation")
+
+### Formants
+{:.no_toc}
+
+![Formants](gramle-pics/050725-formants.png "Formants")
+
+## First Guess
+{:.no_toc}
+
+The segmentation today is more confusing to me, but I drew these boundaries mainly going off of the strong vertical lines I see in the spectrogram, indicating release bursts.
+
+* **Segment 1**: This has a smear of frequencies and a very high amplitude for an obstruent, so I think it must be a sibilant. I don't see a center of gravity very clearly, which may mean it's above 5000 Hz. Combined with the word position and lack of voicing bar, I think it's safe to say that this is [s]
+* **Segment 2-3**: The second segment segment is clearly a stop, with a defined closure and release burst. It also looks like it precedes another closure. There are few consonant clusters in English that fit this pattern: \<spl\>, \<spr\>, \<str\>, \<skr\>, \<scl\>. Of those, ending in [l] I think is more likely for this spectrogram, as an unvoiced [l] is likely to look fricated. \<spl\> is more frequent than \<scl\>, so I go with the former.
+* **Segment 4**: We see clear formants for a vowel, with a low F1 and VERY high F2. There's a little dip in F3 that could be rhoticity, but I'm not sure. What I do know is this should be at the very front of the vowel space.
+* **Segment 5**: This is the segment I'm least confident in. The amplitude from the vowel dies gradually, so there may be a heavily released nasal, or some kind of word-final non-sibilant fricative, which is uncommon in English. I don't see evidence of a release burst in the spectrogram or the waveform, so learning against a stop.
+
+I'm going to go with a word for my first guess.
+
+```diff
++s
+-p
+-l
+!i
+-n
+```
+
+## Revision
+{:.no_toc}
+
+Huh, guess the double releases I saw in what I called segments 2-3 were a red herring. I'll have to pick another stop to go there, and since I don't see velar pinch I'll go with [t]. Now for the final 2 segments after the vowel. This is a nasal or an approximant followed by either a stop or a fricative. The words I'm thinking of that fit that are \<steals\> \<steeled\>, \<steams\>, and \<steamed\>. Of these, I think the energy is still too low for a final [z], so I'll say that the blip at 450 ms is a release for a [d]. Between [m] and [l], there are a couple of things I'm looking for. First, [l] and [d] have the same place of articulation, so I could envision a smooth transition with little visible closure, which works here. For [m], since the lips have to open and the tongue make a new closure, I'd expect more of a closure than I see here. Also, in this position in English I would expect [l] to be velarized, which is maybe why that F3 was dipping.
+
+My second guess is
+```diff
++s
+-t
++i
+-l
+-d
+```
+
+Wow not a great day for the home team. I still have unused hypotheses, so let's try those.
+
+My third guess is
+```diff
++s
++k
++i
+-m
+-z
+```
+
+Rats, I am really batting zero out here today. I need to backtrack and look for more clues. Theres is a dip in the amplitude during what I've been calling "the vowel." What if this is a disyllabic word and the second syllable doesn't have an onset? That would explain the change in amplitude and also where this extra segment is coming from. The only word I can think of with that pattern is \<skiing\>, so I'll try that.
+
+My fourth guess is
+```diff
++s
++k
++i
++ɪ
++ŋ
+```
+
+Woo hoo!
+
+## Postmortem
+{:.no_toc}
+
+What I learned from today is: don't ignore cues from the waveform! I am still chewing on why it looks like that [k] is released twice.
+
 # May 6, 2025
 
 ## Original Spectrogram
