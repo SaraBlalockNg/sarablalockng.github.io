@@ -36,10 +36,6 @@ toc: true
 {:.no_toc}
 ![Voicing](gramle-pics/050725-voicing.png "Voicing")
 
-### Manner of Articulation
-{:.no_toc}
-![Manner](gramle-pics/050725-manner.png "Manner of Articulation")
-
 ### Formants
 {:.no_toc}
 
