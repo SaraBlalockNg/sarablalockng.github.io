@@ -650,6 +650,7 @@
     const preamble = document.createElement('p');
     if (commonLanguages.length > 0){
       preamble.textContent = "Here are the languages whose inventories match your criteria:";
+      app.appendChild(preamble);
       const table = document.createElement('table');
       table.style.margin = '0 auto';
       const header = document.createElement('tr');
@@ -667,10 +668,16 @@
         const invCell = document.createElement('td');
         invCell.textContent = thisInv.join(' ');
         row.appendChild(invCell);
-        app.appendChild(row);
+        table.appendChild(row);
       }
+      app.appendChild(table)
+    } else {
+      preamble.textContent = "No languages match your criteria."
+      app.appendChild(preamble);
     }
+    homeButton();
   }
+    
   function testInventories (criteria, contain, numberOf, anything){
     const languagesToPrint = [];
     const inventoriesToPrint = [];
