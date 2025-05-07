@@ -641,11 +641,12 @@
 
     
     // if there's any consonant criteria, go with that
+    let commonLanguages, commonInventories;
     if (consonantCriteria.some(str => !str.startsWith('-any'))) {
-      const [commonLanguages, commonInventories] = testInventories(consonantCriteria, contain, numberOf, anything);
+      [commonLanguages, commonInventories] = testInventories(consonantCriteria, contain, numberOf, anything);
     } else {
       // otherwise go with the vowel criteria
-      const [commonLanguages, commonInventories] = testInventories(vowelCriteria, contain, numberOf, anything);
+      [commonLanguages, commonInventories] = testInventories(vowelCriteria, contain, numberOf, anything);
     }
     const preamble = document.createElement('p');
     if (commonLanguages.length > 0){
