@@ -693,15 +693,15 @@
       }
       if (
         (contain == 0 && (
-          (numberOf == 2 && count >= anything) ||
+          (numberOf == 2 && count >= anything && count > 0) ||
           (numberOf == 1 && count <= anything) ||
-          (numberOf == 0 && count == anything) ||
+          (numberOf == 0 && count == anything && count > 0) ||
           (anything == 0 && count > 0)
         )) ||
         (contain === 1 && (
-          (numberOf == 0 && count !== anything) ||
+          (numberOf == 0 && count !== anything && count > 0) ||
           (numberOf == 1 && count > anything) ||
-          (numberOf == 2 && count < anything) ||
+          (numberOf == 2 && count < anything && count > 0) ||
           (anything == 0 && count == 0)
         ))
       ) {
