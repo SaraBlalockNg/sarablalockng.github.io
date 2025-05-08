@@ -7,7 +7,7 @@ toc: true
 
 # About
 
-This blog archives my performance on (gramle)[https://nascl.rc.nau.edu/gramle/], a Wordle-style spectrogram game. The goal of this blog is to help phonetics students and fellow gramle lovers see one phonetician's thought process.
+This blog archives my performance on [gramle](https://nascl.rc.nau.edu/gramle/), a Wordle-style spectrogram game. The goal of this blog is to help phonetics students and fellow gramle lovers see one phonetician's thought process.
 
 <video controls="" autoplay="" name="media">
     <source src="https://sarablalockng.github.io/teaching/gramle-time.mp3" type="audio/mp3">
@@ -22,6 +22,49 @@ This blog archives my performance on (gramle)[https://nascl.rc.nau.edu/gramle/],
 ## Archive of Previous Months
 {:.no_toc}
 [April 2025](./gramle-archive/april25.md)
+
+# May 8, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/050825.png "Original")
+
+## Graphics
+{:.no_toc}
+
+### Segmentation
+{:.no_toc}
+![Segmentation](gramle-pics/050825-segmentation.png "Segmentation")
+
+### Voicing
+{:.no_toc}
+![Voicing](gramle-pics/050825-voicing.png "Voicing")
+
+### Formants
+{:.no_toc}
+![Formants](gramle-pics/050825-formants.png "Formants")
+
+## First Guess
+{:.no_toc}
+
+Wow, is is a super sonorant word. The only easy part of segmenting this is the central segment, where the formants drop off. I'm assuming that the silence at the beginning is just a little bit of prevoicing, because I don't see a strong closure on the waveform and I already have 5 segments without a stop. I tried to learn from yesterday and use the waveform as a primary guide for segmentation this time.
+
+* **Segment 1**: This is in a syllable onset position, so should be some kind of consonant. It is fairly high amplitude, with clear formants, very low F2 and mid-low F1. I believe that this makes it an approximant, and based on the F2 value I think [w] is most likely (should look like [u]).
+* **Segment 2**: This is a high amplitude, long sound with clear formants, so must be our stressed vowel. F2 is super high and F1 is still mid-low. This puts us at the front top of the vowel space. Based on how high F2 is I'm going to start with [i].
+* **Segment 3**: This is the only segment where the formants seem to die down. There is a voicing bar, and a center of gravity of the frequencies above 5000 Hz. So me that sounds like a textbook [z].
+* **Segment 4**: I believe this is the unstressed vowel, since it is still fairly high amplitude with clear formants, and is just a little shorter than segment 2. F2 has only dropped off slightly. Since it's unstressed and still in the front of the vowel space, I'm very confident in guessing [ɪ].
+* **Segment 5**: Here we see the amplitude dropping off, but the formants are staying clear. It doesn't look quiet enough for a non-sibilant fricative, so it's either a nasal, approximant, or a fading vowel. I can almost hallucinate velar pinch, which I would love because it goes well with the previous guess to make the \<ing\> morpheme.
+
+My first guess is 
+```diff
++w
++i
++z
++ɪ
++ŋ
+```
+
+Woohoo! I feel vindicated from my poor performance yesterday.
 
 # May 7, 2025
 
