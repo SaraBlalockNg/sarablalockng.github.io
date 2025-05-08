@@ -6,7 +6,7 @@ toc: true
 ---
 
 # About
-
+{:.no_toc}
 This blog archives my performance on [gramle](https://nascl.rc.nau.edu/gramle/), a Wordle-style spectrogram game. The goal of this blog is to help phonetics students and fellow gramle lovers see one phonetician's thought process.
 
 <video controls="" autoplay="" name="media">
