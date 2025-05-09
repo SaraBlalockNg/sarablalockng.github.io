@@ -23,6 +23,67 @@ This blog archives my performance on [gramle](https://nascl.rc.nau.edu/gramle/),
 {:.no_toc}
 [April 2025](./gramle-archive/april25.md)
 
+# May 9, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/050925.png "Original")
+
+## Graphics
+{:.no_toc}
+
+### Segmentation
+{:.no_toc}
+
+I am a little nervous about this segmentation. My one worry is that what I've called a first segment (and that I think is a fricative of some kind) is actually a weird-looking glottal stop for an onset-less first syllable.
+![Segmentation](gramle-pics/050925-segmentation.png "Segmentation")
+
+### Voicing
+{:.no_toc}
+![Voicing](gramle-pics/050925-voicing.png "Voicing")
+
+### Formants
+{:.no_toc}
+![Formants](gramle-pics/050925-formants.png "Formants")
+
+## First Guess
+{:.no_toc}
+
+* **Segment 1**: Assuming this segmentation, what I see here is a low amplitude smear-y sound with just the suggestion of formants. Looking in the waveform I don't see any release bursts, so I think this is a non-sibilant fricative. It's not voiced, so that leaves [f, θ, h] as options. I don't have strong opinions, other than maybe it's too quiet for [h].
+* **Segment 2**: This is a high amplitude, long sound with clear formants, so must be our stressed vowel. F2 is low and F1 is high, suggesting that this is a low-back vowel. There is some movement, but for now I'm thinking that that is caused by formant transitions.
+* **Segment 3**: Here we see a clear closure and release burst, followed by what looks like very brief aspiration. This could either mean that it is a voiced stop, or what I think is more likely is that it is an unaspirated voiceless stop in a consonant cluster. Between [p, t, k], the little bit of dipping in the formants before has me thinking [p].
+* **Segment 4**: This segment is very low amplitude with no visible formants. In an different position I would call it a fricative, but I'm thinking that since it follows a stop it could be a devoiced approximant like [l].
+* **Segment 5**: This has lower amplitude than the stressed vowel, but the formants are staying clear. F1 and F2 are kind of middle of the pack, with F2 on the lower side. This suggests some kind of central, maybe back vowel. It's long for a word-final schwa, so maybe a schwar even though nothing interesting is happening with F3.
+
+My first guess is 
+```diff
+-f
++a
+!p
+-l
+!ɚ
+```
+
+## Revision
+{:.no_toc}
+
+Uh-oh, does that mean there's something wrong with the segmentation, or is it that the release of the p is not visible from the start of the word? It really doesn't look like there's a release in the beginning, so I think maybe what I saw as a voiceless approximant after the stop is just an inconsistent amount of aspiration after the closure, Then the segment after the stressed vowel could be a rhotic, since there is some movement of F3.
+
+My second guess is 
+```diff
++h
++a
++ɹ
++p
++ɚ
+```
+Woohoo!
+
+## Postmortem
+{:.no_toc}
+
+I think what would have helped me to see the missing [ɹ] would have been to look more carefully at the amplitude changes of the waveform. But still, they aren't going in the direction I would expect (I want the vowel to be louder). It is also hard because all of the formants are dipping down, not just F3. So there is an overlap between the transition for [ɹ] and the one for [p].
+
 # May 8, 2025
 
 ## Original Spectrogram
