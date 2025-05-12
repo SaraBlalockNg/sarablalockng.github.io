@@ -23,6 +23,67 @@ This blog archives my performance on [gramle](https://nascl.rc.nau.edu/gramle/),
 {:.no_toc}
 [April 2025](./gramle-archive/april25.md)
 
+# May 12, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/051225.png "Original")
+
+## Graphics
+{:.no_toc}
+
+### Segmentation
+{:.no_toc}
+
+The segmentation is confusing to me. What makes it unclear is that there's a lot of sonorant segments next to one another, and because of that there aren't clear temporal transitions. There may be a sneaky middle segment, or something showing up as weak formants at the end of the word. 
+
+![Segmentation](gramle-pics/051225-segmentation.png "Segmentation")
+
+### Voicing
+{:.no_toc}
+![Voicing](gramle-pics/051225-voicing.png "Voicing")
+
+### Formants
+{:.no_toc}
+
+![Formants](gramle-pics/051225-formants.png "Formants")
+
+## First Guess
+{:.no_toc}
+
+* **Segment 1 (red)**: I think this is a stop. If I look on the waveform, it seems like there's a tiny release burst right at the beginning. The long period of aspiration suggests we're looking at [p, t, k]. I don't see strong formant transitions, although F2 and F3 are fairly close together. That points me toward [k] as a first guess.
+* **Segment 2 (orange)**: This segment has high amplitude wiwth clear formants and a lack of zeros, so it must be a stressed vowel. F1 is mid and F2 is mid-high and increasing, so we're looking for something in the center-front of the vowel space. The increasing F1 makes me suspicious of [eɪ].
+* **Segment 3 (green)**: This segment has low amplitude, lowering of F2, and zeros in between formants. This makes me believe we're looking at an approximant or nasal with formant-lowering properties, which means [w,l,m].
+* **Segment 4 (blue)**: The glottal pulses here are really irregular, which is making it hard to tell what's going on here. I'm thinking that maybe it's an instressed vowel. F3 droops down quite a bit, so maybe it's schwar. The middling F1 and F2 also support this idea.
+* **Segment 5**: I'm going to start with the assumption that there's another approximant in between the orange and green segments. Phonotactically an approximant makes the most sense, so I'm thinking [l]. I don't see the velar pinch I'd expect, so this is more of a confident guess with little evidence.
+
+My first guess is
+```diff
+-k
+!eɪ
+!l
+-m
+!ɚ
+```
+## Revision
+{:.no_toc}
+
+Hmm, so my segmentation was wrong in a way that I didn't expect. What if the dip in F3 that I saw at the beginning was because of an [ɹ] in an onset cluster?
+
+My second guess is 
+```diff
++t
++ɹ
++eɪ
++l
++ɚ
+```
+
+## Postmortem
+{:.no_toc}
+
+I think the sign of the [ɹ] existing is most evident in the amplitude in the waveform. I also think the little blip before the regular periodic pattern is an air pocket releasing when the tongue moves anteriorly to make the [ɹ].
+
 # May 9, 2025
 
 ## Original Spectrogram
