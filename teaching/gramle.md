@@ -122,7 +122,7 @@ My first guess is
 +a
 !p
 -l
-!ɚ
++ɚ
 ```
 
 ## Revision
