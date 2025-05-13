@@ -22,6 +22,79 @@ This blog archives my performance on [gramle](https://nascl.rc.nau.edu/gramle/),
 ## Archive of Previous Months
 {:.no_toc}
 [April 2025](./gramle-archive/april25.md)
+# May 13, 2025
+Today is going to be another rapid fire because I've got a deadline I need to mind.
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/051325.png "Segmentation")
+
+## Graphics
+{:.no_toc}
+### Segmentation
+{:.no_toc}
+![Segmentation](gramle-pics/051325-segmentation.png "Segmentation")
+
+### Voicing
+{:.no_toc}
+![Voicing](gramle-pics/051325-voicing.png "Voicing")
+
+### Formants
+{:.no_toc}
+
+![Formants](gramle-pics/051325-formants.png "Formants")
+
+## Step 5: First Guess
+{:.no_toc}
+
+* **Segment 1**: This looks like a classic voiceless stop, with a release burst visible right at the beginning of the waveform and a longer period of aspiration. (Foreshadowing) I'm thinking that there's a consonant cluster onset, which is going to make place of articulation more difficult to nail down.
+* **Segment 2**: This segment is so short but obviously different than what comes directly after. There are visible formants and pretty high amplitude, so I'm thinking it could be an approximant. But that doesn't make sense for the middle of a cluster?
+* **Segment 3**: This looks like a lower amplitude segment, with airly stable formants To me that is screaming for a nasal or a light [l].
+* **Segment 4**: This long vowel (or vowels) has the highest amplitude, with a high F1 and fairly low F2. I'm thinking it's either a diphthong or two vowels next to one another.
+* **Segment 5**: This segment looks weird. There's a little bit of high-concentration energy around 5000 Hz, but it's not drastic. I'm thinking this is an /-s/ morpheme given its end of word position, but I'm also curious whether the blip around 280ms is a release burst.
+
+My first guess is:
+```diff
+-p
+-l
+-aʊ
+-ɚ
+-z
+```
+
+Not looking great.
+## Revision
+{:.no_toc}
+
+I'll revise to a voiceless version of the /-s/ morpheme, and switch the place of the first stop. I'll also try another approximant for those segments 2-3 in hopes of getting more info.
+
+My second guess is:
+```diff
++k
+-ɹ
+-oʊ
+!t
+-s
+```
+
+Huh, okay so what I thought was a final sibilant must be the [t] stop. I've run out of approximants for segments 2-3, so there must be a nasal there. Since there's no k+nasal clusters in English, segment 2 must be a very short unstressed vowel.
+
+My third guess is:
+```diff
++k
++ə
++n
++a
++t
+```
+## Postmortem
+{:.no_toc}
+
+This is a word where I never would have guessed that that is how CMU transcribes the phones. What is going on with that first schwa? Looking at the spectorgram in hindsight, F2 is fairly high and F1 low, and listening to the audio it sounds more like [ɪ] than [ə].
+
+<audio controls>
+  <source src="https://nascl.rc.nau.edu/MALD/CANNOT.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
 
 # May 12, 2025
 
