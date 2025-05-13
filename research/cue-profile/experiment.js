@@ -9,9 +9,9 @@ const interBlockDelay = 1; // time in seconds between final keypress and next st
 const interTrialDelay = 0.5;
 
 // set the intra-block size
-const numTrialsLevel1 = 2//4*4; // number of repetitions of corners; should be a multiple of 4
-const numTrialsLevel2 = 2//numTrialsLevel1; // see above
-const numTrialsLevel3 = 2//5*5; // number of repetitions of all; should be a multiple of 25
+const numTrialsLevel1 = 4//4*4; // number of repetitions of corners; should be a multiple of 4
+const numTrialsLevel2 = 4//numTrialsLevel1; // see above
+const numTrialsLevel3 = 4//5*5; // number of repetitions of all; should be a multiple of 25
 
 // TODO implementation of early stoppping in level2
 // var learningRate = 0.05; // minimum slope to continue within-block training in level 2
