@@ -22,6 +22,71 @@ This blog archives my performance on [gramle](https://nascl.rc.nau.edu/gramle/),
 ## Archive of Previous Months
 {:.no_toc}
 [April 2025](./gramle-archive/april25.md)
+
+# May 14, 2025
+
+It's another rapid fire, just the guesses today.
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/051425.png "Original")
+
+## Graphics
+{:.no_toc}
+
+### Segmentation
+{:.no_toc}
+![Segmentation](gramle-pics/051425-segmentation.png "Segmentation")
+
+### Voicing
+{:.no_toc}
+![Voicing](gramle-pics/051425-voicing.png "Voicing")
+
+### Formants
+{:.no_toc}
+
+![Formants](gramle-pics/051425-formants.png "Formants")
+
+## First Guess
+{:.no_toc}
+
+* **Segment 1**: Short sonorant segment with some zeroing and irrebular glottal pulsing, lowered F2.
+* **Segment 2**: Low increasing F2, fairly high F1, stressed vowel
+* **Segment 3**: High F2, mid F2 vowel or approximant
+* **Segment 4**: Nasal zeros
+* **Segment 5**: I think this is a /z/ that is getting devoiced since it follows a voiced segment and is at the end of the word
+
+My first guess is
+```diff
++m
++aɪ
+-ɹ
+!n
++z
+```
+Pretty close!
+## Revision
+{:.no_toc}
+
+I think I've switched the order of the rhotic and the second nasal.
+My second guess is
+```diff
++m
++aɪ
++n
+-ɚ
++z
+```
+Excuse me? I was so confident about that. I guess it could be \<minds\>, but I don't see a stop release anywhere here.
+My third guess is
+```diff
++m
++aɪ
++n
++d
++z
+```
+Annoying.
+
 # May 13, 2025
 Today is going to be another rapid fire because I've got a deadline I need to mind.
 ## Original Spectrogram
