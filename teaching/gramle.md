@@ -23,6 +23,77 @@ This blog archives my performance on [gramle](https://nascl.rc.nau.edu/gramle/),
 {:.no_toc}
 [April 2025](./gramle-archive/april25.md)
 
+# May 15, 2025
+
+## Original Spectrogram
+{:.no_toc}
+
+
+![Original](gramle-pics/051525.png "Original")
+
+## Graphics
+{:.no_toc}
+
+### Segmentation
+{:.no_toc}
+The segmentation here is so clear, I think this would be a good one to learn from for a beginner.
+![Segmentation](gramle-pics/051525-segmentation.png "Segmentation")
+
+### Voicing
+{:.no_toc}
+Only the third and fourth segment have a voicing bar.
+![Voicing](gramle-pics/051525-voicing.png "Voicing")
+
+### Formants
+{:.no_toc}
+
+![Formants](gramle-pics/051525-formants.png "Formants")
+
+## First Guess
+{:.no_toc}
+
+* **Segment 1**: A clear fricative smear with center of energy at 5000 Hz, and no voicing bar. Gotta be [s].
+* **Segment 2**: A really silent stop and clear release burse and aspiration. This is going to be a voiceless stop. F2 creeps up towards the release, which may be evidence of a velar closure.
+* **Segment 3**: F1 is fairly high and increasing, while F2 drops over the course. High amplitude and strong formants makes this a stressed vowel. I'm not sure about the vowel quality, and worried that formant transitions are in the way. I'm going to pick the vowel based on what my other guesses are.
+* **Segment 4**: Zeroing and lighter formants make this likely to be a nasal or approximant, and the syllable position says that it's a nasal. No evidence of bilabial downturn or velar pinch (that I can see), so hopefully it's an [n].
+* **Segment 5**: The shape of closure and aspiration says voiceless stop, but since this follows a sonorant I think this is probably a devoiced phonemically voiced stop. I don't see formant transitions that would indicate place, but phonotactically [d] is the most likely option.
+
+My first guess is
+```diff
++s
+-k
+-æ
++m
+-d
+```
+Rats, that's not great.
+## Revision
+{:.no_toc}
+
+Maybe this is the once in a blue moon that a final segment is not devoiced; there are a lot of words in English that end in [mp]... Given that coda, I think [st] is the most likely onset. So then the big question is about the vowel quality. There are few words that fit the bill:
+
+* stamp
+* stump
+* stomp
+
+We know it's not stamp, and between stump and stomp I think stump makes more sense with the F2 we're seeing.
+
+My second guess is
+```diff
++s
++t
++ʌ
++m
++p
+```
+
+Wooohoo!
+
+## Postmortem
+{:.no_toc}
+
+I think I was too much of a smart aleck on this one, ignoring acoustic cues for things I think were phonologically likely.
+
 # May 14, 2025
 
 It's another rapid fire, just the guesses today.
