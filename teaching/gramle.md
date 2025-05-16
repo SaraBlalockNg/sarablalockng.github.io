@@ -23,6 +23,72 @@ This blog archives my performance on [gramle](https://nascl.rc.nau.edu/gramle/),
 {:.no_toc}
 [April 2025](./gramle-archive/april25.md)
 
+# May 16, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/051625.png "Original")
+
+## Graphics
+{:.no_toc}
+
+### Segmentation
+{:.no_toc}
+
+The segmentation here is a little hard to see, but I think it's atually much easier to see on the waveform than on the spectrogram. I'm looking at the big changes in the shape of the waveform, and in the changes in amplitude.
+![Segmentation](gramle-pics/051625-segmentation.png "Segmentation")
+
+### Voicing
+{:.no_toc}
+![Voicing](gramle-pics/051625-voicing.png "Voicing")
+
+### Formants
+{:.no_toc}
+
+![Formants](gramle-pics/051625-formants.png "Formants")
+
+## First Guess
+{:.no_toc}
+
+* **Segment 1**: Strong formants, low amplitude, zeros. Either an approximant or a nasal. F2 dips down and the higher order formants are very light. That makes me think that the candidates should be [m, w, l]. 
+* **Segment 2**: Strong formants, high amplitue, long segment. This is our stressed vowel. F1 is mid and F2 is lower mid, so thinking about a central vowel or something in the (high) back of the vowel space. It's pretty short for a stressed vowel, so maybe a little less peripheral? 
+* **Segment 3**: This looks very much like an [s] to me. It's got a concentration of energy around 5000 Hz, no voicing bar, and no formants. The little blip right at the beginning of the waveform makes me a little concerned about whether it might be an affricate, but that may be a little air bubble from the transition from segment 2.
+* **Segment 4**: This looks like an unstressed vowel. F1 is high and F2 is very low, so maybe a low back vowel. There's not a ton of unstressed options down there, so I'm also curious how much formant transition is playing with these vowels; could it be schwa?
+* **Segment 5**: Formants are light with a general low amplitude and big zeros. The F1 and F2 are dipping down as well. I'm thinking that this could be [m], but I'm not sure becaues it is really light and that's giving me pause.
+My first guess is
+```diff
+!l
+-ʌ
++s
++ə
+-m
+```
+Not the best, not the worst.
+## Revision
+{:.no_toc}
+
+Now I know that the final segment is [l]. It's almost time for class so I'm going to cheat and use my [word generator](https://sarablalockng.github.io/research/elicitations/make_wc.html) to help me find things that start with an approximant or nasal with this frame. That gives me the list:
+* WRESTLE
+* WHISTLE
+* NESTLE
+
+Of those, I like [ɛ] as a vowel better since it should have a lightly lower F2. So I just need to pick where I think [ɹ] or [n] is the more likely onset... The movement of the formants makes me ever so slightly think that [ɹ] is better.
+
+My second guess is
+```diff
++ɹ
++ɛ
++s
++ə
++l
+```
+
+Woohoo!
+## Postmortem
+{:.no_toc}
+Thinking about formant transitions and segmenting using the waveform were the big 'wins' of the day.
+
+
 # May 15, 2025
 
 ## Original Spectrogram
