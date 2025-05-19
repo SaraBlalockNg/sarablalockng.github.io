@@ -23,6 +23,95 @@ This blog archives my performance on [gramle](https://nascl.rc.nau.edu/gramle/),
 {:.no_toc}
 [April 2025](./gramle-archive/april25.md)
 
+# May 19, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/051925.png "Segmentation")
+
+## Graphics
+{:.no_toc}
+### Segmentation
+{:.no_toc}
+
+The segmentation here is obviously very difficult thanks to the sonorance. There are big changes in the formants, but they don't all line up to the same points of time. I'm combining formant info with trends in the amplitude as seen in the waveform.
+![Segmentation](gramle-pics/051925-segmentation.png "Segmentation")
+
+### Voicing
+{:.no_toc}
+![Voicing](gramle-pics/051925-voicing.png "Voicing")
+
+### Formants
+{:.no_toc}
+![Formants](gramle-pics/051925-formants.png "Formants")
+
+## Step 5: First Guess
+{:.no_toc}
+
+* **Segment 1**: Sonorant consonant based on amplitude and position. Formants curl down, so maybe [w] or [m].
+* **Segment 2**: High amplitude segment, the stressed vowel. F1 is mid and F2 is low. Maybe [oʊ] based on the movement of F2.
+* **Segment 3**: Looks like it shoudl be an approximant, but phonotactically that's weird. If my guess on S4 is wrong, then [l] is possible which matches the dip in F2.
+* **Segment 4**: Low amplitude, formants, zeros. F2 and F3 are close, so maybe this is the velar nasal. Or, this is a very quiet front vowel?
+* **Segment 5**: This looks like a classic [s], but since the previous segment is voiced I'm going to say that it's a devoiced /z/.
+
+My first guess is 
+```diff
+-w
+-oʊ
++l
+-ŋ
++z
+```
+
+Okay not good but not bad.
+
+## Step 6-?: Revision
+{:.no_toc}
+
+Now that I know my S4 was wrong I'm going to say that that's an [m] based on the context. There are a few words that end in [almz], but none that start with a sonorant. Maybe there's a weird voiced stop? I can't see a release but I'll try.
+
+My second guess is 
+```diff
+-b
+-a
++l
+-m
++z
+```
+
+Ah, there's another approximant that can go in S4:  a rhotic. I'll go back to a reasonable approximant and back vowel for S1 and S2:
+```diff
++ɹ
+-u
++l
+-ɚ
++z
+```
+
+Uh oh, not doing great. Using my word class generator again, I got these candidates:
+
+* RALLIES
+* RELIES
+* RELAYS
+
+The second word has the stress in the wrong position, so it's out. The F1 is a little low for [i], so I'm going to go with the first option.
+
+My fourth guess is 
+```diff
++ɹ
++æ
++l
++i
++z
+```
+
+Finally.
+
+## Step 7: Postmortem
+{:.no_toc}
+
+The [i] vowel was the most confusing part to me, since the amplitude is so low.
+
 # May 16, 2025
 
 ## Original Spectrogram
