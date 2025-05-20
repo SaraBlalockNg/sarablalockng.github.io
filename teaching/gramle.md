@@ -52,10 +52,10 @@ The waveform of those sibilants looks so cool I wanted to highlight it. There's 
 ## First Guess
 {:.no_toc}
 
-* **Segment 1**: A sibilant shape with the classic frequency smear, lack of voicing, and center between 3-5000 Hz. That makes me think about [ʃ], but also at the very beginning of the waveform it looks like there's a release burst. I'm going to start with the affricate [tʃ]
+* **Segment 1**: A sibilant shape with the classic frequency smear, lack of voicing, and center between 3-5000 Hz. That makes me think about [ʃ], but also at the very beginning of the waveform it looks like there's a release burst. I'm going to start with the affricate [tʃ].
 * **Segment 2**: This segment looks weird because the waveform is relatively simple (pattern almost looks like a sine wave). In addition, F2 is crazy high, making me think that [i] is the only reasonable vowel quality. The amplitude looks appropriate for a stressed vowel, which supports this hypothesis. The space in between F1 and F2 is so light that I'm almost curious about whether this segment is nasalized. Maybe there's vowel nasalization and I'm missing a segment before the next sibilant...
 * **Segment 3**: A loud sibilant with frequency center around 5000 Hz and a voicing bar.
-    * **Segment 4**: A creaky unstressed vowel (based on long irregular pulses), with a still very high F2 and low F1. Based on stress I'm going to say [ɪ], but if that's wrong I'll say [i].
+* **Segment 4**: A creaky unstressed vowel (based on long irregular pulses), with a still very high F2 and low F1. Based on stress I'm going to say [ɪ], but if that's wrong I'll say [i].
 * **Segment 5**: The amplitude is dying off, as is the sonorance. Formants are shadowy, making me think about non-sibilant fricatives. It's voiced, with no clear formant transitions. The options are [v, ð]. The more probably option is [v], so I'll start with that.
 
 My first guess is
