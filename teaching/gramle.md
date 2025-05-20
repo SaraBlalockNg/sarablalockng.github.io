@@ -23,6 +23,80 @@ This blog archives my performance on [gramle](https://nascl.rc.nau.edu/gramle/),
 {:.no_toc}
 [April 2025](./gramle-archive/april25.md)
 
+# May 20, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/052025.png "Original")
+
+## Graphics
+{:.no_toc}
+
+### Segmentation
+{:.no_toc}
+![Segmentation](gramle-pics/052025-segmentation.png "Segmentation")
+
+### Voicing
+{:.no_toc}
+![Voicing](gramle-pics/052025-voicing.png "Voicing")
+
+### Manner
+{:.no_toc}
+The waveform of those sibilants looks so cool I wanted to highlight it. There's a LOT of turbulence and a very wide half-cycle shape.
+![Manner](gramle-pics/052025-manner.png "Manner")
+
+### Formants
+{:.no_toc}
+![Formants](gramle-pics/052025-formants.png "Formants")
+
+## First Guess
+{:.no_toc}
+
+* **Segment 1**: A sibilant shape with the classic frequency smear, lack of voicing, and center between 3-5000 Hz. That makes me think about [ʃ], but also at the very beginning of the waveform it looks like there's a release burst. I'm going to start with the affricate [tʃ]
+* **Segment 2**: This segment looks weird because the waveform is relatively simple (pattern almost looks like a sine wave). In addition, F2 is crazy high, making me think that [i] is the only reasonable vowel quality. The amplitude looks appropriate for a stressed vowel, which supports this hypothesis. The space in between F1 and F2 is so light that I'm almost curious about whether this segment is nasalized. Maybe there's vowel nasalization and I'm missing a segment before the next sibilant...
+* **Segment 3**: A loud sibilant with frequency center around 5000 Hz and a voicing bar.
+    * **Segment 4**: A creaky unstressed vowel (based on long irregular pulses), with a still very high F2 and low F1. Based on stress I'm going to say [ɪ], but if that's wrong I'll say [i].
+* **Segment 5**: The amplitude is dying off, as is the sonorance. Formants are shadowy, making me think about non-sibilant fricatives. It's voiced, with no clear formant transitions. The options are [v, ð]. The more probably option is [v], so I'll start with that.
+
+My first guess is
+```diff
+-tʃ
++i
++z
++ɪ
+-v
+```
+Hmm.
+## Revision
+{:.no_toc}
+
+Since the affricate didn't work for the first segment, I have three options: 1) it's not really an affricate and is a sibilant. Starting with \<sh\> doesn't make sense with the correct responses, so then I would be thinking about [s] instead. 2) It's a voiced affricate and the voicing is just unclear. I also don't think there's any words that fit that criteria. That puts me stuck with [s]. The words that will fit then are \<seizing\> and \<seizes\>. The fifth segment really does not look like a sibilant, so the former is what I'll go with.
+
+My second guess is
+```diff
+-s
++i
++z
++ɪ
++ŋ
+```
+
+Huh? Okay I was confident but I need a serious backtrack. Maybe I shouldn't have convinced myself away from the release burst at the beginning, and this is aspiration. That is consistent with the funky shape of the waveform, the release burst, and the lack of a visible voicing bar.
+
+My third guess is
+```diff
++t
++i
++z
++ɪ
++ŋ
+```
+
+## Postmortem
+{:.no_toc}
+
+I don't know how many days I'm going to gramle and make the same mistakes. I think part of the general challenge of reading spectrograms is to know what unusual phenomena are ignorable versus which ones are really indicative of the categorical quality of the sound.
+
 # May 19, 2025
 
 ## Original Spectrogram
