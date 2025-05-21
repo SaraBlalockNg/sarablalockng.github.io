@@ -23,6 +23,95 @@ This blog archives my performance on [gramle](https://nascl.rc.nau.edu/gramle/),
 {:.no_toc}
 [April 2025](./gramle-archive/april25.md)
 
+# May 21, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/052125.png "Original")
+
+## Graphics
+{:.no_toc}
+
+### Segmentation
+{:.no_toc}
+![Segmentation](gramle-pics/052125-segmentation.png "Segmentation")
+
+### Voicing
+{:.no_toc}
+![Voicing](gramle-pics/052125-voicing.png "Voicing")
+
+### Formants
+{:.no_toc}
+
+![Formants](gramle-pics/052125-formants.png "Formants")
+
+## First Guess
+{:.no_toc}
+
+* **Segment 1**: A short, sonorant segment with middling amplitude. This looks like an unstressedd vowel. F1 is mid and F2 is fairly low, so maybe I'll start with schwa.
+* **Segment 2**: This looks like a fricative, with low amplitude, no formants, and not a strong sign of something like a release burst at the beginning. There's no strong center of energy in the high frequencies, so maybe less likely that it's a sibilant. I can almost be convinced that the formants are dipping down in the following segment, so maybe it's more anterior. The lack of voicing means the candidates are [f, θ].
+* **Segment 3**: This looks like the stressed syllable, with clear formants high amplitude and lack of zeros. F1 is mid and F2 starts central and ends high. That could mean a diphthong, or something like [ɛ] that can plan like a diphthong in this variety of English in some phonotactic positions.
+* **Segment 4**: This looks like either a nasal or an approximant. The amplitude is high, making me think that approximant is more likely. So then thinking about [w,l,j,ɹ]. We can rule out [j] based on syllable position. For [w, l] I would expect formant dipping, which I don't see. But a nasal would make a word...
+* **Segment 5**: This looks like a loud sibilant. It's so loud I double and triple checked to see if there was a closure for an affricate... The center of energy is high around 5000 Hz. There's no voicing bar but that could be because of word-final devoicing. The loudness is tripping me up.
+
+  I'm being brave and starting with a word.
+
+My first guess is
+```diff
+-ə
+!f
+-ɛ
+-n
++s
+```
+Wow that was not great.
+## Revision
+{:.no_toc}
+
+I don't believe that there's two segments before the first fricative, so that must mean theres and \<fs\> cluster at the end of the word. That means that the big sonorant segment is one long syllable. I'm going to go with the diphthong version of what I already had. For the first vowel, I need something short in the back of the vowel space. Maybe it's a monophthongy [oʊ]. For the second vowel I want something with the high vowel [ɪ] as the offglide, and I think [aɪ] makes the most sense before [f].
+
+My second guess is
+```diff
+-oʊ
+-θ
+-aɪ
+!f
++s
+```
+
+Excuse me? So there are two segments before the [f] after all. There's really not room for a sonorant, so I bet it's a voiced stop at the very beginning with a very short lag VOT. So thinking about [b, d, g]. The only word I can think of is \<deface\>.
+
+
+My third guess is
+```diff
+-d
++i
++f
++eɪ
++s
+```
+
+This is very frustrating to me. I truly do not see any other word. Is \<reface\> a word?
+
+My fourth guess is
+```diff
++ɹ
++i
++f
++eɪ
++s
+```
+
+## Postmortem
+{:.no_toc}
+
+I don't believe this is a word. In listening to it, that first syllable is super duper reduced, which made it hard to see that it could be multiple sonorants.
+
+<audio controls>
+  <source src="https://nascl.rc.nau.edu/MALD/REFACE.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
 # May 20, 2025
 
 ## Original Spectrogram
