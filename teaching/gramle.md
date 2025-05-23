@@ -46,8 +46,34 @@ This blog archives my performance on [gramle](https://nascl.rc.nau.edu/gramle/),
 
 ## First Guess
 {:.no_toc}
+
+All of these segments are voiced sonorants. The first, fourth, and fifth look more like vowels or approximants, and the 2nd and 3rd look like nasals. The formants of the second are lower than the third, so I think the 2nd is an [m] and the 3rd is either [n] or [ŋ]. The first segment has high F1 and low F2, and looks unstressed, so I'll start with [a]. For the 4th segment, F1 is mid and F2 is mid-high, and it's louder than the 5th so I think it's a vowel + approximant rime. Between [w, l, ɹ] for the coda I think [ɹ] is more likely. 
+
+My first guess is 
+```diff
+-a
+-m
+!n
+-ɛ
+!ɹ
+```
+
+I am feeling down about my performance lately.
 ## Revision
 {:.no_toc}
+
+Well I'll shift all the known approximants to the left. For the 5th segment, the dip down in F2 could be caused by an [l]. I was hoping to see velarization if that were the case, but maybe this is citation speech without velarization. The word I'm thinking of based on that is \<unreal\>. The [i] would get centralized before [l] which explains the formants, and schwa would also work for the unstressed vowel.
+
+My second guess is 
+```diff
++ə
++n
++ɹ
++i
++l
+```
+
+Feeling better.
 ## Postmortem
 {:.no_toc}
 
@@ -82,7 +108,7 @@ This blog archives my performance on [gramle](https://nascl.rc.nau.edu/gramle/),
 * **Segment 4**: This looks like either a nasal or an approximant. The amplitude is high, making me think that approximant is more likely. So then thinking about [w,l,j,ɹ]. We can rule out [j] based on syllable position. For [w, l] I would expect formant dipping, which I don't see. But a nasal would make a word...
 * **Segment 5**: This looks like a loud sibilant. It's so loud I double and triple checked to see if there was a closure for an affricate... The center of energy is high around 5000 Hz. There's no voicing bar but that could be because of word-final devoicing. The loudness is tripping me up.
 
-  I'm being brave and starting with a word.
+I'm being brave and starting with a word.
 
 My first guess is
 ```diff
