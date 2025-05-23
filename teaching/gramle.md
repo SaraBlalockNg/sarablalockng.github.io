@@ -23,6 +23,53 @@ This blog archives my performance on [gramle](https://nascl.rc.nau.edu/gramle/),
 {:.no_toc}
 [April 2025](./gramle-archive/april25.md)
 
+# May 23, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/052325.png "Original")
+
+## Graphics
+{:.no_toc}
+
+### Segmentation
+{:.no_toc}
+There are two options for the segmentation. 
+1) The low amplitude region at the very beginning is an onset to the first syllable. This requires that the sonorance at 225 ms be part of aspiration of the stop before. This could be cause by something like an epenthetic schwa, but would be rarer
+![Segmentation 1](gramle-pics/052325-segmentation.png "Segmentation 1")
+
+2) There is not onset to the first syllable. The sound between 225-275 ms is it's own segment. I'll go with this because I think it makes more sense phonotactically and I think the start before 50 ms is probably something like laryngealization at the start of a word-initial vowel.
+![Segmentation 2](gramle-pics/052325-spare.png "Segmentation 2")
+
+### Voicing
+{:.no_toc}
+![Voicing](gramle-pics/052325-voicing.png "Voicing")
+
+### Formants
+{:.no_toc}
+
+![Formants](gramle-pics/052325-formants.png "Formants")
+
+## First Guess
+{:.no_toc}
+
+* **Segment 1**: High amplitude, visible formants, no zeros = stressed vowel. F1 is high and F2 starts high and dips towards the middle. I'm thinking a low front vowel
+* **Segment 2**: Clear closure and release burst, with short VOT. It looks like the formants consistently dip towards the closure, which makes me think this is bilabial, either [p,b]. The voicing and VOT intervocalically between those two are pretty similar.
+* **Segment 3**: A very short segment with high F2 and middle F1. I think this is a reduced vowel. [ɪ] makes the most sense based on formants but I bet phonemically it would be [ə] based on how this speaker tends to use high reduced vowels.
+* **Segment 4**: Frication noise. Looks like it is more concentrated toward the high-end but with no obvious center. No voicing. My first guess for this is going to be a little unorthodox for the frication shape, but I wanna start with a word.
+* **Segment 5**: Sonorant with low F1 and very high F2 = [i]
+
+My first guess is
+```diff
++æ
++p
++ə
++θ
++i
+```
+
+YEEHAW!
+
 # May 22, 2025
 
 ## Original Spectrogram
