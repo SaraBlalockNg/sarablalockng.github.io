@@ -23,6 +23,47 @@ This blog archives my performance on [gramle](https://nascl.rc.nau.edu/gramle/),
 {:.no_toc}
 [April 2025](./gramle-archive/april25.md)
 
+# May 26, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/052625.png "Segmentation")
+
+## Graphics
+{:.no_toc}
+### Segmentation
+{:.no_toc}
+![Segmentation](gramle-pics/052625-segmentation.png "Segmentation")
+
+### Voicing
+{:.no_toc}
+![Voicing](gramle-pics/052625-voicing.png "Voicing")
+
+### Formants
+{:.no_toc}
+
+![Formants](gramle-pics/052625-formants.png "Formants")
+
+## First Guess
+{:.no_toc}
+
+* **Segment 1**: Sonorant with low ampltiude, so probably an approximant or nasal. The low F3 has me thinking [ɹ].
+* **Segment 2**: The highest amplitude part of the word, so the stressed vowel. F1 is high and F2 is mid-high, so somewhere in the low center or front of the vowel space.
+* **Segment 3**: Still sonorant, but some zeros appearing. The droopiness of theformants from early on makes me think this homorganically bilabial with the next segment. Between [w] and [m], [m] is better phonotactically.
+* **Segment 4**: A stop with closure and short-lag VOT. All the formants dip down before, which makes me think bilabial. It's probably voiceless since the segment after is voiceless.
+* **Segment 5**: Voiceless, frication noise, center of energy above 500 Hz = [s].
+
+My first guess is
+```diff
++ɹ
++æ
++m
++p
++s
+```
+
+Woohoo!
+
 # May 23, 2025
 
 ## Original Spectrogram
