@@ -23,6 +23,75 @@ This blog archives my performance on [gramle](https://nascl.rc.nau.edu/gramle/),
 {:.no_toc}
 [April 2025](./gramle-archive/april25.md)
 
+# May 27, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/052725.png "Original")
+
+## Graphics
+{:.no_toc}
+
+### Segmentation
+{:.no_toc}
+![Segmentation](gramle-pics/052725-segmentation.png "Segmentation")
+
+### Manner
+{:.no_toc}
+![Manner](gramle-pics/052725-manner.png "Manner")
+
+### Voicing
+{:.no_toc}
+![Voicing](gramle-pics/052725-voicing.png "Voicing")
+
+### Formants
+{:.no_toc}
+
+![Formants](gramle-pics/052725-formants.png "Formants")
+
+## First Guess
+{:.no_toc}
+
+* **Segment 1**: Release burst with long positive VOT = voiceless stop. F2 is creeping towards F3 which makes me think it may be velar.
+* **Segment 2**: High amplitude sonorant = stressed vowel. F1 is highish and F2 is mid and decreasing, so something like [æ]
+* **Segment 3**: Holy glottal pulses! Formants are weak and amplitude is very low. This sound confuses me but right now I'm thinking it's a non-sibilant fricative. There is voicing throughout, so of the voiced fricatives I'm thinking that the dip in formants is suggestive of [v].
+* **Segment 4**: This looks like an unstressed vowel based on the formants, low amplitude, and position between consonants. F2 is fairly high and F1 is mid-low. My hypotheses are [ɪ, ə, ɚ], I think in that order.
+* **Segment 5**: A strong closure and release into aspiration. If it weren't at the end of the word I'd be certain this is another voiceless stop, but it's kind of weird to aspirate at the end of a word. Maybe this is evidence of citation speech. The formants are pretty consistent, so I'll start with alveolar place
+
+My first guess is
+```diff
++k
+æ
++v
+ɪ
++t
+```
+
+## Revision
+{:.no_toc}
+
+That's not a bad start, but now I need to figure out what the vowels are. The only words I can think of are \<covet\> and \<covert\>. Of those, \<covet\> is pretty consistent with what I was saying about formants (assuming they're going to wedge and schwa for the vowels, respectively). 
+
+My second guess is
+```diff
++k
++ʌ
++v
++ə
++t
+```
+
+## Postmortem
+{:.no_toc}
+
+Yeah this is the annoying thing about CMU pronunciations. I think it's pretty clear that he's got a raised unstressed vowel and this would be better transcribed as [ɨ].
+
+<audio controls>
+  <source src="https://nascl.rc.nau.edu/MALD/COVET.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+
 # May 26, 2025
 
 ## Original Spectrogram
