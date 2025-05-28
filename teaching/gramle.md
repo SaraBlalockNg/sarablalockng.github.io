@@ -23,6 +23,47 @@ This blog archives my performance on [gramle](https://nascl.rc.nau.edu/gramle/),
 {:.no_toc}
 [April 2025](./gramle-archive/april25.md)
 
+# May 28, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/052825.png "Original")
+
+## Graphics
+{:.no_toc}
+
+### Segmentation
+{:.no_toc}
+![Segmentation](gramle-pics/052825-segmentation.png "Segmentation")
+
+### Voicing
+{:.no_toc}
+![Voicing](gramle-pics/052825-voicing.png "Voicing")
+
+### Formants
+{:.no_toc}
+
+![Formants](gramle-pics/052825-formants.png "Formants")
+
+## First Guess
+{:.no_toc}
+
+* **Segment 1**: 
+* **Segment 2**: 
+* **Segment 3**: 
+* **Segment 4**: 
+* **Segment 5**: 
+
+My first guess is
+```diff
+
+```
+
+## Revision
+{:.no_toc}
+## Postmortem
+{:.no_toc}
+
 # May 27, 2025
 
 ## Original Spectrogram
