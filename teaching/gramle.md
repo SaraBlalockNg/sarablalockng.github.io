@@ -23,6 +23,100 @@ This blog archives my performance on [gramle](https://nascl.rc.nau.edu/gramle/),
 {:.no_toc}
 [April 2025](./gramle-archive/april25.md)
 
+[May 2025](./gramle-archive/may25.md)
+
+
+# May 30, 2025
+
+## Original Spectrogram
+{:.no_toc}
+![Original](gramle-pics/053025.png "Original")
+
+## Graphics
+{:.no_toc}
+
+### Segmentation
+{:.no_toc}
+![Segmentation](gramle-pics/053025-segmentation.png "Segmentation")
+
+### Voicing
+{:.no_toc}
+![Voicing](gramle-pics/053025-voicing.png "Voicing")
+
+### Formants
+{:.no_toc}
+
+![Formants](gramle-pics/053025-formants.png "Formants")
+
+## First Guess
+{:.no_toc}
+
+* **Segment 1**: A stop with short VOT and only a slight dip in F3 for a transition. My thoughts are [d, g, b] in that order.
+* **Segment 2**: F2 is mid decreasing and F1 is mid-high increasing. The amplitude is high but rising up towards the 3rd segment. I'ts really hard to tell if the sequence is [approx., vowel] or [vowel, approx.]
+* **Segment 3**: F2 is low and F1 is high. If it's a vowel I'm thinking [a], and if it's an approximant then [l].
+* **Segment 4**: Tons of zeroing in the formants, low amplitude, almost invisible formants. The options here are nasal or non-sibilant fricative. There's voicing throughout, so that narrows down to [m, n, v, ð]
+* **Segment 5**: A vowel with low amplitude, so unstresed. F1 and F2 are both lower, F2 in particular super low, so thinking about [u].
+
+My first guess is
+```diff
+-d
+-ɹ
+-a
+-m
+-u
+```
+Looks like I'm a little rust from not gramle-ing yesterday.
+
+## Revision
+{:.no_toc}
+
+I'm going to just go with my second hypotheses for everything.
+
+My second guess is
+```diff
+-g
++æ
+!l
+-v
+-oʊ
+```
+Does that mean that the fourth segment is l? I'm very confused what that third segment could be. The only sonorants I have left are [n, ŋ, w, j] and the vowels. I don't see a glottal stop like I would expect between vowels where one is an onset. I'm also not thinking of any words here. Maybe what I thought was a stop is the [l]? I need to do some info gathering and fast because class is almost starting.
+
+My third guess is 
+```diff
+!l
++æ
+-n
+-l
+-ɚ
+```
+
+Ah, there must be a syllablic [l] as the final rime. Okay so now I'm confident I can go back to my stop initial guess and old hypotheses.
+
+My fourth guess is 
+```diff
++b
++æ
+-f
++ə
++l
+```
+
+..... I hate this game.
+
+My fifth guess is
+```diff
++b
++æ
+-ɾ
++ə
++l
+```
+
+## Postmortem
+{:.no_toc}
+The word was \<babble\>. I am too INCENSED to postmortem.
+
 # May 28, 2025
 
 ## Original Spectrogram
