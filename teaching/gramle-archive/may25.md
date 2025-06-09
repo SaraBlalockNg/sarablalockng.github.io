@@ -2,23 +2,23 @@
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/053025.png "Original")
+![Original](../gramle-pics/053025.png "Original")
 
 ## Graphics
 {:.no_toc}
 
 ### Segmentation
 {:.no_toc}
-![Segmentation](gramle-pics/053025-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/053025-segmentation.png "Segmentation")
 
 ### Voicing
 {:.no_toc}
-![Voicing](gramle-pics/053025-voicing.png "Voicing")
+![Voicing](../gramle-pics/053025-voicing.png "Voicing")
 
 ### Formants
 {:.no_toc}
 
-![Formants](gramle-pics/053025-formants.png "Formants")
+![Formants](../gramle-pics/053025-formants.png "Formants")
 
 ## First Guess
 {:.no_toc}
@@ -93,23 +93,23 @@ The word was \<babble\>. I am too INCENSED to postmortem.
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/052825.png "Original")
+![Original](../gramle-pics/052825.png "Original")
 
 ## Graphics
 {:.no_toc}
 
 ### Segmentation
 {:.no_toc}
-![Segmentation](gramle-pics/052825-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/052825-segmentation.png "Segmentation")
 
 ### Voicing
 {:.no_toc}
-![Voicing](gramle-pics/052825-voicing.png "Voicing")
+![Voicing](../gramle-pics/052825-voicing.png "Voicing")
 
 ### Formants
 {:.no_toc}
 
-![Formants](gramle-pics/052825-formants.png "Formants")
+![Formants](../gramle-pics/052825-formants.png "Formants")
 
 ## First Guess
 {:.no_toc}
@@ -134,27 +134,27 @@ My first guess is
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/052725.png "Original")
+![Original](../gramle-pics/052725.png "Original")
 
 ## Graphics
 {:.no_toc}
 
 ### Segmentation
 {:.no_toc}
-![Segmentation](gramle-pics/052725-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/052725-segmentation.png "Segmentation")
 
 ### Manner
 {:.no_toc}
-![Manner](gramle-pics/052725-manner.png "Manner")
+![Manner](../gramle-pics/052725-manner.png "Manner")
 
 ### Voicing
 {:.no_toc}
-![Voicing](gramle-pics/052725-voicing.png "Voicing")
+![Voicing](../gramle-pics/052725-voicing.png "Voicing")
 
 ### Formants
 {:.no_toc}
 
-![Formants](gramle-pics/052725-formants.png "Formants")
+![Formants](../gramle-pics/052725-formants.png "Formants")
 
 ## First Guess
 {:.no_toc}
@@ -203,22 +203,22 @@ Yeah this is the annoying thing about CMU pronunciations. I think it's pretty cl
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/052625.png "Segmentation")
+![Original](../gramle-pics/052625.png "Segmentation")
 
 ## Graphics
 {:.no_toc}
 ### Segmentation
 {:.no_toc}
-![Segmentation](gramle-pics/052625-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/052625-segmentation.png "Segmentation")
 
 ### Voicing
 {:.no_toc}
-![Voicing](gramle-pics/052625-voicing.png "Voicing")
+![Voicing](../gramle-pics/052625-voicing.png "Voicing")
 
 ### Formants
 {:.no_toc}
 
-![Formants](gramle-pics/052625-formants.png "Formants")
+![Formants](../gramle-pics/052625-formants.png "Formants")
 
 ## First Guess
 {:.no_toc}
@@ -244,7 +244,7 @@ Woohoo!
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/052325.png "Original")
+![Original](../gramle-pics/052325.png "Original")
 
 ## Graphics
 {:.no_toc}
@@ -253,19 +253,19 @@ Woohoo!
 {:.no_toc}
 There are two options for the segmentation. 
 1) The low amplitude region at the very beginning is an onset to the first syllable. This requires that the sonorance at 225 ms be part of aspiration of the stop before. This could be cause by something like an epenthetic schwa, but would be rarer
-![Segmentation 1](gramle-pics/052325-segmentation.png "Segmentation 1")
+![Segmentation 1](../gramle-pics/052325-segmentation.png "Segmentation 1")
 
 2) There is not onset to the first syllable. The sound between 225-275 ms is it's own segment. I'll go with this because I think it makes more sense phonotactically and I think the start before 50 ms is probably something like laryngealization at the start of a word-initial vowel.
-![Segmentation 2](gramle-pics/052325-spare.png "Segmentation 2")
+![Segmentation 2](../gramle-pics/052325-spare.png "Segmentation 2")
 
 ### Voicing
 {:.no_toc}
-![Voicing](gramle-pics/052325-voicing.png "Voicing")
+![Voicing](../gramle-pics/052325-voicing.png "Voicing")
 
 ### Formants
 {:.no_toc}
 
-![Formants](gramle-pics/052325-formants.png "Formants")
+![Formants](../gramle-pics/052325-formants.png "Formants")
 
 ## First Guess
 {:.no_toc}
@@ -291,22 +291,22 @@ YEEHAW!
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/052225.png "Segmentation")
+![Original](../gramle-pics/052225.png "Segmentation")
 
 ## Graphics
 {:.no_toc}
 ### Segmentation
 {:.no_toc}
-![Segmentation](gramle-pics/052225-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/052225-segmentation.png "Segmentation")
 
 ### Voicing
 {:.no_toc}
-![Voicing](gramle-pics/052225-voicing.png "Voicing")
+![Voicing](../gramle-pics/052225-voicing.png "Voicing")
 
 ### Formants
 {:.no_toc}
 
-![Formants](gramle-pics/052225-formants.png "Formants")
+![Formants](../gramle-pics/052225-formants.png "Formants")
 
 ## First Guess
 {:.no_toc}
@@ -345,23 +345,23 @@ Feeling better.
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/052125.png "Original")
+![Original](../gramle-pics/052125.png "Original")
 
 ## Graphics
 {:.no_toc}
 
 ### Segmentation
 {:.no_toc}
-![Segmentation](gramle-pics/052125-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/052125-segmentation.png "Segmentation")
 
 ### Voicing
 {:.no_toc}
-![Voicing](gramle-pics/052125-voicing.png "Voicing")
+![Voicing](../gramle-pics/052125-voicing.png "Voicing")
 
 ### Formants
 {:.no_toc}
 
-![Formants](gramle-pics/052125-formants.png "Formants")
+![Formants](../gramle-pics/052125-formants.png "Formants")
 
 ## First Guess
 {:.no_toc}
@@ -434,27 +434,27 @@ I don't believe this is a word. In listening to it, that first syllable is super
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/052025.png "Original")
+![Original](../gramle-pics/052025.png "Original")
 
 ## Graphics
 {:.no_toc}
 
 ### Segmentation
 {:.no_toc}
-![Segmentation](gramle-pics/052025-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/052025-segmentation.png "Segmentation")
 
 ### Voicing
 {:.no_toc}
-![Voicing](gramle-pics/052025-voicing.png "Voicing")
+![Voicing](../gramle-pics/052025-voicing.png "Voicing")
 
 ### Manner
 {:.no_toc}
 The waveform of those sibilants looks so cool I wanted to highlight it. There's a LOT of turbulence and a very wide half-cycle shape.
-![Manner](gramle-pics/052025-manner.png "Manner")
+![Manner](../gramle-pics/052025-manner.png "Manner")
 
 ### Formants
 {:.no_toc}
-![Formants](gramle-pics/052025-formants.png "Formants")
+![Formants](../gramle-pics/052025-formants.png "Formants")
 
 ## First Guess
 {:.no_toc}
@@ -508,7 +508,7 @@ I don't know how many days I'm going to gramle and make the same mistakes. I thi
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/051925.png "Segmentation")
+![Original](../gramle-pics/051925.png "Segmentation")
 
 ## Graphics
 {:.no_toc}
@@ -516,15 +516,15 @@ I don't know how many days I'm going to gramle and make the same mistakes. I thi
 {:.no_toc}
 
 The segmentation here is obviously very difficult thanks to the sonorance. There are big changes in the formants, but they don't all line up to the same points of time. I'm combining formant info with trends in the amplitude as seen in the waveform.
-![Segmentation](gramle-pics/051925-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/051925-segmentation.png "Segmentation")
 
 ### Voicing
 {:.no_toc}
-![Voicing](gramle-pics/051925-voicing.png "Voicing")
+![Voicing](../gramle-pics/051925-voicing.png "Voicing")
 
 ### Formants
 {:.no_toc}
-![Formants](gramle-pics/051925-formants.png "Formants")
+![Formants](../gramle-pics/051925-formants.png "Formants")
 
 ## Step 5: First Guess
 {:.no_toc}
@@ -597,7 +597,7 @@ The [i] vowel was the most confusing part to me, since the amplitude is so low.
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/051625.png "Original")
+![Original](../gramle-pics/051625.png "Original")
 
 ## Graphics
 {:.no_toc}
@@ -606,16 +606,16 @@ The [i] vowel was the most confusing part to me, since the amplitude is so low.
 {:.no_toc}
 
 The segmentation here is a little hard to see, but I think it's atually much easier to see on the waveform than on the spectrogram. I'm looking at the big changes in the shape of the waveform, and in the changes in amplitude.
-![Segmentation](gramle-pics/051625-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/051625-segmentation.png "Segmentation")
 
 ### Voicing
 {:.no_toc}
-![Voicing](gramle-pics/051625-voicing.png "Voicing")
+![Voicing](../gramle-pics/051625-voicing.png "Voicing")
 
 ### Formants
 {:.no_toc}
 
-![Formants](gramle-pics/051625-formants.png "Formants")
+![Formants](../gramle-pics/051625-formants.png "Formants")
 
 ## First Guess
 {:.no_toc}
@@ -665,7 +665,7 @@ Thinking about formant transitions and segmenting using the waveform were the bi
 {:.no_toc}
 
 
-![Original](gramle-pics/051525.png "Original")
+![Original](../gramle-pics/051525.png "Original")
 
 ## Graphics
 {:.no_toc}
@@ -673,17 +673,17 @@ Thinking about formant transitions and segmenting using the waveform were the bi
 ### Segmentation
 {:.no_toc}
 The segmentation here is so clear, I think this would be a good one to learn from for a beginner.
-![Segmentation](gramle-pics/051525-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/051525-segmentation.png "Segmentation")
 
 ### Voicing
 {:.no_toc}
 Only the third and fourth segment have a voicing bar.
-![Voicing](gramle-pics/051525-voicing.png "Voicing")
+![Voicing](../gramle-pics/051525-voicing.png "Voicing")
 
 ### Formants
 {:.no_toc}
 
-![Formants](gramle-pics/051525-formants.png "Formants")
+![Formants](../gramle-pics/051525-formants.png "Formants")
 
 ## First Guess
 {:.no_toc}
@@ -735,23 +735,23 @@ I think I was too much of a smart aleck on this one, ignoring acoustic cues for 
 It's another rapid fire, just the guesses today.
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/051425.png "Original")
+![Original](../gramle-pics/051425.png "Original")
 
 ## Graphics
 {:.no_toc}
 
 ### Segmentation
 {:.no_toc}
-![Segmentation](gramle-pics/051425-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/051425-segmentation.png "Segmentation")
 
 ### Voicing
 {:.no_toc}
-![Voicing](gramle-pics/051425-voicing.png "Voicing")
+![Voicing](../gramle-pics/051425-voicing.png "Voicing")
 
 ### Formants
 {:.no_toc}
 
-![Formants](gramle-pics/051425-formants.png "Formants")
+![Formants](../gramle-pics/051425-formants.png "Formants")
 
 ## First Guess
 {:.no_toc}
@@ -798,22 +798,22 @@ Annoying.
 Today is going to be another rapid fire because I've got a deadline I need to mind.
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/051325.png "Segmentation")
+![Original](../gramle-pics/051325.png "Segmentation")
 
 ## Graphics
 {:.no_toc}
 ### Segmentation
 {:.no_toc}
-![Segmentation](gramle-pics/051325-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/051325-segmentation.png "Segmentation")
 
 ### Voicing
 {:.no_toc}
-![Voicing](gramle-pics/051325-voicing.png "Voicing")
+![Voicing](../gramle-pics/051325-voicing.png "Voicing")
 
 ### Formants
 {:.no_toc}
 
-![Formants](gramle-pics/051325-formants.png "Formants")
+![Formants](../gramle-pics/051325-formants.png "Formants")
 
 ## Step 5: First Guess
 {:.no_toc}
@@ -872,7 +872,7 @@ This is a word where I never would have guessed that that is how CMU transcribes
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/051225.png "Original")
+![Original](../gramle-pics/051225.png "Original")
 
 ## Graphics
 {:.no_toc}
@@ -882,16 +882,16 @@ This is a word where I never would have guessed that that is how CMU transcribes
 
 The segmentation is confusing to me. What makes it unclear is that there's a lot of sonorant segments next to one another, and because of that there aren't clear temporal transitions. There may be a sneaky middle segment, or something showing up as weak formants at the end of the word. 
 
-![Segmentation](gramle-pics/051225-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/051225-segmentation.png "Segmentation")
 
 ### Voicing
 {:.no_toc}
-![Voicing](gramle-pics/051225-voicing.png "Voicing")
+![Voicing](../gramle-pics/051225-voicing.png "Voicing")
 
 ### Formants
 {:.no_toc}
 
-![Formants](gramle-pics/051225-formants.png "Formants")
+![Formants](../gramle-pics/051225-formants.png "Formants")
 
 ## First Guess
 {:.no_toc}
@@ -933,7 +933,7 @@ I think the sign of the [ɹ] existing is most evident in the amplitude in the wa
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/050925.png "Original")
+![Original](../gramle-pics/050925.png "Original")
 
 ## Graphics
 {:.no_toc}
@@ -942,15 +942,15 @@ I think the sign of the [ɹ] existing is most evident in the amplitude in the wa
 {:.no_toc}
 
 I am a little nervous about this segmentation. My one worry is that what I've called a first segment (and that I think is a fricative of some kind) is actually a weird-looking glottal stop for an onset-less first syllable.
-![Segmentation](gramle-pics/050925-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/050925-segmentation.png "Segmentation")
 
 ### Voicing
 {:.no_toc}
-![Voicing](gramle-pics/050925-voicing.png "Voicing")
+![Voicing](../gramle-pics/050925-voicing.png "Voicing")
 
 ### Formants
 {:.no_toc}
-![Formants](gramle-pics/050925-formants.png "Formants")
+![Formants](../gramle-pics/050925-formants.png "Formants")
 
 ## First Guess
 {:.no_toc}
@@ -994,22 +994,22 @@ I think what would have helped me to see the missing [ɹ] would have been to loo
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/050825.png "Original")
+![Original](../gramle-pics/050825.png "Original")
 
 ## Graphics
 {:.no_toc}
 
 ### Segmentation
 {:.no_toc}
-![Segmentation](gramle-pics/050825-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/050825-segmentation.png "Segmentation")
 
 ### Voicing
 {:.no_toc}
-![Voicing](gramle-pics/050825-voicing.png "Voicing")
+![Voicing](../gramle-pics/050825-voicing.png "Voicing")
 
 ### Formants
 {:.no_toc}
-![Formants](gramle-pics/050825-formants.png "Formants")
+![Formants](../gramle-pics/050825-formants.png "Formants")
 
 ## First Guess
 {:.no_toc}
@@ -1037,23 +1037,23 @@ Woohoo! I feel vindicated from my poor performance yesterday.
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/050725.png "Original")
+![Original](../gramle-pics/050725.png "Original")
 
 ## Graphics
 {:.no_toc}
 
 ### Segmentation
 {:.no_toc}
-![Segmentation](gramle-pics/050725-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/050725-segmentation.png "Segmentation")
 
 ### Voicing
 {:.no_toc}
-![Voicing](gramle-pics/050725-voicing.png "Voicing")
+![Voicing](../gramle-pics/050725-voicing.png "Voicing")
 
 ### Formants
 {:.no_toc}
 
-![Formants](gramle-pics/050725-formants.png "Formants")
+![Formants](../gramle-pics/050725-formants.png "Formants")
 
 ## First Guess
 {:.no_toc}
@@ -1122,27 +1122,27 @@ What I learned from today is: don't ignore cues from the waveform! I am still ch
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/050625.png "Original")
+![Original](../gramle-pics/050625.png "Original")
 
 ## Graphics
 {:.no_toc}
 
 ### Segmentation
 {:.no_toc}
-![Segmentation](gramle-pics/050625-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/050625-segmentation.png "Segmentation")
 
 ### Voicing
 {:.no_toc}
-![Voicing](gramle-pics/050625-voicing.png "Voicing")
+![Voicing](../gramle-pics/050625-voicing.png "Voicing")
 
 ### Manner of Articulation
 {:.no_toc}
-![Manner](gramle-pics/050625-manner.png "Manner of Articulation")
+![Manner](../gramle-pics/050625-manner.png "Manner of Articulation")
 
 ### Formants
 {:.no_toc}
 
-![Formants](gramle-pics/050625-formants.png "Formants")
+![Formants](../gramle-pics/050625-formants.png "Formants")
 
 ## First Guess
 {:.no_toc}
@@ -1187,23 +1187,23 @@ We listened to the audio, and the final [d] was in fact devoiced. Not too shabby
 
 ## Original Spectrogram
 {:.no_toc}
-![Original](gramle-pics/050525.png "Original")
+![Original](../gramle-pics/050525.png "Original")
 
 ## Graphics
 {:.no_toc}
 
 ### Segmentation
 {:.no_toc}
-![Segmentation](gramle-pics/050525-segmentation.png "Segmentation")
+![Segmentation](../gramle-pics/050525-segmentation.png "Segmentation")
 
 ### Voicing
 {:.no_toc}
-![Voicing](gramle-pics/050525-voicing.png "Voicing")
+![Voicing](../gramle-pics/050525-voicing.png "Voicing")
 
 ### Formants
 {:.no_toc}
 
-![Formants](gramle-pics/050525-formants.png "Formants")
+![Formants](../gramle-pics/050525-formants.png "Formants")
 
 ## First Guess
 {:.no_toc}
@@ -1233,7 +1233,7 @@ The alternative to my idea about the fricativeis that we are actually looking at
 ### Resegmentation
 {:.no_toc}
 
-![Resegmentation](gramle-pics/050525-resegmentation.png "Resegmentation")
+![Resegmentation](../gramle-pics/050525-resegmentation.png "Resegmentation")
 
 
 My second guess is
