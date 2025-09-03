@@ -51,7 +51,7 @@ There are two main flavors of sending commands to the computer:
     * C or C++ - `.c` or `.cpp`
     * ... etc.
   
-    However, it's not the file extension that determines which language the computer uses to read the file, it's the executable itself. So the python executable is used to read python scripts, the bash executable is used to read bash scripts, etc. The number of languages your computer can speak depends on the number of language-specific executables it has.
+However, it's not the file extension that determines which language the computer uses to read the file, it's the executable itself. So the python executable is used to read python scripts, the bash executable is used to read bash scripts, etc. The number of languages your computer can speak depends on the number of language-specific executables it has.
 
 When we talking about learning to code, we are saying that we want to learn how to write scripts in a language, and have the computer run them.
 
