@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Sara Ng
 tagline:          'Computational Linguist'
-description:      'Computational Linguist and Speech Connoisseur at Western Washington University'
+description:      'Computational Linguist and Speech Connoisseur at Simon Fraser University'
 url:              'https://sarablalockng.github.io'
 # baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
@@ -16,7 +16,7 @@ url:              'https://sarablalockng.github.io'
 
 author:
   name:           'Sara Ng'
-  url:            'https://twitter.com/SaraBlalockNg'
+  url:            'https://www.sfu.ca/linguistics/about/people/faculty/ng.html'
 
 paginate:         5
 # paginate_path:    '/page:num'
