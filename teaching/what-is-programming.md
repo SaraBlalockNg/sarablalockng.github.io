@@ -44,14 +44,9 @@ The process of programming is writing sequences of commands that the computer ca
 There are two main flavors of sending commands to the computer:
 
 1) **Interpreter**: An interpreter is a special setting on your computer that tells it, "Expect commands in \[Python\] language to be typed on the keyboard. When you open an interpreter, you can type out commands for the computer to execute line by line. Each time you hit the enter key, the computer will attempt to read the line of text as computer language, and do what the command says.
-2) **Executable**: Many times it's more convenient to write out commnds to a text file and save it to be *executed* at a later time. This file is called a *script*. This has the advantage that if you want to have the same sequence of commands execute multiple times, you only have to type them out once. The *file extension* of the text file you save should match the language you're writing in:
-    * python - `.py`
-    * bash - `.sh`
-    * java - `.java`
-    * C or C++ - `.c` or `.cpp`
-    * ... etc.
+2) **Executable**: Many times it's more convenient to write out commnds to a text file and save it to be *executed* at a later time. This file is called a *script*. This has the advantage that if you want to have the same sequence of commands execute multiple times, you only have to type them out once. The *file extension* of the text file you save should match the language you're writing in: for python, `.py`; bash, `.sh`; java, `.java`; C or C++, `.c` or `.cpp`; etc.
   
-However, it's not the file extension that determines which language the computer uses to read the file, it's the executable itself. So the python executable is used to read python scripts, the bash executable is used to read bash scripts, etc. The number of languages your computer can speak depends on the number of language-specific executables it has.
+   However, it's not the file extension that determines which language the computer uses to read the file, it's the executable itself. So the python executable is used to read python scripts, the bash executable is used to read bash scripts, etc. The number of languages your computer can speak depends on the number of language-specific executables it has.
 
 When we talking about learning to code, we are saying that we want to learn how to write scripts in a language, and have the computer run them.
 
