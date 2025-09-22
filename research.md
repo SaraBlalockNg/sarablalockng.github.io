@@ -15,6 +15,9 @@ Western students interested in doing research with me should send an e-mail to s
 - error analysis of speech technology
 - speech recognition
 - phonological analysis
+- pathological speech/hearing disorders
+- corpus collection and analysis
+- social media research
 
 You do not need to have a project in mind to get started doing research! Come talk to me and we can discuss ideas or existing projects that you may want to work on.
 
