@@ -20,19 +20,15 @@ I am currently an Assistant Professor at Simon Fraser University, and teach cour
 - Fall 2025: LING/SDA 250, Computational Text Analysis \[[course outline](https://www.sfu.ca/outlines.html?2025/fall/ling/250/d100)\]
 - Spring 2026: LING 450, Computational Linguistics \[[course outline](https://www.sfu.ca/outlines.html?2026/spring/ling/450/d100)\]
 
-
 ## Western Washington University
 
 - Fall 2024: Seminar 101, Patterns in your Mind \[[course summary](https://firstyear.wwu.edu/fig-21-patterns-your-mind)\]
 - Fall 2024: HNRS 217, Honors Colloquium in Linguistics \[[course summary](https://honors.wwu.edu/lower-division-colloquia)\]
 - Fall 2024: LING 311, Phonetics \[[course summary](https://catalog.wwu.edu/preview_course_nopop.php?catoid=21&coid=149084)\]
-- Fall 2024: LING 411, Topics in Phonetics and Phonology (Corpus Linguistics) \[[course summary]
-(https://catalog.wwu.edu/preview_course_nopop.php?catoid=22&coid=157689)\]
+- Fall 2024: LING 411, Topics in Phonetics and Phonology (Corpus Linguistics) \[[course summary](https://catalog.wwu.edu/preview_course_nopop.php?catoid=22&coid=157689)\]
 
-- Winter 2025: LING 204, Language and Society \[[course summary]
-(https://catalog.wwu.edu/preview_course_nopop.php?catoid=22&coid=156057)\]
-- Winter 2025: LING 402, Computational Linguistics \[[course summary]
-(https://catalog.wwu.edu/preview_course_nopop.php?catoid=22&coid=156058)\]
+- Winter 2025: LING 204, Language and Society \[[course summary](https://catalog.wwu.edu/preview_course_nopop.php?catoid=22&coid=156057)\]
+- Winter 2025: LING 402, Computational Linguistics \[[course summary](https://catalog.wwu.edu/preview_course_nopop.php?catoid=22&coid=156058)\]
 
 - Spring 2025: HNRS 217, Honors Colloquium in Linguistics \[[honors program listing](https://honors.wwu.edu/lower-division-colloquia)\]
 - Spring 2025: LING 311, Phonetics \[[course summary](https://catalog.wwu.edu/preview_course_nopop.php?catoid=21&coid=149084)\]
@@ -41,10 +37,10 @@ I am currently an Assistant Professor at Simon Fraser University, and teach cour
 
 - \*Spring 2018:  LING 269, Swearing and Taboo Language \[[course summary](https://myplan.uw.edu/course/#/courses/LING269)\]
 - \*Fall 2018:  LING 57,0 Shallow Processing Techniques for Natural Language Procesing \[[course summary](https://myplan.uw.edu/course/#/courses/LING570)\]
-- \*Spring 2019:  CSE 472, Introduction to Computational Linguistics \[[course summary](http://courses.washington.edu/ling472)/](https://myplan.uw.edu/course/#/courses/LING472))
+- \*Spring 2019:  CSE 472, Introduction to Computational Linguistics \[[course summary](https://myplan.uw.edu/course/#/courses/LING472)/]
 - Summer 2020:  LING 473, Computational Linguistics Basics \[[course summary](https://myplan.uw.edu/course/#/courses/LING473)\]
 - \*Fall 2020:  LING 450, Introduction to Linguistic Phonetics \[[course summary](https://myplan.uw.edu/course/#/courses/LING450)\]
-- Spring 2022: LING 472, Introduction to Computational Linguistics \[[course summary](http://courses.washington.edu/ling472)(https://myplan.uw.edu/course/#/courses/LING472)\]
+- Spring 2022: LING 472, Introduction to Computational Linguistics \[[course summary](https://myplan.uw.edu/course/#/courses/LING472)\]
 - Winter 2023:  LING 450, Introduction to Linguistic Phonetics \[[course summary](https://myplan.uw.edu/course/#/courses/LING450)\]
   
 \* as Teaching Assistant
