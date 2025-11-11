@@ -41,6 +41,9 @@ function customSort(a, b) {
 
 // Function to check if an array matches the test array exactly, ignoring the first and last items and numbers
 function matchesExactly(array, testArray, primaryStress = false) {
+  // remove # tags for word boundaries because it doesn't matter
+  testArray = testArray.filter(character => character !== '#');
+
   if (array.length !== testArray.length + 2) {
     return false;
   }
@@ -67,7 +70,23 @@ function isSubArray(array, testArray, primaryStress = false) {
   if (array.length < testArray.length) {
     return false;
   }
+  
+  // get rid of word boundaries in dict entries
+  array = array.slice(1, -1)
+  
+  // left word boundary
+  let startAnchor = testArray[0] === '#';
+  if (startAnchor) testArray = testArray.slice(1);
+
+  // right word boundary
+  let endAnchor = testArray[testArray.length - 1] === '#';
+  if (endAnchor) testArray = testArray.slice(0, -1);
+  
+  //debugger;
   for (let i = 0; i <= array.length - testArray.length; i++) {
+    if (startAnchor && i !== 0) break;
+    if (endAnchor && i !== array.length - testArray.length) continue;  
+	  
     let flag = true;
     for (let j = 0; j < testArray.length; j++) {
       if (array[i + j].replace(/[0-9]$/, "") !== testArray[j]) {
@@ -91,7 +110,7 @@ function isSubArray(array, testArray, primaryStress = false) {
 }
 
 
-function getMatches(dictionaryOfArrays, testArray, exact,primaryStress){
+function getMatches(dictionaryOfArrays, testArray, exact, primaryStress){
 	var matches = [];
 	if (exact) {
 		for (let key in dictionaryOfArrays) {
@@ -137,7 +156,6 @@ form.addEventListener('submit', (event) => {
 	let alertMessage = "";
 	event.preventDefault(); // TODO do I need this?
 	// subsequent check
-	var cleanWordlist = new Set(['1','2','3']);
 
 	var primaryStress = document.getElementsByName('pstress')[0].checked;
 	var exact = document.getElementsByName('exact')[0].checked;
@@ -154,15 +172,12 @@ form.addEventListener('submit', (event) => {
 				var replacedArray = secondLevelArray.map((item) => {
 						if (item === 'VX') {
 							return Array.from(vowels);
-								// return ['a','b','c'];
 						}
 						if (item === 'CX') {
 							return Array.from(consonants);
-							// return ['1','2','3','4'];
 						}
 						if (item === '_') {
 							return Array.from(allPhones);
-							// return ['a','b','c','1','2','3','4'];
 						}
 						return item;
 				});
@@ -181,9 +196,9 @@ form.addEventListener('submit', (event) => {
 
 	var toPrint = allMatches.flat()
 
-	// count the number of vowels and assign 
 	document.getElementById('download').disabled = document.getElementById('download').hidden = false;
-	var fileName = 'wordclass.txt';
+	var fileName = inputText.replace(/\|/g, 'or') + '.txt';
+	//var fileName = 'wordclass.txt';
 	
 	var fileContent = toPrint.join('\n');
 	var myFile = new Blob([fileContent], {type: 'text/plain'});
