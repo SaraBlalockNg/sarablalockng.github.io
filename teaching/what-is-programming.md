@@ -75,7 +75,7 @@ If you're ready to get started with programming, you should hopefully have an id
   <li>Install the correct interpreter for the language you want to code in</li></ol>
 </details>
 
-If you are a student in my class and are a Windows user, follow the guide [Getting started on a Windows Machine: Terminal](https://canvas.sfu.ca/courses/91991/pages/getting-started-on-a-windows-machine-terminal) and [Getting started on a Windows machine: Python](https://canvas.sfu.ca/courses/91991/pages/getting-started-on-a-windows-machine-python) for help with these steps. If you are a Mac user, you should do the following:
+If you are a student in my class and are a Windows user, follow the guide [Getting started on a Windows Machine: Terminal](getting-started-windows-terminal.md) and [Getting started on a Windows machine: Python](getting-started-windows-python.md) for help with these steps. If you are a Mac user, you should do the following:
 1. Download the latest stable version of Python from [https://www.python.org/downloads/macos/](https://www.python.org/downloads/macos/), and follow installation instructions.
 2. Open the Terminal by typing `⌘ + [space]` and then `Terminal` and hitting enter.
 3. The last step is telling the terminal which python executable it should use, because MacOS already has some older python versions installed. In the terminal, type `export PATH="/Library/Frameworks/Python.framework/Versions/3.13/bin:PATH"` and hitting enter (this is a command written in the bash language that you are not expected to understand right now). If you don't see any error message on the screen, you've probably done it correctly.
